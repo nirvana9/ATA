@@ -1,0 +1,113 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ATATool"=".\ATATool\ATATool.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ResizableLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ATA_DLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ATDLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name comm
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ATA_DLL"=".\ATA_DLL\ATA_DLL.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ATDLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name comm
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PowerDLL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ATDLL"=".\ATDLL\ATDLL.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name comm
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "PowerDLL"=".\PowerDLL\PowerDLL.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ResizableLib"=".\ResizableLib\ResizableLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "comm"=".\comm\comm.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

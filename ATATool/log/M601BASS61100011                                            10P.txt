@@ -1,0 +1,221 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v2.1552.00
+//*************************************************************//
+2016/03/01/20/39/31/695 Init state index = 1, wait for preloader com port 6.
+2016/03/01/20/39/40/100 Find preloader com port OK, start booting target into factory mode.
+2016/03/01/20/39/40/402 Enter factory mode ok, set state index = 2
+2016/03/01/20/39/40/402 Searching kernel com port 57.
+2016/03/01/20/40/00/281 Find kernel com port ok, set state index = 3
+2016/03/01/20/40/00/341 GetCommModule ok.
+2016/03/01/20/40/00/341 Send Start Command (AT+START) start.
+2016/03/01/20/40/00/341 Send start command 1.
+2016/03/01/20/40/00/361 Get response pass, OK!
+2016/03/01/20/40/00/361 Send Start Command (AT+START) ok.
+2016/03/01/20/40/00/361 Send request flag command.
+2016/03/01/20/40/00/737 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/03/01/20/40/00/831 Sleep 0 second before test.
+2016/03/01/20/40/00/831 Init test item object.
+2016/03/01/20/40/00/831 Start Testing items:
+
+2016/03/01/20/40/00/893 Start test items.
+2016/03/01 20:40:00.893 ====== [BT] Start Test ======
+2016/03/01 20:40:16.123 [OK] BT test pass from target.
+2016/03/01 20:40:16.139 Time cost: 15.246 second
+2016/03/01 20:40:16.139 ====== [BT] End Test ======
+
+2016/03/01 20:40:16.499 GetATAData data size: 1500.
+2016/03/01 20:40:16.499 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:40:16.499 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:40:16.499 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/40/16/499 [OK] Request data successfully.
+2016/03/01/20/40/16/515 BT,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01 20:40:16.577 ====== [SWVersion] Start Test ======
+2016/03/01 20:40:18.890 [OK] Version test ok.
+2016/03/01 20:40:18.890 Time cost: 2.313 second
+2016/03/01 20:40:18.890 ====== [SWVersion] End Test ======
+
+2016/03/01 20:40:19.421 GetATAData data size: 1500.
+2016/03/01 20:40:19.421 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:40:19.421 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:40:19.421 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/40/19/421 [OK] Request data successfully.
+2016/03/01/20/40/19/421 SW Version,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01 20:40:19.545 ====== [Receiver] Start Test ======
+2016/03/01 20:40:19.545 [TestBox]pm handle error
+2016/03/01 20:40:19.655 [TestBox]pm handle error
+2016/03/01 20:40:26.747 [receiver] test finished.
+2016/03/01 20:40:26.747 Time cost: 7.202 second
+2016/03/01 20:40:26.747 ====== [Receiver] End Test ======
+
+2016/03/01 20:40:27.121 GetATAData data size: 1500.
+2016/03/01 20:40:27.121 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:40:27.121 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:40:27.121 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/40/27/121 [OK] Request data successfully.
+2016/03/01/20/40/27/137 Receiver,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01 20:40:27.199 ====== [Speaker] Start Test ======
+2016/03/01 20:40:27.199 [TestBox]pm handle error
+2016/03/01 20:40:27.294 [TestBox]pm handle error
+2016/03/01 20:40:32.156 [speaker] test finished.
+2016/03/01 20:40:32.156 Time cost: 4.957 second
+2016/03/01 20:40:32.156 ====== [Speaker] End Test ======
+
+2016/03/01 20:40:32.546 GetATAData data size: 1500.
+2016/03/01 20:40:32.546 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:40:32.546 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:40:32.546 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/40/32/546 [OK] Request data successfully.
+2016/03/01/20/40/32/577 Speaker,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01 20:40:32.639 ====== [GPS] Start Test ======
+2016/03/01 20:41:16.238 [GPS ERROR] GPS test fail from target.
+2016/03/01 20:41:16.238 Test Error:E_ATADLL_RESULT_FAILED,Error code is 1
+
+2016/03/01 20:41:16.238 Time cost: 43.599 second
+2016/03/01 20:41:16.238 ====== [GPS] End Test ======
+
+2016/03/01 20:41:16.614 GetATAData data size: 1500.
+2016/03/01 20:41:16.614 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:16.614 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:16.614 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/16/614 [OK] Request data successfully.
+2016/03/01/20/41/16/614 GPS,1,Fail,E_ATADLL_RESULT_FAILED
+2016/03/01 20:41:16.676 ====== [LCD] Start Test ======
+2016/03/01 20:41:19.505 [OK] LCM test ok from target.
+2016/03/01 20:41:19.505 Time cost: 2.829 second
+2016/03/01 20:41:19.505 ====== [LCD] End Test ======
+
+2016/03/01 20:41:19.895 GetATAData data size: 1500.
+2016/03/01 20:41:19.895 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:19.895 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:19.895 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/19/895 [OK] Request data successfully.
+2016/03/01/20/41/19/895 LCM,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01 20:41:20.019 ====== [Main Camera] Start Test ======
+2016/03/01 20:41:20.019 Main camera test start
+2016/03/01 20:41:28.205 [OK] Main camera test ok.
+2016/03/01 20:41:28.205 Time cost: 8.186 second
+2016/03/01 20:41:28.205 ====== [Main Camera] End Test ======
+
+2016/03/01 20:41:28.565 GetATAData data size: 1500.
+2016/03/01 20:41:28.565 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:28.565 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:28.565 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/28/565 [OK] Request data successfully.
+2016/03/01/20/41/28/580 Main Camera,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01 20:41:28.658 ====== [Sub Camera] Start Test ======
+2016/03/01 20:41:28.738 Sub camera test start
+2016/03/01 20:41:33.342 [Camera ERROR] Sub camera test fail.
+2016/03/01 20:41:33.358 Test Error:E_ATADLL_RESULT_FAILED,Error code is 1
+
+2016/03/01 20:41:33.358 Time cost: 4.700 second
+2016/03/01 20:41:33.358 ====== [Sub Camera] End Test ======
+
+2016/03/01 20:41:33.704 GetATAData data size: 1500.
+2016/03/01 20:41:33.704 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:33.704 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:33.704 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/33/704 [OK] Request data successfully.
+2016/03/01/20/41/33/736 Sub Camera,1,Fail,E_ATADLL_RESULT_FAILED
+2016/03/01 20:41:33.799 ====== [M-Sensor] Start Test ======
+2016/03/01 20:41:34.940 [M-Sensor ERROR] M-Sensor Not support !
+2016/03/01 20:41:34.940 Test Error:E_ATADLL_RESULT_NOT_SUPPORT,Error code is 13
+
+2016/03/01 20:41:34.940 Time cost: 1.140 second
+2016/03/01 20:41:34.940 ====== [M-Sensor] End Test ======
+
+2016/03/01 20:41:35.298 GetATAData data size: 23.
+2016/03/01 20:41:35.298 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:35.298 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:35.298 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/35/298 [OK] Request data successfully.
+2016/03/01/20/41/35/314 M-Sensor,1,Fail,E_ATADLL_RESULT_NOT_SUPPORT
+2016/03/01 20:41:35.376 ====== [ALSPS] Start Test ======
+2016/03/01 20:41:39.924 Time cost: 4.548 second
+2016/03/01 20:41:39.924 ====== [ALSPS] End Test ======
+
+2016/03/01 20:41:40.299 GetATAData data size: 1500.
+2016/03/01 20:41:40.299 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:40.299 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:40.299 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/40/299 [OK] Request data successfully.
+2016/03/01/20/41/40/314 ALSPS,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01 20:41:40.392 ====== [WIFI] Start Test ======
+2016/03/01 20:41:51.108 [OK] WIFI test OK from target.
+2016/03/01 20:41:51.124 Time cost: 10.732 second
+2016/03/01 20:41:51.124 ====== [WIFI] End Test ======
+
+2016/03/01 20:41:51.498 GetATAData data size: 1500.
+2016/03/01 20:41:51.498 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:51.498 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:51.498 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/51/498 [OK] Request data successfully.
+2016/03/01/20/41/51/514 WIFI,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01 20:41:51.638 ====== [Barcode] Start Test ======
+2016/03/01 20:41:53.296 Barcode: M601BASS61100011                                            10P
+2016/03/01 20:41:53.296 Time cost: 1.658 second
+2016/03/01 20:41:53.296 ====== [Barcode] End Test ======
+
+2016/03/01 20:41:53.670 GetATAData data size: 1500.
+2016/03/01 20:41:53.670 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:53.670 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:53.670 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/53/670 [OK] Request data successfully.
+2016/03/01/20/41/53/702 Barcode,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01 20:41:53.766 ====== [GPSCali] Start Test ======
+2016/03/01 20:41:54.140 [OK] GPSCali test ok.
+2016/03/01 20:41:54.140 Time cost: 0.374 second
+2016/03/01 20:41:54.140 ====== [GPSCali] End Test ======
+
+2016/03/01 20:41:54.500 GetATAData data size: 1500.
+2016/03/01 20:41:54.500 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:54.500 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:54.500 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/54/500 [OK] Request data successfully.
+2016/03/01/20/41/54/516 GPS_CALI,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/01/20/41/54/531 Start to request test result data.
+2016/03/01 20:41:54.957 GetATAData data size: 1500.
+2016/03/01 20:41:54.957 GetATAData sp_ata_data size: 1684.
+2016/03/01 20:41:54.957 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 20:41:54.957 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/20/41/54/957 [OK] Request data successfully.
+2016/03/01/20/41/54/957 [BT] 40c62ac8ec0c
+, 7477, -55
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 [Modem SW Version] M6010_LWG_M0_V0.1.4_S15128, 2016/01/28 09:31
+2016/03/01/20/41/54/957 [AP SW Version] M6010_PUBLIC_M_V0.6.8_S160301
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 [Audio] Receiver:
+	 left freq: 1000, right freq: 1000 	 left amp: 520, right amp: 520
+2016/03/01/20/41/54/957 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Receiver] THD: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 [Audio] Speaker: left freq: 1000, right freq: 1000 	 left amp: 7048817, right amp: 7048817
+2016/03/01/20/41/54/957 [Audio][Speaker] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Speaker] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Speaker] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Speaker] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Speaker] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 [Audio][Speaker] THD: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 M-Sensor: x - (0), y - (0), z - (0), accurary - (0)
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 ALS/PS: ALS - (1005), PS - (0)
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 [WIFI] WIFI MAC: ec-26-ca-9a-44-20, Name: WTK-TEST-2F1, RSSI:-66
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/54/957 
+2016/03/01/20/41/55/269 DeInit test item object.
+2016/03/01/20/41/55/269 Total time cost: 107.48 second. 
+
+2016/03/01/20/41/55/269 Send stop command(AT+STOP) to target.
+2016/03/01/20/41/55/487 Release target comm handle.
+2016/03/01/20/41/55/549 Rename log file (temp1.txt) by barcode: M601BASS61100011                                            10P

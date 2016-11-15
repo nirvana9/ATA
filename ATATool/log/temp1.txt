@@ -1,0 +1,7 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/08/11/11/11/02/661 Init state index = 1, wait for preloader com port 6.
+2016/08/11/11/12/03/974 Find preloader com port OK, start booting target into factory mode.
+2016/08/11/11/12/04/340 Enter factory mode ok, set state index = 2
+2016/08/11/11/12/04/340 Searching kernel com port 192.

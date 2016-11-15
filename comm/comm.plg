@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: comm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mtk71420\LOCALS~1\Temp\RSP1041.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"Release/comm.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SP tools\ATA\Souce code\复件 Src_Code\comm\ATResult.cpp"
+"D:\SP tools\ATA\Souce code\复件 Src_Code\comm\CommModule.cpp"
+"D:\SP tools\ATA\Souce code\复件 Src_Code\comm\CommThread.cpp"
+"D:\SP tools\ATA\Souce code\复件 Src_Code\comm\Lock.cpp"
+"D:\SP tools\ATA\Souce code\复件 Src_Code\comm\rs232Module.cpp"
+"D:\SP tools\ATA\Souce code\复件 Src_Code\comm\stdafx.cpp"
+"D:\SP tools\ATA\Souce code\复件 Src_Code\comm\Thread.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mtk71420\LOCALS~1\Temp\RSP1041.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\comm.lib"  ".\Release\ATResult.obj" ".\Release\CommModule.obj" ".\Release\CommThread.obj" ".\Release\Lock.obj" ".\Release\rs232Module.obj" ".\Release\stdafx.obj" ".\Release\Thread.obj" "
+<h3>Output Window</h3>
+Compiling...
+ATResult.cpp
+CommModule.cpp
+CommThread.cpp
+Lock.cpp
+rs232Module.cpp
+stdafx.cpp
+Thread.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+comm.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

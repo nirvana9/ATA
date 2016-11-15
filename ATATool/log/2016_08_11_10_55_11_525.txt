@@ -1,0 +1,49 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/08/11/10/54/44/203 Init state index = 1, wait for preloader com port 6.
+2016/08/11/10/54/44/529 Find preloader com port OK, start booting target into factory mode.
+2016/08/11/10/54/44/892 Enter factory mode ok, set state index = 2
+2016/08/11/10/54/44/892 Searching kernel com port 192.
+2016/08/11/10/55/01/996 Find kernel com port ok, set state index = 3
+2016/08/11/10/55/01/996 GetCommModule ok.
+2016/08/11/10/55/01/996 Send Start Command (AT+START) start.
+2016/08/11/10/55/01/996 Send start command 1.
+2016/08/11/10/55/02/149 Send start command 2.
+2016/08/11/10/55/02/525 Get response pass, OK!
+2016/08/11/10/55/02/526 Send Start Command (AT+START) ok.
+2016/08/11/10/55/02/526 Send request flag command.
+2016/08/11/10/55/02/881 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/08/11/10/55/02/934 Sleep 0 second before test.
+2016/08/11/10/55/02/934 Init test item object.
+2016/08/11/10/55/02/934 Start Testing items:
+
+2016/08/11/10/55/02/985 Start test items.
+2016/08/11 10:55:02.985 ====== [Charger] Start111111111111111111111111 Test ======
+2016/08/11 10:55:10.086 [Charger ERROR]Charger Test fail from target.
+2016/08/11 10:55:10.089 Test Error:E_ATADLL_RESULT_FAILED,Error code is 1
+
+2016/08/11 10:55:10.089 Time cost: 7.104 second
+2016/08/11 10:55:10.090 ====== [Charger] End Test ======
+
+2016/08/11 10:55:10.458 GetATAData data size: 1500.
+2016/08/11 10:55:10.459 GetATAData sp_ata_data size: 1684.
+2016/08/11 10:55:10.459 GetATAData sp_ata_data_old size: 1192.
+2016/08/11 10:55:10.459 GetATAData sp_ata_data_old_ex size: 1248.
+2016/08/11/10/55/10/459 [OK] Request data successfully.
+2016/08/11/10/55/10/466 Charger,1,Fail,E_ATADLL_RESULT_FAILED
+2016/08/11/10/55/10/466 Start to request test result data.
+2016/08/11 10:55:10.865 GetATAData data size: 1500.
+2016/08/11 10:55:10.865 GetATAData sp_ata_data size: 1684.
+2016/08/11 10:55:10.865 GetATAData sp_ata_data_old size: 1192.
+2016/08/11 10:55:10.865 GetATAData sp_ata_data_old_ex size: 1248.
+2016/08/11/10/55/10/866 [OK] Request data successfully.
+2016/08/11/10/55/10/866 [Charger] Current: 12161.000 mA
+2016/08/11/10/55/10/866 Battery temparature: 0
+2016/08/11/10/55/10/866 
+2016/08/11/10/55/11/166 DeInit test item object.
+2016/08/11/10/55/11/188 Total time cost: 7.10 second. 
+
+2016/08/11/10/55/11/188 Send stop command(AT+STOP) to target.
+2016/08/11/10/55/11/460 Release target comm handle.
+2016/08/11/10/55/11/525 Rename log file (temp1.txt) by date info.

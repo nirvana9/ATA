@@ -1,0 +1,20 @@
+; ATA_DLL.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ATA_DLL"
+DESCRIPTION  'ATA_DLL Windows Dynamic Link Library'
+
+EXPORTS
+	ATADLL_GetAvailbleHandle		@1
+	ATADLL_ReleaseHandle			@2
+	ATADLL_StartTest				@3
+	ATADLL_StopTest					@4
+	ATADLL_UpdateBarcodeFlag		@5
+	ATADLL_AddLog					@7
+	ATADLL_GetTestCase_BG			@8
+	ATADLL_GetTestCase_FG			@9
+	ATADLL_StartTestStep			@10
+	ATADLL_TestOffCurrent			@11
+	ATADLL_UpdateStopFlag			@12
+	AtaStatusToString               @13
+	ATADLL_CSVLog                   @14
+    ; Explicit exports can go here

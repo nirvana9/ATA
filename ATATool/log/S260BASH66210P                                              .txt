@@ -1,0 +1,355 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/07/28/14/54/54/095 Init state index = 1, wait for preloader com port 6.
+2016/07/28/14/54/59/723 Find preloader com port OK, start booting target into factory mode.
+2016/07/28/14/55/00/085 Enter factory mode ok, set state index = 2
+2016/07/28/14/55/00/085 Searching kernel com port 4.
+2016/07/28/14/55/11/426 Find kernel com port ok, set state index = 3
+2016/07/28/14/55/11/426 GetCommModule ok.
+2016/07/28/14/55/11/426 Send Start Command (AT+START) start.
+2016/07/28/14/55/11/426 Send start command 1.
+2016/07/28/14/55/11/428 Get response pass, OK!
+2016/07/28/14/55/11/428 Send Start Command (AT+START) ok.
+2016/07/28/14/55/11/429 Send request flag command.
+2016/07/28/14/55/11/854 Get flag from target OK!
+2016/07/28/14/55/11/854 flag sequence from target are:ITEM_MAIN_CAMERA,ITEM_MAIN2_CAMERA,ITEM_SUB_CAMERA,ITEM_STROBE,ITEM_GPS,ITEM_NFC,ITEM_FM,ITEM_FMTX,ITEM_FLASH,ITEM_MEMCARD,ITEM_RTC,ITEM_LCD,ITEM_LCM,ITEM_BACKLIGHT,ITEM_LED,ITEM_LOOPBACK,ITEM_LOOPBACK1,ITEM_LOOPBACK2,ITEM_LOOPBACK3,ITEM_BT,ITEM_WIFI,ITEM_KEYS,ITEM_LOOPBACK_PHONEMICSPK,ITEM_WAVEPLAYBACK,ITEM_ACOUSTICLOOPBACK,ITEM_GSENSOR,ITEM_GS_CALI,ITEM_MSENSOR,ITEM_ALSPS,ITEM_HEADSET,ITEM_HEADSET_DEBUG,ITEM_USB,ITEM_OTG,ITEM_CLRFLASH,ITEM_CHARGER,ITEM_TOUCH,ITEM_TOUCH_AUTO,ITEM_SIM,ITEM_VIBRATOR,ITEM_RECEIVER,ITEM_RECEIVER_DEBUG,ITEM_SIMCARD,ITEM_IDLE,ITEM_TVOUT,ITEM_JOGBALL,ITEM_OFN,ITEM_MATV_NORMAL,ITEM_MATV_AUTOSCAN,ITEM_MUI_TEST,ITEM_FULL_TEST,ITEM_ITEM_TEST,ITEM_AUTO_TEST,ITEM_DEBUG_TEST,ITEM_VERSION,ITEM_REPORT,ITEM_UPDATE,ITEM_REBOOT,ITEM_BAROMETER,ITEM_GYROSCOPE,ITEM_GYROSCOPE_CALI,ITEM_SPK_OC,ITEM_SIGNALTEST,ITEM_CMMB,ITEM_EMMC,ITEM_EMI,ITEM_CLREMMC,ITEM_HDMI,ITEM_RECEIVER_PHONE,ITEM_HEADSET_PHONE,ITEM_LOOPBACK_PHONEMICSPK_PHONE,ITEM_VIBRATOR_PHONE,ITEM_MICBIAS,ITEM_CUSTOM_START,ITEM_CUSTOM_STOP,ITEM_CUSTOM_REQUESTDATA,ITEM_CUSTOM_VERSION,ITEM_CUSTOM_READBARCODE,ITEM_CUSTOM_WRITEBARCODE,ITEM_CUSTOM_CAMERADATA,ITEM_CUSTOM_PROPERTY,ITEM_RF_TEST,ITEM_HOTKNOT,ITEM_BTS,ITEM_EXT_BUCK,ITEM_EXT_VBAT_BOOST,ITEM_SPEAKER_MONITOR,ITEM_SPEAKER_MONITOR_SET_TMP,ITEM_RF_C2K_TEST,ITEM_USB_TYPEC,ITEM_IRTX_LED_TEST,ITEM_HEART_MONITOR,ITEM_EFUSE,ITEM_MAIN_LENS,ITEM_MAIN2_LENS,ITEM_SUB_LENS,ITEM_FINGERPRINT_TEST,ITEM_HUMIDITY,ITEM_CUSTOM_REQUESTFLAG,ITEM_MAX_IDS,,,,,,,,,,,,
+2016/07/28/14/55/11/854 Start parsing...
+2016/07/28/14/55/11/854 Parse flag success,total number is:218299132
+2016/07/28/14/55/11/854 In function ConvertToPCItemSequence(),convert flag sequence to g_convert_flag_item,total number is:104
+2016/07/28/14/55/11/854 target_flag_sequence[0]= ITEM_MAIN_CAMERA
+2016/07/28/14/55/11/854 target_flag_sequence[1]= ITEM_MAIN2_CAMERA
+2016/07/28/14/55/11/854 target_flag_sequence[2]= ITEM_SUB_CAMERA
+2016/07/28/14/55/11/854 target_flag_sequence[3]= ITEM_STROBE
+2016/07/28/14/55/11/854 ITEM_STROBE not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/854 target_flag_sequence[4]= ITEM_GPS
+2016/07/28/14/55/11/854 target_flag_sequence[5]= ITEM_NFC
+2016/07/28/14/55/11/854 ITEM_NFC not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/854 target_flag_sequence[6]= ITEM_FM
+2016/07/28/14/55/11/854 target_flag_sequence[7]= ITEM_FMTX
+2016/07/28/14/55/11/854 target_flag_sequence[8]= ITEM_FLASH
+2016/07/28/14/55/11/854 target_flag_sequence[9]= ITEM_MEMCARD
+2016/07/28/14/55/11/854 target_flag_sequence[10]= ITEM_RTC
+2016/07/28/14/55/11/854 target_flag_sequence[11]= ITEM_LCD
+2016/07/28/14/55/11/854 target_flag_sequence[12]= ITEM_LCM
+2016/07/28/14/55/11/854 target_flag_sequence[13]= ITEM_BACKLIGHT
+2016/07/28/14/55/11/854 ITEM_BACKLIGHT not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/854 target_flag_sequence[14]= ITEM_LED
+2016/07/28/14/55/11/854 target_flag_sequence[15]= ITEM_LOOPBACK
+2016/07/28/14/55/11/854 target_flag_sequence[16]= ITEM_LOOPBACK1
+2016/07/28/14/55/11/854 target_flag_sequence[17]= ITEM_LOOPBACK2
+2016/07/28/14/55/11/854 target_flag_sequence[18]= ITEM_LOOPBACK3
+2016/07/28/14/55/11/854 target_flag_sequence[19]= ITEM_BT
+2016/07/28/14/55/11/854 target_flag_sequence[20]= ITEM_WIFI
+2016/07/28/14/55/11/854 target_flag_sequence[21]= ITEM_KEYS
+2016/07/28/14/55/11/854 target_flag_sequence[22]= ITEM_LOOPBACK_PHONEMICSPK
+2016/07/28/14/55/11/854 target_flag_sequence[23]= ITEM_WAVEPLAYBACK
+2016/07/28/14/55/11/854 target_flag_sequence[24]= ITEM_ACOUSTICLOOPBACK
+2016/07/28/14/55/11/854 target_flag_sequence[25]= ITEM_GSENSOR
+2016/07/28/14/55/11/854 target_flag_sequence[26]= ITEM_GS_CALI
+2016/07/28/14/55/11/854 target_flag_sequence[27]= ITEM_MSENSOR
+2016/07/28/14/55/11/854 target_flag_sequence[28]= ITEM_ALSPS
+2016/07/28/14/55/11/854 target_flag_sequence[29]= ITEM_HEADSET
+2016/07/28/14/55/11/854 target_flag_sequence[30]= ITEM_HEADSET_DEBUG
+2016/07/28/14/55/11/854 target_flag_sequence[31]= ITEM_USB
+2016/07/28/14/55/11/854 ITEM_USB not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/854 target_flag_sequence[32]= ITEM_OTG
+2016/07/28/14/55/11/854 target_flag_sequence[33]= ITEM_CLRFLASH
+2016/07/28/14/55/11/854 ITEM_CLRFLASH not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/854 target_flag_sequence[34]= ITEM_CHARGER
+2016/07/28/14/55/11/854 target_flag_sequence[35]= ITEM_TOUCH
+2016/07/28/14/55/11/854 target_flag_sequence[36]= ITEM_TOUCH_AUTO
+2016/07/28/14/55/11/854 target_flag_sequence[37]= ITEM_SIM
+2016/07/28/14/55/11/854 target_flag_sequence[38]= ITEM_VIBRATOR
+2016/07/28/14/55/11/855 target_flag_sequence[39]= ITEM_RECEIVER
+2016/07/28/14/55/11/855 target_flag_sequence[40]= ITEM_RECEIVER_DEBUG
+2016/07/28/14/55/11/855 target_flag_sequence[41]= ITEM_SIMCARD
+2016/07/28/14/55/11/855 target_flag_sequence[42]= ITEM_IDLE
+2016/07/28/14/55/11/855 target_flag_sequence[43]= ITEM_TVOUT
+2016/07/28/14/55/11/855 target_flag_sequence[44]= ITEM_JOGBALL
+2016/07/28/14/55/11/855 ITEM_JOGBALL not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[45]= ITEM_OFN
+2016/07/28/14/55/11/855 ITEM_OFN not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[46]= ITEM_MATV_NORMAL
+2016/07/28/14/55/11/855 target_flag_sequence[47]= ITEM_MATV_AUTOSCAN
+2016/07/28/14/55/11/855 target_flag_sequence[48]= ITEM_MUI_TEST
+2016/07/28/14/55/11/855 ITEM_MUI_TEST not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[49]= ITEM_FULL_TEST
+2016/07/28/14/55/11/855 ITEM_FULL_TEST not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[50]= ITEM_ITEM_TEST
+2016/07/28/14/55/11/855 ITEM_ITEM_TEST not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[51]= ITEM_AUTO_TEST
+2016/07/28/14/55/11/855 ITEM_AUTO_TEST not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[52]= ITEM_DEBUG_TEST
+2016/07/28/14/55/11/855 ITEM_DEBUG_TEST not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[53]= ITEM_VERSION
+2016/07/28/14/55/11/855 target_flag_sequence[54]= ITEM_REPORT
+2016/07/28/14/55/11/855 ITEM_REPORT not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[55]= ITEM_UPDATE
+2016/07/28/14/55/11/855 ITEM_UPDATE not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[56]= ITEM_REBOOT
+2016/07/28/14/55/11/855 ITEM_REBOOT not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[57]= ITEM_BAROMETER
+2016/07/28/14/55/11/855 target_flag_sequence[58]= ITEM_GYROSCOPE
+2016/07/28/14/55/11/855 target_flag_sequence[59]= ITEM_GYROSCOPE_CALI
+2016/07/28/14/55/11/855 target_flag_sequence[60]= ITEM_SPK_OC
+2016/07/28/14/55/11/855 target_flag_sequence[61]= ITEM_SIGNALTEST
+2016/07/28/14/55/11/855 target_flag_sequence[62]= ITEM_CMMB
+2016/07/28/14/55/11/855 target_flag_sequence[63]= ITEM_EMMC
+2016/07/28/14/55/11/855 target_flag_sequence[64]= ITEM_EMI
+2016/07/28/14/55/11/855 ITEM_EMI not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[65]= ITEM_CLREMMC
+2016/07/28/14/55/11/855 ITEM_CLREMMC not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[66]= ITEM_HDMI
+2016/07/28/14/55/11/855 target_flag_sequence[67]= ITEM_RECEIVER_PHONE
+2016/07/28/14/55/11/855 target_flag_sequence[68]= ITEM_HEADSET_PHONE
+2016/07/28/14/55/11/855 target_flag_sequence[69]= ITEM_LOOPBACK_PHONEMICSPK_PHONE
+2016/07/28/14/55/11/855 target_flag_sequence[70]= ITEM_VIBRATOR_PHONE
+2016/07/28/14/55/11/855 target_flag_sequence[71]= ITEM_MICBIAS
+2016/07/28/14/55/11/855 target_flag_sequence[72]= ITEM_CUSTOM_START
+2016/07/28/14/55/11/855 ITEM_CUSTOM_START not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[73]= ITEM_CUSTOM_STOP
+2016/07/28/14/55/11/855 ITEM_CUSTOM_STOP not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[74]= ITEM_CUSTOM_REQUESTDATA
+2016/07/28/14/55/11/855 ITEM_CUSTOM_REQUESTDATA not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/855 target_flag_sequence[75]= ITEM_CUSTOM_VERSION
+2016/07/28/14/55/11/855 target_flag_sequence[76]= ITEM_CUSTOM_READBARCODE
+2016/07/28/14/55/11/855 target_flag_sequence[77]= ITEM_CUSTOM_WRITEBARCODE
+2016/07/28/14/55/11/855 target_flag_sequence[78]= ITEM_CUSTOM_CAMERADATA
+2016/07/28/14/55/11/856 ITEM_CUSTOM_CAMERADATA not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[79]= ITEM_CUSTOM_PROPERTY
+2016/07/28/14/55/11/856 ITEM_CUSTOM_PROPERTY not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[80]= ITEM_RF_TEST
+2016/07/28/14/55/11/856 target_flag_sequence[81]= ITEM_HOTKNOT
+2016/07/28/14/55/11/856 ITEM_HOTKNOT not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[82]= ITEM_BTS
+2016/07/28/14/55/11/856 target_flag_sequence[83]= ITEM_EXT_BUCK
+2016/07/28/14/55/11/856 target_flag_sequence[84]= ITEM_EXT_VBAT_BOOST
+2016/07/28/14/55/11/856 ITEM_EXT_VBAT_BOOST not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[85]= ITEM_SPEAKER_MONITOR
+2016/07/28/14/55/11/856 ITEM_SPEAKER_MONITOR not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[86]= ITEM_SPEAKER_MONITOR_SET_TMP
+2016/07/28/14/55/11/856 ITEM_SPEAKER_MONITOR_SET_TMP not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[87]= ITEM_RF_C2K_TEST
+2016/07/28/14/55/11/856 ITEM_RF_C2K_TEST not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[88]= ITEM_USB_TYPEC
+2016/07/28/14/55/11/856 target_flag_sequence[89]= ITEM_IRTX_LED_TEST
+2016/07/28/14/55/11/856 ITEM_IRTX_LED_TEST not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[90]= ITEM_HEART_MONITOR
+2016/07/28/14/55/11/856 ITEM_HEART_MONITOR not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[91]= ITEM_EFUSE
+2016/07/28/14/55/11/856 ITEM_EFUSE not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[92]= ITEM_MAIN_LENS
+2016/07/28/14/55/11/856 ITEM_MAIN_LENS not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[93]= ITEM_MAIN2_LENS
+2016/07/28/14/55/11/856 ITEM_MAIN2_LENS not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[94]= ITEM_SUB_LENS
+2016/07/28/14/55/11/856 ITEM_SUB_LENS not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[95]= ITEM_FINGERPRINT_TEST
+2016/07/28/14/55/11/856 target_flag_sequence[96]= ITEM_HUMIDITY
+2016/07/28/14/55/11/856 target_flag_sequence[97]= ITEM_CUSTOM_REQUESTFLAG
+2016/07/28/14/55/11/856 ITEM_CUSTOM_REQUESTFLAG not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[98]= ITEM_MAX_IDS
+2016/07/28/14/55/11/856 ITEM_MAX_IDS not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[99]= ,
+2016/07/28/14/55/11/856 , not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[100]= ,
+2016/07/28/14/55/11/856 , not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[101]= ,
+2016/07/28/14/55/11/856 , not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[102]= ,
+2016/07/28/14/55/11/856 , not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 target_flag_sequence[103]= ,
+2016/07/28/14/55/11/856 , not defined test item in this tool,convert to E_TEST_ITEM_COUNT.
+2016/07/28/14/55/11/856 Get and parse target side's flag sequence successful!Using flag sequence get from target
+2016/07/28/14/55/11/926 Sleep 0 second before test.
+2016/07/28/14/55/11/926 Init test item object.
+2016/07/28/14/55/11/926 Start Testing items:
+
+2016/07/28/14/55/11/976 Start test items.
+2016/07/28 14:55:11.976 ====== [BT] Start111111111111111111111111 Test ======
+2016/07/28 14:55:56.774 [OK] BT test pass from target.
+2016/07/28 14:55:56.784 Time cost: 44.809 second
+2016/07/28 14:55:56.784 ====== [BT] End Test ======
+
+2016/07/28 14:55:57.114 GetATAData data size: 1684.
+2016/07/28 14:55:57.114 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:55:57.115 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:55:57.115 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/55/57/115 [OK] Request data successfully.
+2016/07/28/14/55/57/129 BT,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:55:57.181 ====== [SWVersion] Start111111111111111111111111 Test ======
+2016/07/28 14:55:58.945 [OK] Version test ok.
+2016/07/28 14:55:58.945 Time cost: 1.764 second
+2016/07/28 14:55:58.945 ====== [SWVersion] End Test ======
+
+2016/07/28 14:55:59.275 GetATAData data size: 1684.
+2016/07/28 14:55:59.275 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:55:59.275 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:55:59.275 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/55/59/275 [OK] Request data successfully.
+2016/07/28/14/55/59/287 SW Version,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:55:59.389 ====== [Receiver] Start111111111111111111111111 Test ======
+2016/07/28 14:55:59.389 [TestBox]pm handle error
+2016/07/28 14:55:59.489 [TestBox]pm handle error
+2016/07/28 14:56:06.580 [receiver] test finished.
+2016/07/28 14:56:06.584 Time cost: 7.195 second
+2016/07/28 14:56:06.584 ====== [Receiver] End Test ======
+
+2016/07/28 14:56:06.919 GetATAData data size: 1684.
+2016/07/28 14:56:06.919 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:06.919 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:06.920 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/06/920 [OK] Request data successfully.
+2016/07/28/14/56/06/923 [Receiver][Spec check fail]target's amplL is:4432  amplR is:4432   freqL is:187  freqR is:187 not match with spec amplL[0,800000000]  amplR[0,800000000] or freqL[800,1200]  freqR[800,1200]
+2016/07/28/14/56/06/937 Receiver,1,Fail,E_ATADLL_RESULT_SPEC_CHECK_FAIL
+2016/07/28 14:56:07.039 ====== [Touch Panel] Start111111111111111111111111 Test ======
+2016/07/28 14:56:07.432 [OK] Touch panel test ok.
+2016/07/28 14:56:07.438 Time cost: 0.399 second
+2016/07/28 14:56:07.438 ====== [Touch Panel] End Test ======
+
+2016/07/28 14:56:07.769 GetATAData data size: 1684.
+2016/07/28 14:56:07.770 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:07.770 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:07.770 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/07/770 [OK] Request data successfully.
+2016/07/28/14/56/07/790 Touch Panel,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:56:07.840 ====== [LCD] Start111111111111111111111111 Test ======
+2016/07/28 14:56:10.394 [OK] LCM test ok from target.
+2016/07/28 14:56:10.398 Time cost: 2.559 second
+2016/07/28 14:56:10.398 ====== [LCD] End Test ======
+
+2016/07/28 14:56:10.727 GetATAData data size: 1684.
+2016/07/28 14:56:10.727 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:10.728 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:10.728 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/10/728 [OK] Request data successfully.
+2016/07/28/14/56/10/747 LCM,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:56:10.798 ====== [Main Camera] Start111111111111111111111111 Test ======
+2016/07/28 14:56:10.860 Main camera test start
+2016/07/28 14:56:17.078 [OK] Main camera test ok.
+2016/07/28 14:56:17.080 Time cost: 6.281 second
+2016/07/28 14:56:17.080 ====== [Main Camera] End Test ======
+
+2016/07/28 14:56:17.380 GetATAData data size: 1684.
+2016/07/28 14:56:17.380 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:17.380 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:17.380 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/17/380 [OK] Request data successfully.
+2016/07/28/14/56/17/408 Main Camera,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:56:17.459 ====== [Sub Camera] Start111111111111111111111111 Test ======
+2016/07/28 14:56:17.527 Sub camera test start
+2016/07/28 14:56:20.812 [OK] Sub camera test ok.
+2016/07/28 14:56:20.816 Time cost: 3.356 second
+2016/07/28 14:56:20.816 ====== [Sub Camera] End Test ======
+
+2016/07/28 14:56:21.126 GetATAData data size: 1684.
+2016/07/28 14:56:21.126 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:21.126 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:21.126 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/21/126 [OK] Request data successfully.
+2016/07/28/14/56/21/135 Sub Camera,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:56:21.186 ====== [Charger] Start111111111111111111111111 Test ======
+2016/07/28 14:56:23.029 [OK]Charger Test ok from target.
+2016/07/28 14:56:23.033 Time cost: 1.847 second
+2016/07/28 14:56:23.033 ====== [Charger] End Test ======
+
+2016/07/28 14:56:23.340 GetATAData data size: 1684.
+2016/07/28 14:56:23.340 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:23.340 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:23.340 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/23/340 [OK] Request data successfully.
+2016/07/28/14/56/23/357 Charger,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:56:23.460 ====== [G-Sensor] Start111111111111111111111111 Test ======
+2016/07/28 14:56:28.111 GetATAData data size: 1684.
+2016/07/28 14:56:28.111 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:28.111 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:28.111 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28 14:56:28.112 1: G-Sensor: x - (-0.8140000), y - (-1.3880000), z - (9.8540001)
+2016/07/28 14:56:28.125 Time cost: 4.665 second
+2016/07/28 14:56:28.125 ====== [G-Sensor] End Test ======
+
+2016/07/28 14:56:28.437 GetATAData data size: 1684.
+2016/07/28 14:56:28.437 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:28.437 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:28.437 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/28/437 [OK] Request data successfully.
+2016/07/28/14/56/28/452 G-Sensor,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:56:28.503 ====== [WIFI] Start111111111111111111111111 Test ======
+2016/07/28 14:56:35.410 [OK] WIFI test OK from target.
+2016/07/28 14:56:35.424 Time cost: 6.920 second
+2016/07/28 14:56:35.424 ====== [WIFI] End Test ======
+
+2016/07/28 14:56:35.737 GetATAData data size: 1684.
+2016/07/28 14:56:35.738 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:35.738 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:35.738 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/35/738 [OK] Request data successfully.
+2016/07/28/14/56/35/756 WIFI,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:56:35.807 ====== [LED] Start111111111111111111111111 Test ======
+2016/07/28 14:56:36.069 Open LED.
+2016/07/28 14:56:39.102 Close LED successful.
+2016/07/28 14:56:40.613 Time cost: 4.807 second
+2016/07/28 14:56:40.613 ====== [LED] End Test ======
+
+2016/07/28 14:56:40.932 GetATAData data size: 1684.
+2016/07/28 14:56:40.932 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:40.932 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:40.932 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/40/932 [OK] Request data successfully.
+2016/07/28/14/56/40/955 LED,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28 14:56:41.007 ====== [Barcode] Start111111111111111111111111 Test ======
+2016/07/28 14:56:42.626 Barcode: S260BASH66210P                                              
+2016/07/28 14:56:42.633 Time cost: 1.625 second
+2016/07/28 14:56:42.633 ====== [Barcode] End Test ======
+
+2016/07/28 14:56:42.945 GetATAData data size: 1684.
+2016/07/28 14:56:42.945 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:42.945 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:42.945 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/42/946 [OK] Request data successfully.
+2016/07/28/14/56/42/960 Barcode,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/28/14/56/42/961 Start to request test result data.
+2016/07/28 14:56:43.351 GetATAData data size: 1684.
+2016/07/28 14:56:43.351 GetATAData sp_ata_data size: 1684.
+2016/07/28 14:56:43.351 GetATAData sp_ata_data_old size: 1192.
+2016/07/28 14:56:43.351 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/28/14/56/43/351 [OK] Request data successfully.
+2016/07/28/14/56/43/351 [BT] 683e34296247
+, Jet_pro5, -99
+2016/07/28/14/56/43/351 [BT] bc0308de99b4
+, UNKNOWN, -96
+2016/07/28/14/56/43/351 [BT] 225345344553
+, UNKNOWN, -95
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 [Modem SW Version] X5090_LWCTG_V0.1.2_S160706, 2016/07/06 23:13
+2016/07/28/14/56/43/351 [AP SW Version] unknown
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 [Audio] Receiver:
+	 left freq: 187, right freq: 187 	 left amp: 4432, right amp: 4432
+2016/07/28/14/56/43/351 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/07/28/14/56/43/351 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/07/28/14/56/43/351 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/07/28/14/56/43/351 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/07/28/14/56/43/351 [Audio][Receiver] Freq response: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/07/28/14/56/43/351 [Audio][Receiver] THD: mean(0.00000), deviation(0.00000), min(0.00000), max(0.00000)
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 [Charger] Current: 488.000 mA
+2016/07/28/14/56/43/351 Battery temparature: 0
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 G-Sensor: x - (-0.814000), y - (-1.388000), z - (9.854000), accuracy - (3)
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 [WIFI] WIFI MAC: a4-6c-2a-20-81-62, Name: Wheatek-Auto, RSSI:-72
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/351 
+2016/07/28/14/56/43/622 DeInit test item object.
+2016/07/28/14/56/43/634 Total time cost: 86.23 second. 
+
+2016/07/28/14/56/43/634 Send stop command(AT+STOP) to target.
+2016/07/28/14/56/43/962 Release target comm handle.
+2016/07/28/14/56/44/023 Rename log file (temp1.txt) by barcode: S260BASH66210P                                              

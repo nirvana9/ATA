@@ -1,0 +1,40 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/08/11/10/35/51/220 Init state index = 1, wait for preloader com port 6.
+2016/08/11/10/35/59/574 Find preloader com port OK, start booting target into factory mode.
+2016/08/11/10/35/59/915 Enter factory mode ok, set state index = 2
+2016/08/11/10/35/59/915 Searching kernel com port 191.
+2016/08/11/10/36/16/035 Find kernel com port ok, set state index = 3
+2016/08/11/10/36/16/035 GetCommModule ok.
+2016/08/11/10/36/16/035 Send Start Command (AT+START) start.
+2016/08/11/10/36/16/035 Send start command 1.
+2016/08/11/10/36/16/156 Send start command 2.
+2016/08/11/10/36/16/757 Send start command 3.
+2016/08/11/10/36/16/952 Get response pass, OK!
+2016/08/11/10/36/16/953 Send Start Command (AT+START) ok.
+2016/08/11/10/36/16/953 Send request flag command.
+2016/08/11/10/36/17/268 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/08/11/10/36/17/331 Sleep 0 second before test.
+2016/08/11/10/36/17/332 Init test item object.
+2016/08/11/10/36/17/332 Start Testing items:
+
+2016/08/11/10/36/17/332 Start test items.
+2016/08/11 10:36:17.382 ====== [Charger] Start111111111111111111111111 Test ======
+2016/08/11 10:37:19.090 [Charger ERROR] AT+CHARGER=1,1 response timeout.
+2016/08/11 10:37:19.090 Test Error:E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT,Error code is 8
+
+2016/08/11 10:37:19.090 Time cost: 61.708 second
+2016/08/11 10:37:19.090 ====== [Charger] End Test ======
+
+2016/08/11 10:38:03.763 [Requestdata ERROR] Request result data timeout.
+2016/08/11/10/38/03/768 [Error] Request data fail!!
+2016/08/11/10/38/03/841 Charger,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11/10/38/04/161 Charger,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11/10/38/04/162 DeInit test item object.
+2016/08/11/10/38/04/171 Total time cost: 61.71 second. 
+
+2016/08/11/10/38/04/171 Send stop command(AT+STOP) to target.
+2016/08/11/10/38/05/275 Release target comm handle.
+2016/08/11/10/38/05/336 Stopped by user.
+2016/08/11/10/38/05/337 Rename log file (temp1.txt) by date info.

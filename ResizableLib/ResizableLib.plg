@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ATATool - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ATATool.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ATATool - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ATATool.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ATA_DLL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ATA_DLL.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ATA_DLL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ATA_DLL.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ATA_DLL_Test - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ATA_DLL_Test.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ATA_DLL_Test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ATA_DLL_Test.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ResizableLib - Win32 Release Static--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ResizableLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ResizableLib - Win32 Debug Static--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ResizableLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ResizableLib - Win32 Release Unicode--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ResizableLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ResizableLib - Win32 Debug Unicode--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ResizableLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ResizableLib - Win32 Release Static Unicode--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ResizableLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ResizableLib - Win32 Debug Static Unicode--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+ResizableLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,46 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v2.1552.00
+//*************************************************************//
+2016/03/01/17/05/26/299 Init state index = 1, wait for preloader com port 6.
+2016/03/01/17/06/14/144 Find preloader com port OK, start booting target into factory mode.
+2016/03/01/17/06/14/492 Enter factory mode ok, set state index = 2
+2016/03/01/17/06/14/492 Searching kernel com port 57.
+2016/03/01/17/06/34/449 Find kernel com port ok, set state index = 3
+2016/03/01/17/06/34/449 GetCommModule ok.
+2016/03/01/17/06/34/449 Send Start Command (AT+START) start.
+2016/03/01/17/06/34/449 Send start command 1.
+2016/03/01/17/06/34/469 Get response pass, OK!
+2016/03/01/17/06/34/469 Send Start Command (AT+START) ok.
+2016/03/01/17/06/34/469 Send request flag command.
+2016/03/01/17/06/34/865 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/03/01/17/06/34/958 Sleep 0 second before test.
+2016/03/01/17/06/34/958 Init test item object.
+2016/03/01/17/06/34/958 Start Testing items:
+
+2016/03/01/17/06/34/958 Start test items.
+2016/03/01 17:06:35.021 ====== [GPSCali] Start Test ======
+2016/03/01 17:06:35.333 [OK] GPSCali test ok.
+2016/03/01 17:06:35.333 Time cost: 0.312 second
+2016/03/01 17:06:35.333 ====== [GPSCali] End Test ======
+
+2016/03/01 17:06:35.691 GetATAData data size: 1500.
+2016/03/01 17:06:35.691 GetATAData sp_ata_data size: 1684.
+2016/03/01 17:06:35.691 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 17:06:35.691 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/17/06/35/691 [OK] Request data successfully.
+2016/03/01/17/06/35/707 GPS_CALI,1,Fail,E_ATADLL_RESULT_SUCCESS
+2016/03/01/17/06/35/707 Start to request test result data.
+2016/03/01 17:06:36.177 GetATAData data size: 1500.
+2016/03/01 17:06:36.177 GetATAData sp_ata_data size: 1684.
+2016/03/01 17:06:36.177 GetATAData sp_ata_data_old size: 1192.
+2016/03/01 17:06:36.177 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/01/17/06/36/177 [OK] Request data successfully.
+2016/03/01/17/06/36/177 [Modem SW Version] 
+2016/03/01/17/06/36/177 [AP SW Version] 
+2016/03/01/17/06/36/177 
+2016/03/01/17/06/36/491 DeInit test item object.
+2016/03/01/17/06/36/522 Total time cost: 0.31 second. 
+
+2016/03/01/17/06/36/522 Send stop command(AT+STOP) to target.
+2016/03/01/17/06/36/756 Release target comm handle.
+2016/03/01/17/06/36/819 Rename log file (temp1.txt) by date info.

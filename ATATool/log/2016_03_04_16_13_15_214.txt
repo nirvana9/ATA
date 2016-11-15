@@ -1,0 +1,45 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160302.00
+//*************************************************************//
+2016/03/04/16/11/55/891 Init state index = 1, wait for preloader com port 6.
+2016/03/04/16/12/42/513 Find preloader com port OK, start booting target into factory mode.
+2016/03/04/16/12/42/867 Enter factory mode ok, set state index = 2
+2016/03/04/16/12/42/867 Searching kernel com port 57.
+2016/03/04/16/13/02/409 Find kernel com port ok, set state index = 3
+2016/03/04/16/13/02/409 GetCommModule ok.
+2016/03/04/16/13/02/409 Send Start Command (AT+START) start.
+2016/03/04/16/13/02/409 Send start command 1.
+2016/03/04/16/13/02/429 Get response pass, OK!
+2016/03/04/16/13/02/429 Send Start Command (AT+START) ok.
+2016/03/04/16/13/02/429 Send request flag command.
+2016/03/04/16/13/02/779 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/03/04/16/13/02/869 Sleep 0 second before test.
+2016/03/04/16/13/02/869 Init test item object.
+2016/03/04/16/13/02/869 Start Testing items:
+
+2016/03/04/16/13/02/919 Start test items.
+2016/03/04 16:13:02.919 ====== [WIFI] Start Test ======
+2016/03/04 16:13:13.760 [OK] WIFI test OK from target.
+2016/03/04 16:13:13.775 Time cost: 10.856 second
+2016/03/04 16:13:13.775 ====== [WIFI] End Test ======
+
+2016/03/04 16:13:14.165 GetATAData data size: 1500.
+2016/03/04 16:13:14.165 GetATAData sp_ata_data size: 1684.
+2016/03/04 16:13:14.165 GetATAData sp_ata_data_old size: 1192.
+2016/03/04 16:13:14.165 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/04/16/13/14/165 [OK] Request data successfully.
+2016/03/04/16/13/14/181 WIFI,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/04/16/13/14/181 Start to request test result data.
+2016/03/04 16:13:14.618 GetATAData data size: 1500.
+2016/03/04 16:13:14.618 GetATAData sp_ata_data size: 1684.
+2016/03/04 16:13:14.618 GetATAData sp_ata_data_old size: 1192.
+2016/03/04 16:13:14.618 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/04/16/13/14/618 [OK] Request data successfully.
+2016/03/04/16/13/14/618 [WIFI] WIFI MAC: a4-6c-2a-20-81-62, Name: Wheatek-Auto, RSSI:-83
+2016/03/04/16/13/14/618 
+2016/03/04/16/13/14/930 DeInit test item object.
+2016/03/04/16/13/14/930 Total time cost: 10.86 second. 
+
+2016/03/04/16/13/14/930 Send stop command(AT+STOP) to target.
+2016/03/04/16/13/15/166 Release target comm handle.
+2016/03/04/16/13/15/214 Rename log file (temp1.txt) by date info.

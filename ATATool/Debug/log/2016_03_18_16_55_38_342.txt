@@ -1,0 +1,39 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160317.00
+//*************************************************************//
+2016/03/18/16/53/51/577 Init state index = 1, wait for preloader com port 6.
+2016/03/18/16/54/01/934 Find preloader com port OK, start booting target into factory mode.
+2016/03/18/16/54/02/285 Enter factory mode ok, set state index = 2
+2016/03/18/16/54/02/285 Searching kernel com port 72.
+2016/03/18/16/54/11/221 Find kernel com port ok, set state index = 3
+2016/03/18/16/54/11/221 GetCommModule ok.
+2016/03/18/16/54/11/221 Send Start Command (AT+START) start.
+2016/03/18/16/54/11/221 Send start command 1.
+2016/03/18/16/54/11/241 Get response pass, OK!
+2016/03/18/16/54/11/241 Send Start Command (AT+START) ok.
+2016/03/18/16/54/11/241 Send request flag command.
+2016/03/18/16/54/11/563 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/03/18/16/54/11/625 Sleep 0 second before test.
+2016/03/18/16/54/11/625 Init test item object.
+2016/03/18/16/54/11/625 Start Testing items:
+
+2016/03/18/16/54/11/625 Start test items.
+2016/03/18 16:54:11.625 ====== [LED] Start Test ======
+2016/03/18 16:54:11.877 Open LED.
+2016/03/18 16:55:14.186 [LED ERROR] AT+LED=STOP response timeout.
+2016/03/18 16:55:14.186 Test Error:E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT,Error code is 8
+
+2016/03/18 16:55:14.186 Time cost: 62.560 second
+2016/03/18 16:55:14.186 ====== [LED] End Test ======
+
+2016/03/18 16:55:37.841 [Requestdata ERROR] Request result data timeout.
+2016/03/18/16/55/37/841 [Error] Request data fail!!
+2016/03/18/16/55/37/841 LED,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/03/18/16/55/38/186 LED,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/03/18/16/55/38/186 DeInit test item object.
+2016/03/18/16/55/38/202 Total time cost: 62.56 second. 
+
+2016/03/18/16/55/38/202 Send stop command(AT+STOP) to target.
+2016/03/18/16/55/38/327 Release target comm handle.
+2016/03/18/16/55/38/342 Stopped by user.
+2016/03/18/16/55/38/342 Rename log file (temp1.txt) by date info.

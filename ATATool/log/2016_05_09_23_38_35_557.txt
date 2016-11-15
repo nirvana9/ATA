@@ -1,0 +1,43 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/05/09/23/34/55/422 Init state index = 1, wait for preloader com port 6.
+2016/05/09/23/35/02/640 Find preloader com port OK, start booting target into factory mode.
+2016/05/09/23/35/02/966 Enter factory mode ok, set state index = 2
+2016/05/09/23/35/02/966 Searching kernel com port 96.
+2016/05/09/23/35/19/141 Find kernel com port ok, set state index = 3
+2016/05/09/23/35/19/141 GetCommModule ok.
+2016/05/09/23/35/19/141 Send Start Command (AT+START) start.
+2016/05/09/23/35/19/141 Send start command 1.
+2016/05/09/23/35/19/777 Send start command 2.
+2016/05/09/23/35/20/403 Send start command 3.
+2016/05/09/23/35/22/636 Send start command 4.
+2016/05/09/23/35/23/698 Get response pass, OK!
+2016/05/09/23/35/23/698 Send Start Command (AT+START) ok.
+2016/05/09/23/35/23/698 Send request flag command.
+2016/05/09/23/35/24/212 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/05/09/23/35/24/337 Sleep 0 second before test.
+2016/05/09/23/35/24/337 Init test item object.
+2016/05/09/23/35/24/337 Start Testing items:
+
+2016/05/09/23/35/24/400 Start test items.
+2016/05/09 23:35:24.400 ====== [LED] Start111111111111111111111111 Test ======
+2016/05/09 23:35:24.665 Open LED.
+2016/05/09 23:36:28.819 [LED ERROR] AT+LED=1,0 response timeout.
+2016/05/09 23:36:28.819 Test Error:E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT,Error code is 8
+
+2016/05/09 23:36:28.819 Time cost: 64.419 second
+2016/05/09 23:36:28.819 ====== [LED] End Test ======
+
+2016/05/09 23:37:30.849 [Requestdata ERROR] Request result data timeout.
+2016/05/09/23/37/30/849 [Error] Request data fail!!
+2016/05/09/23/37/30/849 LED,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/05/09/23/37/30/849 Start to request test result data.
+2016/05/09 23:38:32.921 [Requestdata ERROR] Request result data timeout.
+2016/05/09/23/38/32/921 [Error] Request data fail!!
+2016/05/09/23/38/33/233 DeInit test item object.
+2016/05/09/23/38/33/342 Total time cost: 64.42 second. 
+
+2016/05/09/23/38/33/342 Send stop command(AT+STOP) to target.
+2016/05/09/23/38/35/479 Release target comm handle.
+2016/05/09/23/38/35/557 Rename log file (temp1.txt) by date info.

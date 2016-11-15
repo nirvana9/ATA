@@ -1,0 +1,4 @@
+ItemName, TestTimes, TestResult, ErrorCode
+WIFI,1,Fail,E_ATADLL_RESULT_NULL
+Vibrator,1,Fail,E_ATADLL_RESULT_NULL
+LED,1,Fail,E_ATADLL_RESULT_NULL

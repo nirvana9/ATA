@@ -1,0 +1,799 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>NI-VISA 5.0.2 for Windows Readme</title>
+<style type="text/css">
+body {background-color:#ffffff}
+P.Body { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000;  }
+H1,H2,H3,H4,H5,H6 { color:#000000 }
+H1 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:12pt; font-weight:bold;  }
+H2 { margin-top:9.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:10pt; font-weight:bold;  }
+H3 { margin-left:12.00pt; margin-top:9.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:10pt; font-weight:bold;  }
+H4 { margin-left:24.00pt; margin-top:9.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:10pt; font-weight:bold;  }
+P.Indent1 { margin-left:12.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000;  }
+P.Indent2 { margin-left:24.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000;  }
+P.Indent3 { margin-left:36.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000;  }
+P.Indent4 { margin-left:24.00pt; margin-top:0.00pt; margin-bottom:0.00pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000;  }
+
+LI { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000; }
+
+OL { margin-left:42.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000; list-style-type: decimal; }
+
+ol ol {list-style-type:lower-alpha}
+ol ol ol {list-style-type:decimal}
+ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol ol ol {list-style-type:lower-alpha}
+
+OL.List-abc { margin-left:18.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000; list-style-type:lower-alpha; }
+
+UL { margin-left:0.00pt; text-indent:24pt; margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000; list-style-type: disc; }
+UL.List-Margin { margin-left:0.00pt; text-indent:12pt; margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana, sans-serif; font-size:8pt; color:#000000; list-style-type: disc; }
+
+ul ul {list-style-image:url(hyphen.gif)}
+ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul {list-style-image:url(hyphen.gif)}
+ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul ul ul {list-style-image:url(hyphen.gif)}
+ul ul ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul ul ul ul ul ul{list-style-image:url(hyphen.gif)}
+
+UL.List-Hyphen { margin-left:18.00pt; list-style-image:none;list-style-type:disc; }
+
+.Monospace { font-family: Courier New; font-size: 8pt; }
+.Monospace-Bold { font-family: Courier New; font-size: 8pt; font-weight: bold; }
+.Monospace-Italic { font-family: Courier New; font-size: 8pt; font-style: italic; }
+
+Table { font-size:100%; }
+
+Table.Borderless { border:none; }
+
+Table.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; border-collapse: collapse; }
+
+TD { vertical-align:top; padding:3px; }
+
+TD.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; }
+
+TD.Icon { width:40px; }
+
+TH { font-weight:bold; padding:3px; }
+
+TH.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; }
+
+TH.Left-Align { text-align:left; }
+
+</style>
+</head>
+
+<body>
+<h1>National Instruments NI-VISA&#8482; Software for Windows, Version 5.0.2</h1>
+<h2>Read Me First, August 2010</h2>
+<p class="Body">&#0169; 1995&#8211;2010 National Instruments Corporation. All rights reserved.</p>
+
+<p class="Body">NATIONAL INSTRUMENTS HOLDS MULTIPLE COPYRIGHTS, TRADEMARKS, AND PATENTS FOR THIS PRODUCT. BY DOWNLOADING AND/OR INSTALLING THIS PRODUCT, YOU AGREE
+TO THE TERMS OF THE <span class="Monospace">license.rtf</span> FILE THAT RESIDES IN THE SAME DIRECTORY AS THIS <span class="Monospace">readme.html</span> FILE ON THE CD AND/OR WEB SITE. FOR PATENTS COVERING NATIONAL INSTRUMENTS PRODUCTS, REFER TO THE <span class="Monospace">patents.txt</span> FILE ON THE ROOT DIRECTORY OF YOUR CD (IF APPLICABLE) AND/OR <span class="Monospace"><a href="http://www.ni.com/patents">www.ni.com/patents</a></span>.</p>
+
+<hr>
+
+<h2>Contents</h2>
+<p class="Body"><a href="#USING_NI-VISA_5.0.2">Using NI-VISA 5.0.2</a></p>
+<p class="Indent1"><a href="#SUPPORTED_PLATFORMS">Supported Platforms</a></p>
+<p class="Indent1"><a href="#SUPPORTED_DEVELOPMENT_ENVIRONMENTS">Supported Development Environments</a></p>
+<p class="Indent1"><a href="#INSTALLING_AND_UNINSTALLING_NI-VISA_5.0.2">Installing and Uninstalling NI-VISA 5.0.2</a></p>
+<p class="Indent1"><a href="#LABWINDOWS_CVI_RUN-TIME_ENGINE">LabWindows&#8482;/CVI&#8482; Run-Time Engine</a></p>
+<p class="Indent1"><a href="#PXI_SUPPORT">PXI Support</a></p>
+<p class="Indent2"><a href="#PXI_GEOGRAPHIC_ADDRESSING_SUPPORT">PXI Geographic Addressing Support</a></p>
+<p class="Indent2"><a href="#PXI_RESOURCE_NAMING">PXI Resource Naming</a></p>
+<p class="Indent2"><a href="#PXI_SYSTEM_CONFIGURATION">PXI System Configuration</a></p>
+<p class="Indent1"><a href="#SUPPORT_FOR_AGILENT_HP_CONTROLLERS">Agilent/HP Controller Support</a></p>
+<p class="Indent1"><a href="#USING_viPeekXX_viPokeXX_MACROS">Using <span class="Monospace">viPeekXX</span>/<span class="Monospace">viPokeXX</span> Macros</a></p>
+<p class="Indent1"><a href="#WHQL_SIGNING_USB_HARDWARE">WHQL Signing USB Hardware</a></p>
+<p class="Indent1"><a href="#CREATING_AND_DIGITALLY_SIGNING_CATALOG_FILES">Creating and Digitally Signing Catalog Files</a></p>
+<p class="Body"><a href="#KNOWN_ISSUES">Known Issues</a></p>
+<p class="Body"><a href="#IMPROVEMENTS_AND_BUG_FIXES">Improvements and Bug Fixes</a></p>
+<p class="Indent1"><a href="#NI-VISA_5.0.2_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 5.0.2</a></p>
+<p class="Indent1"><a href="#NI-VISA_5.0.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 5.0.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_5.0_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 5.0</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.6.2_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.6.2</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.6.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.6.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.6_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.6</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.5.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.5.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.5_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.5</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.4.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.4.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.4_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.4</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.3_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.3</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.2_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.2</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_4.0_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.0</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.6_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.6</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.5.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.5.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.5_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.5</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.4.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.4.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.4_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.4</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.3.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.3.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.3_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.3</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.2_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.2</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.0.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.0.1</a></p>
+<p class="Indent1"><a href="#NI-VISA_3.0_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.0</a></p>
+<p class="Body"><a href="#CREDITS">Credits</a></p>
+<p class="Body"><a href="#NOTICES">Notices</a></p>
+
+<hr>
+
+<h2><a name="USING_NI-VISA_5.0.2" id="USING_NI-VISA_5.0.2">Using NI-VISA 5.0.2</a></h2>
+
+<h3><a name="SUPPORTED_PLATFORMS" id="SUPPORTED_PLATFORMS">Supported Platforms</a></h3>
+
+<p class="Indent1">NI-VISA for Windows supports the following platforms:</p>
+
+<ul>
+<li>Windows Server 2003 R2 (32-bit version only)<sup>1,2</sup></li>
+<li>Windows Server 2008 R2 (64-bit version only)<sup>1</sup></li>
+<li>Windows 7 x64 Edition (64-bit version)</li>
+<li>Windows 7 (32-bit version)</li>
+<li>Windows Vista x64 Edition (64-bit version)</li>
+<li>Windows Vista (32-bit version)</li>
+<li>Windows XP</li>
+<li>LabVIEW Real-Time (Phar Lap ETS and VxWorks) 2010/2009/8.6/8.5</li>
+<li>LabWindows/CVI Real-Time (Phar Lap ETS) 9.0/8.5/8.1/8.0.1</li>
+<li>LabVIEW PDA Module 8.5/8.2 for Windows Mobile</li>
+<li>LabVIEW Touch Panel Module 8.5/8.2 for Windows CE</li>
+<li>LabVIEW Mobile Module 2009/8.6</li>
+<li>LabVIEW Touch Panel Module 2009/8.6</li>
+</ul>
+
+<p class="Indent1">While this distribution targets all these platforms, you can run <span class="Monospace">setup.exe</span> only on the Windows variants.</p>
+
+<p class="Indent1"><sup>1</sup> NI-VISA does not support the Windows Server non-R2 editions. </p>
+
+<p class="Indent1"><sup>2</sup> Support for Windows Server 2003 R2 may require disabling physical address extensions (PAE). To learn how this might affect your use of Windows Server 2003 and what actions you might need to take, visit <a href="http://www.ni.com/info"><span class="Monospace">ni.com/info</span></a> and enter the info code <em>PAESupport</em>.</p>
+
+<h3><a name="SUPPORTED_DEVELOPMENT_ENVIRONMENTS" id="SUPPORTED_DEVELOPMENT_ENVIRONMENTS">Supported Development Environments</a></h3>
+
+<p class="Indent1">NI-VISA for Windows supports the following development environments:</p>
+
+<ul>
+<li>LabVIEW 2010/2009/8.6/8.5</li>
+<li>LabWindows/CVI 9.0/8.5/8.1/8.0/7.1</li>
+<li>Measurement Studio for Visual Studio 2008/2005/2003 (all versions)</li>
+<li>Microsoft Visual Studio 2008/2005/2003/6.0</li>
+<li>Microsoft Visual Basic 6.0</li>
+</ul>
+
+<h3><a name="INSTALLING_AND_UNINSTALLING_NI-VISA_5.0.2" id="INSTALLING_AND_UNINSTALLING_NI-VISA_5.0.2">Installing and Uninstalling NI-VISA 5.0.2</a></h3>
+<p class="Indent1">NI-VISA 5.0.2 does not support Windows 9<em>x</em>/NT/2000. To run your VISA application on Windows 95, you must install NI-VISA 2.6.1 or lower. To run your VISA application on Windows 98/Me, you must install NI-VISA 3.0.1 or lower. To run your VISA application on Windows NT, you must install NI-VISA 3.3.1 or lower. To run your VISA application on Windows 2000, you must install NI-VISA 4.6.2 or lower.</p>
+
+<p class="Indent1">Before you install NI-VISA 5.0.2, we strongly recommend that you uninstall any versions of VISA prior to NI-VISA 2.0.1. NI-VISA 5.0.2 should upgrade properly over NI-VISA 2.0.1 through 4.6.2.</p>
+
+<p class="Indent1">After uninstalling NI-VISA, some DLLs and executables may remain in the NI-VISA directories. To complete the uninstall process, you must restart your machine.</p>
+
+<p class="Indent1"><strong>Note</strong>: The uninstaller application does not notify you when rebooting is necessary. If you plan to reinstall NI-VISA, you always should reboot the machine after running the uninstaller.</p>
+
+<p class="Indent1">You can programmatically or &quot;silently&quot; install NI-VISA. You also can programmatically control which features of NI-VISA are enabled for installation, allowing you to install a subset of the NI-VISA feature list. Refer to the <span class="Monospace">spec.ini</span> file in the same directory as this readme for more information about installing NI-VISA programmatically and selecting which features to install.</p>
+
+<h3><a name="LABWINDOWS_CVI_RUN-TIME_ENGINE" id="LABWINDOWS_CVI_RUN-TIME_ENGINE">LabWindows/CVI Run-Time Engine</a></h3>
+
+<p class="Indent1">The Setup program now automatically installs the LabWindows/CVI Run-Time Engine when necessary. The NI-VISA interactive utility, VISAIC, requires the LabWindows/CVI Run-Time Engine 8.0 or later to be installed. When you install this utility, Setup also installs the LabWindows/CVI Run-Time Engine if it is not already present.</p>
+
+<h3><a name="PXI_SUPPORT" id="PXI_SUPPORT">PXI Support</a></h3>
+
+<h4><a name="PXI_GEOGRAPHIC_ADDRESSING_SUPPORT" id="PXI_GEOGRAPHIC_ADDRESSING_SUPPORT">PXI Geographic Addressing Support</a></h4>
+
+<p class="Indent4">Starting with NI-VISA 3.0, NI-VISA supports geographic addressing for PXI resources. Geographic addressing includes the ability to identify the chassis number and slot number for a PXI module. To support geographic
+addressing, the following attributes have been implemented on the PXI INSTR resource type:</p>
+
+<table cellspacing="12" class="Borderless"><tr><td><ul><li>
+<span class="Monospace">VI_ATTR_SLOT</span>&#8212;specifies the PXI slot number for instrument.
+</li>
+<li>
+<span class="Monospace">VI_ATTR_PXI_CHASSIS</span>&#8212;specifies the PXI chassis number for the instrument.
+</li></ul></td></tr></table>
+
+<p class="Indent4">Using these attributes, PXI resources can be located based on their geographic address in a system. For example, you can use the resource description string <span class="Monospace">&quot;PXI?*INSTR{VI_ATTR_PXI_CHASSIS==1 &amp;&amp; VI_ATTR_SLOT==3}&quot;</span> to locate a PXI device in chassis 1, slot 3.</p>
+
+<h4><a name="PXI_RESOURCE_NAMING" id="PXI_RESOURCE_NAMING">PXI Resource Naming</a></h4>
+
+<p class="Indent2">Starting with NI-VISA 3.0, NI-VISA includes a new PXI resource format based on the traditional bus number/device number/function number addressing scheme:</p>
+
+<p class="Indent2"><span class="Monospace">PXI0::&lt;busNum&gt;-&lt;devNum&gt;[.&lt;funcNum&gt;]::INSTR</span></p>
+
+<p class="Indent2">For example, given a PXI device at bus 2, device number 17, function number 1, the corresponding resource name for this device would be <span class="Monospace">PXI0::2-17.1::INSTR</span>.</p>
+
+<p class="Indent2">In this new resource name, the <span class="Monospace">0</span> in <span class="Monospace">PXI0</span> represents the PCI interface number for the PXI system. Currently, this interface number is always <span class="Monospace">0</span>. Note that the interface number is not necessarily the same as a device's PCI bus number.</p>
+
+<p class="Indent2">Of course, NI-VISA continues to support the legacy PXI naming convention:</p>
+
+<p class="Indent2"><span class="Monospace">PXI&lt;busNum&gt;::&lt;devNum&gt;[::funcNum]::INSTR</span></p>
+
+<p class="Indent2">Note that for a single-function PXI device on PCI bus 0, both of these resource formats yield an identical string.</p>
+
+<h4><a name="PXI_SYSTEM_CONFIGURATION" id="PXI_SYSTEM_CONFIGURATION">PXI System Configuration</a></h4>
+
+<p class="Indent2">To enable geographic addressing, a PXI system description file
+(<span class="Monospace">pxisys.ini</span>) must be present on the system. Beginning with NI-VISA 3.0, Measurement &amp; Automation Explorer (MAX) includes the ability to identify components in a PXI system. Through the hardware identification process, MAX collects the information necessary to generate a PXI system description file.</p>
+
+<p class="Indent2">Follow these steps to configure your PXI system for geographic addressing:</p>
+
+<ol>
+<li>
+Launch MAX.
+</li>
+<li>
+Expand the <strong>Devices and Interfaces</strong> folder. If you are configuring a LabVIEW RT system, locate that system's <strong>Devices and Interfaces</strong> folder under the <strong>Remote Systems</strong> view.
+</li>
+<li>
+Identify your PXI controller. Locate the <strong>PXI System 0</strong> item. <strong>PXI System 0</strong> represents the PXI system and its controller. To identify this controller, right-click on <strong>PXI System 0</strong> and use the <strong>Identify As</strong> feature, selecting your controller from the resulting list.
+<p class="Body"><strong>Note:</strong> If you are using an external PC to control the PXI system via a PXI bridge such as MXI-3, select this option from the menu.</p>
+</li>
+<li>
+Identify your PXI chassis. Expand the <strong>PXI System 0</strong> view to locate your PXI chassis in the system. For embedded controllers, a chassis is added when the controller has been identified. For a chassis controlled via MXI-3, these chassis are added automatically by the software. To identify a chassis, right-click on the chassis and use the <strong>Identify As</strong> feature, selecting your chassis from the resulting list. The chassis is assigned a number based on the PCI bus number that the chassis resides on.
+</li></ol>
+
+<p class="Indent2">Once the controller and chassis have been identified, a <span class="Monospace">pxisys.ini</span> file is created. This file conforms to the PXI specification and allows drivers (including NI-VISA) and other configuration software to enable geographic addressing and other features of PXI. On Windows, this file is in the <span class="Monospace">Windows</span> directory. For LabVIEW RT systems, the <span class="Monospace">pxisys.ini</span> file
+is automatically copied to the remote system's <span class="Monospace">c:\ni-rt\system</span> directory.</p>
+
+<h3><a name="SUPPORT_FOR_AGILENT_HP_CONTROLLERS" id="SUPPORT_FOR_AGILENT_HP_CONTROLLERS">Agilent/HP Controller Support</a></h3>
+
+<p class="Indent1">NI-VISA now works with Agilent/HP GPIB and VXI controller cards. To use this feature, go into MAX, select <strong>Tools&#0187;NI-VISA&#0187;VISA Options</strong>, choose the <strong>Passports</strong> tab, and enable the <span class="Monospace">NiVisaTulip.dll</span> Passport. NI-VISA automatically finds and accesses any GPIB or VXI devices. However, NI-VISA does not configure the Agilent/HP hardware; you still must do that with the Agilent/HP I/O Config utility.</p>
+
+<p class="Indent1">If you have both National Instruments and Agilent/HP controllers in the same system, you must configure the cards at different system addresses, such as GPIB0 and GPIB1. If both vendors try to use the same interface address, NI-VISA reports an error from <span class="Monospace">viFindRsrc</span> or VISA Find Resources.</p>
+
+<h3><a name="USING_viPeekXX_viPokeXX_MACROS" id="USING_viPeekXX_viPokeXX_MACROS">Using viPeekXX/viPokeXX Macros</a></h3>
+
+<p class="Indent1">Users who want to use the <span class="Monospace">viPeekXX</span>/<span class="Monospace">viPokeXX</span> macros for platforms on which the macros are available must define a macro called <span class="Monospace">NIVISA_PEEKPOKE</span> before including <span class="Monospace">visa.h</span>. Note that the macros are currently available on only the Win32 platform (all C/C++ compilers).</p>
+
+<p class="Indent1">If you have used these macros with a version of NI-VISA prior to 2.0, your application will continue to run, but the peek/poke performance decreases. You should relink with the libraries supplied with this installation to regain the prior peek/poke performance.</p>
+
+<h3><a name="WHQL_SIGNING_USB_HARDWARE" id="WHQL_SIGNING_USB_HARDWARE">WHQL Signing USB Hardware</a></h3>
+
+<p class="Indent1">To WHQL (Windows Hardware Quality Labs) sign your USB hardware using the NI-VISA driver for Windows XP/2000, as part of this process you need a PDB (Program DataBase) file for the underlying driver (<span class="Monospace">NiViUsbK.sys</span>).</p>
+
+<p class="Indent1"><span class="Monospace">NiViUsbK.pdb</span> is provided for this purpose. It is in <span class="Monospace-italic">&lt;NI-VISA Installation Directory&gt;</span><span class="Monospace">\WinNT\NIvisa\USB</span>. This is typically <span class="Monospace">C:\VXIPNP\WinNT\NIvisa\USB</span>.</p>
+
+<h3><a name="CREATING_AND_DIGITALLY_SIGNING_CATALOG_FILES" id="CREATING_AND_DIGITALLY_SIGNING_CATALOG_FILES">Creating and Digitally Signing Catalog Files</a></h3>
+
+<p class="Indent1">On Windows Vista and Windows 7, if you generate an INF file using the NI-VISA Driver Wizard, the INF file installs correctly by itself. However, a warning dialog notifies you that Windows cannot verify the publisher of this driver software. To avoid this dialog, you must create and digitally sign a Windows Catalog (<span class="Monospace">.cat</span>) file.</p>
+
+<p class="Indent1">For more information about creating and signing catalog files, Microsoft has a <a href="http://www.microsoft.com/whdc/winlogo/drvsign/kmcs_walkthrough.mspx">Kernel-Mode Code Signing Walkthrough</a> whitepaper that describes the details of this process. The generated catalog file should reference only the INF file.</p>
+
+<hr>
+
+<h2><a name="KNOWN_ISSUES" id="KNOWN_ISSUES">Known Issues</a></h2>
+
+<p class="Body">If you are using interrupts with a PXI card that uses an NI-VISA-based driver on an NI RT Hypervisor system, independent reboot of the RT system might hang if the driver does not have the Interrupt Disarm sequence defined. Stop any VISA application on the RT system that might have enabled interrupts for such cards before attempting independent reboot of the RT system. Do a full system reboot if the RT system hangs.</p>
+
+<p class="Body">IVI driver developers can use the new VISA COM API. NI-VISA does not yet document this API, so only those developers familiar with the specification should use it in this release. The relevant COM classes for getting started include IResourceManager and IVisaSession, registered in <span class="Monospace">GlobMgr.dll</span>. The VISA COM API is functionally equivalent to the VISA C API. It does not add features; it is just another language interface. You can install the VISA COM API only if you have Internet Explorer 4.01 or higher on your system.</p>
+
+<p class="Body">If you are using NI-VISA with the VisaNS .NET API, you may find that an existing project created with an older version of VisaNS now produces build errors that read <span class="Monospace">error CS0011: Referenced class '&lt;className&gt;' has base class or interface 'NationalInstruments.ISynchronizeCallbacks' defined in an
+	assembly that is not referenced. You must add a reference to assembly 'NationalInstruments.Common'</span>. To eliminate this error, add a reference to the <span class="Monospace">NationalInstruments.Common</span> assembly to your project.</p>
+
+<p class="Body">The NI-VISA Configuration component is not compatible with NI-RIO 2.1 and lower. The NI-VISA Installer shows a warning if the NI-VISA Configuration component is selected to be installed and NI-RIO 2.1 or lower currently is installed on the system.</p>
+
+<p class="Body">If NI-VISA 4.2 or earlier is installed on a system with LabWindows/CVI 8.5 or later, and you then subsequently upgrade to NI-VISA 4.3 or later, the installer does not clean up some of the older files. In this installation scenario, to use the latest VISA API with LabWindows/CVI, you should manually remove the following files, after upgrading NI-VISA:</p>
+
+<p class="Body"><span class="Monospace">C:\Program Files\National Instruments\CVI85\bin\visa.lfp<br>
+C:\Program Files\National Instruments\CVI85\bin\visa.sub<br>
+C:\Program Files\National Instruments\CVI85\bin\msvc\visa.lib<br>
+C:\Program Files\National Instruments\CVI85\bin\borland\visa.lib<br>
+C:\Program Files\National Instruments\CVI85\extlib\msvc\visa.lib<br>
+C:\Program Files\National Instruments\CVI85\extlib\borland\visa.lib<br>
+C:\Program Files\National Instruments\CVI85\include\visa.h<br>
+C:\Program Files\National Instruments\CVI85\include\vpptype.h<br>
+C:\Program Files\National Instruments\CVI85\include\visatype.h</span></p>
+
+<hr>
+
+<h2><a name="IMPROVEMENTS_AND_BUG_FIXES" id="IMPROVEMENTS_AND_BUG_FIXES">Improvements and Bug Fixes</a></h2>
+
+<h3><a name="NI-VISA_5.0.2_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_5.0.2_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 5.0.2</a></h3>
+
+<p class="Indent1"><em>Bug ID 244124.</em> USB communication timeout cannot be set to values greater than 60 seconds. This is fixed.</p>
+
+<h3><a name="NI-VISA_5.0.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_5.0.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 5.0.1</a></h3>
+
+<p class="Indent1">Added support for IPxi interface in VISA-COM layer.</p>
+
+<h3><a name="NI-VISA_5.0_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_5.0_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 5.0</a></h3>
+
+<p class="Indent1">Added the ability to launch Instrument Driver Finder from MAX.</p>
+
+<p class="Indent1">Added a page in the Driver Development Wizard to auto-detect USB devices and auto-populate device info.</p>
+
+<p class="Indent1">Added the ability to custom install VISA passports on Real-Time targets.</p>
+
+<p class="Indent1">Added support for 64-bit formatted I/O.</p>
+
+<p class="Indent1">Added the ability to configure IEEE 1588-2008 clocks on networks.</p>
+
+<p class="Indent1">Dropped support for FireWire and GPIB-VXI.</p>
+
+<p class="Indent1">Dropped support for Windows 2000.</p>
+
+<p class="Indent1"><em>Bug ID 154617.</em> VISA does not recognize the serial number of some USB RAW devices. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 173379.</em> Real-time support of some NI software may fail to install if NI-VISA is already installed. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 185549.</em> GPIB passport always returns VI_SUCCESS_DEV_NPRESENT if ibln is disabled. This is fixed.</p>
+
+<h3><a name="NI-VISA_4.6.2_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.6.2_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.6.2</a></h3>
+
+<p class="Indent1">Added support for Windows 7 (32-bit version), Windows 7 x64 Edition (64-bit version), Windows Server 2003 R2 (32-bit version only), and Windows Server 2008 R2 (64-bit version only).</p>
+
+<h3><a name="NI-VISA_4.6.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.6.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.6.1</a></h3>
+
+<p class="Indent1"><em>Bug ID 186322.</em> When building installers from NI software, VISA 4.6 components were incorrectly labeled as version 4.5 in the installer properties dialog. This is fixed.</p>
+
+<h3><a name="NI-VISA_4.6_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.6_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.6</a></h3>
+
+<p class="Indent1">Installing NI PXI Platform Services version 2.5.2 with NI-VISA 4.5.1 or earlier on a system will cause 3rd party PCI/PXI cards leveraging NI-VISA based drivers to disappear from the Measurement &amp; Automation Explorer (MAX) device tree. National Instruments R-series boards and Timing and Sync boards may also be affected if used with certain versions of the drivers. This version of NI-VISA fixes the problem. Please see <a href="http://digital.ni.com/public.nsf/websearch/7A896F3816EAEEA2862575EF0069C3A1?OpenDocument">KB 4Z9DMDSK</a> for more details. </p>
+
+<p class="Indent1"><em>Bug ID 88858.</em> On LabVIEW RT (Phar Lap ETS), trying to set the attribute <span class="Monospace">VI_ATTR_TCPIP_NODELAY</span> on a <span class="Monospace">TCPIP SOCKET</span> session to <span class="Monospace">VI_FALSE</span> returned an error. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 165973.</em> When closing a TCPIP INSTR session for which an interrupt channel has been established, NI-VISA would not explicitly close the interrupt channel. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 177456.</em> On Windows Vista, an NI-VISA application communicating to a USBTMC device may cause system crash (blue screen) if the device firmware hits a debug assertion. This is fixed.</p>
+
+<h3><a name="NI-VISA_4.5.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.5.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.5.1</a></h3>
+
+<p class="Indent1">Added support for 64-bit user mode in .NET 3.5 Framework. You can now create 64-bit applications with .NET Framework 3.5. For additional information, refer to <em>Working with 64-bit .NET Support for NI-VISA</em> in the <em>NI-VISA .NET Framework 3.5 Help</em>. This help file is installed by default at <strong>Start&#0187;All Programs&#0187;National Instruments&#0187;VISA&#0187;Documentation&#0187;NI-VISA .NET Framework 3.5 Help</strong>. </p>
+
+<p class="Indent1"><em>Bug ID 135045.</em> The nimdnsResponder service may corrupt the routing table. This is fixed.</p>
+
+<h3><a name="NI-VISA_4.5_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.5_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.5</a></h3>
+
+<p class="Indent1">Added a page in MAX to allow viewing and changing the <span class="Monospace">Conflict Resolution Manager</span> settings.</p>
+
+<p class="Indent1"><em>Bug ID 89395.</em> Searching for VXI-11 resources may not find some instruments when multiple Ethernet interfaces are present. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 112150.</em> Previously, it was not possible to disable 64-bit passports. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 105351.</em> Calling viFindRsrc using 64-bit VISA may cause a command window to flash on the screen. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 121227.</em> Previously, MAX would crash when expanding the <span class="Monospace">"Serial & Parallel"</span> tree item if the settings for a port in VISA are different than those in Windows <span class="Monospace">Device Manager</span>. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 93245.</em> VISA resources on a CVS target did not appear in the MAX tree. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 132397.</em> In the VISA COM driver, attribute accessing functions returning a VARIANT_BOOL now return VARIANT_TRUE (-1) instead of VI_TRUE (+1) when the specified attribute is true.  This applies for all functions except the raw GetAttribute call, which will continue to return VI_TRUE.</p>
+
+<h3><a name="NI-VISA_4.4.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.4.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.4.1</a></h3>
+
+<p class="Indent1"><em>Bug ID 119631.</em> On Windows Vista, certain installation upgrade scenarios may cause a system crash (blue screen). This is fixed.</p>
+
+<h3><a name="NI-VISA_4.4_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.4_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.4</a></h3>
+
+<p class="Indent1">Added support for using NI-VISA with 64-bit applications on Windows Vista x64 Edition. VXI, GPIB-VXI, and FireWire resources are not currently supported for 64-bit applications.</p>
+
+<p class="Indent1">Added automatic detection of LXI (TCP/IP) devices that support the mDNS and DNS-SD technologies.</p>
+
+<p class="Indent1">Added support for USB and TCP/IP resources on VxWorks-based LabVIEW RT targets.</p>
+
+<p class="Indent1"><em>Bug ID 93267.</em> VISA may crash when trying to close a session in use by a different thread. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 92346.</em> The C examples would build with warnings when using Microsoft Visual C++ 2005 or higher. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 114300.</em> In MAX, VISA options may not reflect manual modifications made to <span class="Monospace">visaconf.ini</span>. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 103875.</em> <span class="Monospace">viPrintf</span> and variants did not support the <span class="Monospace">%@2</span> identifier when using short integer arrays nor the <span class="Monospace">%@3</span> identifier when using any arrays. This is fixed.</p>
+
+<h3><a name="NI-VISA_4.3_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.3_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.3</a></h3>
+
+<p class="Indent1">When using the <span class="Monospace">MAX Copy Configuration</span> API, you can now specify <span class="Monospace">"ni-visa"</span> as the product. All documented modes are supported.</p>
+
+<p class="Indent1"><em>Bug ID 4DKBD6JW.</em> For PXI/PCI INSTR resources that generate interrupts, VISA incorrectly reversed the logic for the <span class="Monospace">Compare Mask</span> and <span class="Monospace">Compare Value</span> fields in a Compare Interrupt Detection step. This is fixed. If the INF file generated by the Driver Wizard was modified to work around this bug, you should regenerate the INF file.</p>
+
+<p class="Indent1"><em>Bug ID 4FIETP7Z.</em> On Pocket PC 2003/Windows Mobile 5.0 devices, when using USB resources, there was a memory leak when finding and opening a USB device. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 4FEAIM00.</em> <span class="Monospace">viWaitOnEvent</span> did not return a warning status when the event queue overflowed. Now <span class="Monospace">viWaitOnEvent</span> returns <span class="Monospace">VI_WARN_QUEUE_OVERFLOW</span> on the first call after an overflow occurs.</p>
+
+<p class="Indent1"><em>Bug ID 4E3DCFAB.</em> In LabWindows/CVI, when user protection is enabled, the use of <span class="Monospace">viMoveInXx</span> and <span class="Monospace">viMoveOutXx</span> operations may incorrectly return user protection errors such as <span class="Monospace">Argument too small</span> or <span class="Monospace">Insufficient buffer size</span>. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 4DCB1SJW.</em> For Serial INSTR resources that access parallel ports, reading data from the parallel port may not work correctly. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 4CRDPMX3.</em> <span class="Monospace">viPrintf</span> and variants when using the <span class="Monospace">%lf</span> identifier may sometimes calculate an incorrect interpretation of the floating-point data. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 4AIFF25E.</em> Asynchronous operations that use the <span class="Monospace">VI_QUEUE</span> mechanism have been optimized and a quicker response time from <span class="Monospace">viWaitOnEvent</span> may be observed, especially on transfers that take a relatively short time to complete.</p>
+
+<p class="Indent1"><em>Bug ID 46N03T48.</em> For PXI/PCI INSTR resources, the <span class="Monospace">PXI_IS_EXPRESS</span> attribute may have not returned <span class="Monospace">VI_TRUE</span> on some PXI Express devices. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 4G9F2GWI.</em> On Windows Vista, if MAX was not launched with administrator privileges, changes to the <span class="Monospace">Run the VISA server on startup</span> option would not be saved. This is fixed.</p>
+
+<h3><a name="NI-VISA_4.2_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.2_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.2</a></h3>
+
+<p class="Indent1">The default installation directory has changed from <span class="Monospace">"C:\VXIPNP"</span> to <span class="Monospace">"C:\Program Files\IVI Foundation\VISA"</span>. Upgrades over previous versions of NI-VISA use the previous installation directory.</p>
+
+<p class="Indent1">The default path to the configuration file <span class="Monospace">visaconf.ini</span> has changed to <span class="Monospace">"C:\Documents and Settings\All Users\Application Data\National Instruments\NIvisa"</span> on Windows XP/2000 and to <span class="Monospace">"C:\ProgramData\National Instruments\NIvisa"</span> on Windows Vista.</p>
+
+<p class="Indent1">Added support for Windows Mobile 5.0 on x86 processors.</p>
+
+<p class="Indent1"><span class="Monospace">BasFrmIO.dll</span> was not being registered correctly, which caused some IVI-based drivers not to initialize correctly. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 48CE671R.</em> On some Windows CE devices, VISA failed to open virtual serial ports used for Bluetooth. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 46Q632QK.</em> Each VISA session to a TCP/IP INSTR (VXI-11) resource created a new device link with the device even when using an identical device name. The TCP/IP INSTR device is more prone to run out of device links in this scenario. Now TCP/IP INSTR sessions share device links for the same TCP/IP device when an identical device name is used.</p>
+
+<p class="Indent1"><em>Bug ID 48ACG54U.</em> <span class="Monospace">viScanf</span> and variants did not correctly support the <span class="Monospace">%b</span> enhanced format code in some cases. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 477CTU00.</em> In MAX, the NI-VISA Runtime version now appears in the <span class="Monospace">Software</span> section.</p>
+
+<p class="Indent1"><em>Bug ID 48NINM4U.</em> In MAX, VISA aliases for TCP/IP resources previously were not saved correctly and would not persist. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 46FB4OQ1.</em> In MAX, VISA Options for Remote Systems would hang for minutes when there were network devices with corrupted DNS information on the subnet. The duration of this hang has been significantly reduced.</p>
+
+<p class="Indent1"><em>Bug ID 46D93RWI.</em> In MAX, changing the hostname or IP address of a remote system that is enabled for finding resources was not being saved correctly and would result in an additional remote system that is not enabled for finding resources. This is fixed.</p>
+
+<p class="Indent1"><em>Bug ID 46F9LLWI.</em> In MAX, for certain situations, the Port Settings Conflict page displayed erroneous values. This is fixed.</p>
+
+<h3><a name="NI-VISA_4.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.1</a></h3>
+
+<p class="Indent1">Added support for Windows Vista (32-bit version) and Vista x64 Edition (64-bit version).</p>
+
+<p class="Indent1">The NI-VISA Driver Wizard generates new INF files that work on Vista. If you want to run your VISA based drivers on Vista that previously required an INF file, you will need to regenerate a new INF file using the new Driver Wizard.</p>
+
+<p class="Indent1">On Pocket PC 2003/Windows Mobile 5.0 devices, the NI-VISA configuration file <span class="Monospace">visaconf.ini</span> was installed as read-only. This caused problems with serial port detection. Now it is writeable.</p>
+
+<p class="Indent1">On some cRIO-based LabVIEW RT targets, Serial INSTR sessions may falsely time out when accessing a serial port after the system has been running for a few hours. This is fixed.</p>
+
+<p class="Indent1">In MAX, the chassis and slot numbers displayed for Compact RIO devices may not be correct. This is fixed.</p>
+
+<p class="Indent1">In MAX, a VISA FireWire resource was not displayed when <strong>Show Only Devices Registered to VISA</strong> is set. This is fixed.</p>
+
+<p class="Indent1">In MAX, the IP address of TCPIP INSTR and SOCKET resources was not shown when the resource was configuring using a hostname. This IP address is now shown.</p>
+
+<p class="Indent1">In MAX, exporting VISA Server settings and then importing would not save the state of the <strong>Run on Startup</strong> option. This is fixed.</p>
+
+<p class="Indent1">In LabVIEW, if the I/O Filtering option is set to URL format, local resources were not included in the I/O control list. This is fixed.</p>
+
+<p class="Indent1">NI Spy would not log VISA calls from some services. This is fixed.</p>
+
+<p class="Indent1">NI-VISA Server now warns if it is launched and there are no permissions set to allow clients to connect.</p>
+
+<p class="Indent1">The NI-VISA Driver Wizard now has an option for PXI Express devices that provide a way to read the slot number using a sequence of register-level accesses.</p>
+
+<p class="Indent1">The enabled/disabled state of Passports is preserved across upgrades of NI-VISA.</p>
+
+<p class="Indent1">In MAX, when creating a report, VISA details were not present. This is fixed.</p>
+
+<p class="Indent1">64-bit data transfers in register-based operations was not available in CVI. This is fixed.</p>
+
+<p class="Indent1">For GPIB INSTR resources, VISA would set only the GPIB I/O timeout and not the GPIB serial poll timeout. The serial poll timeout is used in <span class="Monospace">viReadSTB</span>. This is fixed.</p>
+
+<p class="Indent1">For Serial INSTR resources, <span class="Monospace">viRead</span> would wait 1 ms when the timeout is set to immediate. This is fixed.</p>
+
+<p class="Indent1">For GPIB INSTR resources, only one call to <span class="Monospace">viWaitOnEvent</span> could be outstanding at any given time. This is fixed.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viFindRsrc</span> with a nonempty, all-whitespace expression string would cause VISA to crash. This is fixed.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viFindRsrc</span> with an expression string that contained two sets of double quotes would not work. This is fixed.</p>
+
+<p class="Indent1">For USB INSTR resources, <span class="Monospace">viReadSTB</span> could fail with a timeout error on some devices that are not completely compliant with the USB TMC specification. This is fixed.</p>
+
+<h3><a name="NI-VISA_4.0_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_4.0_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 4.0</a></h3>
+
+<p class="Indent1">Added support for 64-bit data transfers in register-based operations, to support the VISA 4.0 specification.</p>
+
+<p class="Indent1">The I/O control in LabVIEW 8.0 would not always honor the parameters you specified in the filtering dialog, depending on the order in which you made changes. This is fixed.</p>
+
+<p class="Indent1"><span class="Monospace">viScanf</span> would crash when reading indefinite-length block data. This is fixed.</p>
+
+<p class="Indent1">For ENET-Serial INSTR sessions, framing errors were occasionally not detected. This is fixed.</p>
+
+<p class="Indent1">Improved performance of NI Spy.</p>
+
+<p class="Indent1">Improved performance of VISA in MAX, especially when expanding folders or exporting/importing configuration data.</p>
+
+<p class="Indent1">In MAX, some strings in foreign languages would be displayed with invalid garbage characters. This is fixed.</p>
+
+<h3><a name="NI-VISA_3.6_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.6_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.6</a></h3>
+
+<p class="Indent1">For TCP/IP SOCKET sessions, re-enabling the termination character between read operations would incorrectly flush the internal buffer. This is fixed.</p>
+
+<p class="Indent1">For TCP/IP SOCKET sessions, reading less than the entire amount of data that the device sent would not work correctly for asynchronous read operations. This is fixed.</p>
+
+<p class="Indent1">In MAX, on LabVIEW RT systems, you can now import the Serial Advanced Settings that were exported on systems with NI-VISA 3.4.1 and older.</p>
+
+<p class="Indent1">In MAX, on large LabVIEW RT systems, expanding <strong>Devices and Interfaces</strong> or clicking on the <strong>Serial</strong> category is much faster.</p>
+
+<p class="Indent1">In MAX, improved usability for VXI-11 LAN/LXI instruments. The Create New wizard for detecting devices is easier to use. Also, the device detail views now show the model name and serial number, and also allow access to the device's web page.</p>
+
+<p class="Indent1">In MAX, if you enabled the NiVisaTulip Passport, Agilent I/O GPIB and VXI resources would not show up in the <strong>Miscellaneous VISA Resources</strong> category. This is fixed.</p>
+
+<h3><a name="NI-VISA_3.5.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.5.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.5.1</a></h3>
+
+<p class="Indent1">The new PXI/PCI Express attributes are now implemented.</p>
+
+<h3><a name="NI-VISA_3.5_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.5_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.5</a></h3>
+
+<p class="Indent1">For TCP/IP INSTR sessions, <span class="Monospace">viWrite</span> would fail if the transfer size was more than 8 KB. This is fixed.</p>
+
+<p class="Indent1">Significantly optimized PCI interrupts and block moves.</p>
+
+<p class="Indent1">Significantly optimized calls to <span class="Monospace">viFindRsrc</span> and <span class="Monospace">viOpen</span> for all interface types.</p>
+
+<p class="Indent1">After running MAX, GPIB-VXI controllers were not autodetected until after a reboot. This is fixed.</p>
+
+<p class="Indent1">If NI-Motion was installed, trying to create a new VISA resource in MAX would hang. This is fixed.</p>
+
+<h3><a name="NI-VISA_3.4.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.4.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.4.1</a></h3>
+
+<p class="Indent1">Fixed compatibility issue with VISA I/O Control in LabVIEW 8.0 on Windows XP x64 Edition.</p>
+
+<h3><a name="NI-VISA_3.4_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.4_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.4</a></h3>
+
+<p class="Indent1">For USB RAW sessions, communication with nonzero control endpoints is now supported with the use of <span class="Monospace">VI_ATTR_USB_CTRL_PIPE</span>.</p>
+
+<p class="Indent1">For USB RAW sessions, the default setting for <span class="Monospace">VI_ATTR_USB_END_IN</span> has been changed from <span class="Monospace">VI_USB_END_SHORT</span> to <span class="Monospace">VI_USB_END_SHORT_OR_COUNT</span>.</p>
+
+<p class="Indent1">For USB RAW sessions, <span class="Monospace">viReadAsync</span> would fail if the transfer size was over 8 KB and not a multiple of the maximum packet size of the endpoint. This is fixed.</p>
+
+<p class="Indent1">For USB RAW sessions, changing the USB Alternate Setting on a USB Interface number other than 0 would fail. This is fixed.</p>
+
+<p class="Indent1">For USB RAW sessions, <span class="Monospace">viOpen</span> leaked a handle for each invocation. This is fixed.</p>
+
+<p class="Indent1">For TCP/IP SOCKET sessions, <span class="Monospace">VI_ATTR_SUPPRESS_END_EN</span> set to <span class="Monospace">VI_TRUE</span> did not work in all cases. This is fixed. The default attribute setting for
+<span class="Monospace">VI_ATTR_SUPPRESS_END_EN</span> on TCP/IP SOCKET sessions is now <span class="Monospace">VI_TRUE</span>.</p>
+
+<p class="Indent1">For PXI INSTR sessions, when enabling for <span class="Monospace">VI_EVENT_PXI_INTR</span> using <span class="Monospace">VI_QUEUE</span>, <span class="Monospace">viDiscardEvents</span> did not work properly. This is fixed.</p>
+
+<p class="Indent1">Searching for VXI-11 resources would fail if the system had multiple Ethernet interfaces. This is fixed.</p>
+
+<p class="Indent1">FireWire resources used to show up under the <strong>Miscellaneous VISA Resources</strong> category in MAX. There is now a new category for FireWire resources.</p>
+
+<p class="Indent1">For Serial resources in MAX on LabVIEW RT systems, COM ports were not ordered sequentially. You also could not save changes to the port settings. These are fixed.</p>
+
+<p class="Indent1">For GPIB INSTR sessions, when using a GPIB-USB controller, if you unplugged and replugged the GPIB-USB cable, you would have to exit and restart your application to communicate with it again. This is fixed.</p>
+
+<p class="Indent1">For VXI resources, the minimum supported version of NI-VXI is now 3.<em>x</em>. NI-VISA 3.4 will no longer work with NI-VXI 2.<em>x</em> on Windows.</p>
+
+<h3><a name="NI-VISA_3.3.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.3.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.3.1</a></h3>
+
+<p class="Indent1">The maximum number of supported Serial ports on LabVIEW RT (Phar Lap ETS) was 32. It is now 128.</p>
+
+<p class="Indent1">Opening a Serial port on LabVIEW RT (Phar Lap ETS) while also performing a VISA Write to the same port would cause a crash. This is fixed.</p>
+
+<p class="Indent1">Performing asynchronous I/O to a remote VISA resource would return an incorrect transfer count and/or data. This is fixed.</p>
+
+<p class="Indent1">Querying a PXI/PCI resource would return incorrect manufacturer information if that device's subsystem identification differed from its primary identification. Another symptom of the same problem is that trying to enable interrupts would return an error. This is fixed.</p>
+
+<h3><a name="NI-VISA_3.3_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.3_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.3</a></h3>
+
+<p class="Indent1">Added support for the FireWire (1394) INSTR resource on Windows and Phar Lap ETS platforms. This supports register-based device access. This is a new feature.</p>
+
+<p class="Indent1">The PXI/PCI INSTR resource now supports a new &quot;emergency termination&quot; feature that will send a user-defined series of register reads and writes to the device in the event of a process crash.</p>
+
+<p class="Indent1">For USB RAW sessions, now interrupt-out endpoints may be used for <span class="Monospace">viWrite</span>.</p>
+
+<p class="Indent1">For USB RAW sessions, <span class="Monospace">viReadAsync</span> is now implemented.</p>
+
+<p class="Indent1">Only up to 30 USB RAW devices could be used at one time. This arbitrary limitation has been removed.</p>
+
+<p class="Indent1">For USB RAW resources, the procedure of resetting a pipe may not have been given enough time to complete if the VISA timeout was set very low. This could put some USB devices into a bad state. This is fixed.</p>
+
+<p class="Indent1"><span class="Monospace">viFindRsrc</span> would crash when given long strings that use remote NI-VISA. This is fixed.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viMoveAsync</span> on a remote VISA session would return an error. This is fixed.</p>
+
+<p class="Indent1">For Serial INSTR sessions, <span class="Monospace">viClear</span> previously would flush (discard) the I/O buffers and then send a break. According to the VISA spec, VISA must flush (discard) the I/O output buffer, send a break, and then flush (discard) the I/O input buffer. This is fixed.</p>
+
+<p class="Indent1"><span class="Monospace">viScanf</span> and variants did not support the <span class="Monospace">%u</span> identifier for arrays. This is fixed.</p>
+
+<p class="Indent1"><span class="Monospace">viPrintf</span> and variants did not support the <span class="Monospace">%zy</span> and <span class="Monospace">%Zy</span> identifiers for floating point data. This is fixed.</p>
+
+<p class="Indent1"><span class="Monospace">viPrintf</span> and variants previously generated <span class="Monospace">NaN</span>, <span class="Monospace">+Inf</span>, and <span class="Monospace">-Inf</span>. It now generates <span class="Monospace">NAN</span>, <span class="Monospace">INF</span>, and <span class="Monospace">NINF</span>, respectively.</p>
+
+<p class="Indent1"><span class="Monospace">viScanf</span> and variants did not correctly interpret the input values <span class="Monospace">NAN</span>, <span class="Monospace">INF</span>, and <span class="Monospace">NINF</span>. This is fixed.</p>
+
+<p class="Indent1">Detecting a VXI-11 device without a name (IP address only) would crash MAX. This is fixed.</p>
+
+<p class="Indent1">Reading PXI BAR addresses or the Model Name property from VISA would sometimes return incorrect values. This is fixed.</p>
+
+<p class="Indent1">The function <span class="Monospace">viMapAddress</span> would hang when executed multiple times on PXI/PXI instruments when the CPU had hyperthreading enabled. This is fixed.</p>
+
+<p class="Indent1">Remote VISA systems in MAX would use the IP address in cases where it should have used the hostname. This is fixed.</p>
+
+<p class="Indent1">Guest users on Windows XP could not change VISA aliases. This is fixed.</p>
+
+<h3><a name="NI-VISA_3.2_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.2_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.2</a></h3>
+
+<p class="Indent1">Enabling the NiVisaTulip Passport would cause applications to crash on exit. This is fixed.</p>
+
+<p class="Indent1">For a USB RAW resource, calling <span class="Monospace">viEnableEvent</span> on <span class="Monospace">VI_EVENT_USB_INTR</span> with the <span class="Monospace">VI_HNDLR</span> mechanism would cause a crash when the first interrupt arrived. This is fixed.</p>
+
+<p class="Indent1">Added support in MAX for the standard Export and Import wizard. For NI-VISA, this allows you to transfer the VISA aliases and driver settings.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viPrintf</span> on a remote VISA session would return <span class="Monospace">VI_ERROR_IO</span> instead of <span class="Monospace">VI_ERROR_RSRC_LOCKED</span> when the remote resource was locked. This is fixed.</p>
+
+<p class="Indent1">The VISA Interactive Control utility (VISAIC) now displays an error message box when <span class="Monospace">viFindRsrc</span> returns an error.</p>
+
+<p class="Indent1">For a PXI INSTR resource, calling <span class="Monospace">viDisableEvent</span> and then <span class="Monospace">viWaitOnEvent</span> would cause a crash. On Windows, the application would exit; on LabVIEW RT (both Phar Lap ETS and RTX), the system would need to be rebooted. This is fixed.</p>
+
+<p class="Indent1">The NI-VISA COM API now supports PXI (INSTR, MEMACC) and USB (INSTR, RAW).</p>
+
+<p class="Indent1">Right-clicking on a PXI chassis in MAX now provides the option to open a VISA session to that PXI BACKPLANE resource.</p>
+
+<p class="Indent1">Fixed various issues in MAX related to changing the IP address of a remote VISA system.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viParseRsrcEx</span> would in some cases output the resource class using the same case you used in the resource string in the input parameter. The output parameter should always be uppercase. This is fixed.</p>
+
+<p class="Indent1">For a Serial INSTR resource, calling <span class="Monospace">viGetAttribute</span> on <span class="Monospace">VI_ATTR_ASRL_WIRE_MODE</span> would always output <span class="Monospace">-1</span> if you had not yet set the mode for the given resource. Now if you have NI-Serial 1.6 or higher installed with supported hardware, it will output the default configured state rather than <span class="Monospace">-1</span>. Otherwise, it will still output <span class="Monospace">-1</span>. Note that NI-Serial 1.6 does not implement this feature on all currently supported NI RS-485 controllers.</p>
+
+<h3><a name="NI-VISA_3.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.1</a></h3>
+
+<p class="Indent1">NI-VISA 3.1 supports the PXI/PCI interface type in the RTX real-time environment in LabVIEW RT. This is a new feature.</p>
+
+<p class="Indent1">The VISA Driver Development Wizard can install the generated INF file onto your local system. This is a new feature.</p>
+
+<p class="Indent1">The BACKPLANE resource type is supported in the PXI resource class. This is a new feature.</p>
+
+<p class="Indent1">For a VI running on LabVIEW RT, calling VISA Close on an ENET-Serial resource would occasionally either hang or return an error. This has been fixed.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viClose</span> on an Ethernet resource would leak a socket handle. This has been fixed.</p>
+
+<p class="Indent1">In MAX, it was not possible to create static TCPIP resources on a LabVIEW RT system. This has been fixed.</p>
+
+<p class="Indent1">On Windows NT, 2000, or XP, calling <span class="Monospace">viEnableEvent</span> on a PXI/PCI INSTR resource would occasionally cause a system crash. This has been fixed.</p>
+
+<p class="Indent1">Reading data from a Serial port was slow. The performance has improved.</p>
+
+<p class="Indent1">Using the <strong>Serial Break</strong> VI from LabVIEW did not work with remote NI-VISA. This has been fixed.</p>
+
+<p class="Indent1">Querying <span class="Monospace">VI_ATTR_ASRL_AVAIL_NUM</span> on a parallel port would return a large random number. The correct value for this is always 0. This has been fixed.</p>
+
+<p class="Indent1">If you created a TCPIP resource in MAX with an alias, it would not show up. This has been fixed.</p>
+
+<p class="Indent1">In MAX, choosing the <strong>Tools&#0187;NI-VISA&#0187;VISA Options</strong> menu item would not always bring up the options. This has been fixed.</p>
+
+<p class="Indent1">In MAX, if you disabled a COM port and clicked <strong>Refresh</strong>, the Serial resource would disappear completely. This has been fixed. The resource now continues to exist but has a black <strong>X</strong> overlay icon to indicate that it is disabled.</p>
+
+<p class="Indent1">The VISA Driver Development Wizard now supports the PXI standard <span class="Monospace">module.ini</span> format. It will generate that file along with the <span class="Monospace">.inf</span> files for NI-VISA. You can also use this wizard to load <span class="Monospace">module.ini</span> files from other vendors.</p>
+
+<p class="Indent1">In MAX, if you inserted a new Serial port, it would erroneously claim that the settings have a conflict. This has been fixed.</p>
+
+<p class="Indent1">The <span class="Monospace">VI_EVENT_USB_INTR</span> event attributes did not work properly. This has been fixed.</p>
+
+<p class="Indent1">If you unplugged a VISA USB device and plugged it back in, NI-VISA could not access the device properly. This has been fixed.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viEnableEvent</span> on a remote VISA session would leak memory in the server. This has been fixed.</p>
+
+<p class="Indent1">Creating a new remote NI-VISA system would hang MAX. This has been fixed.</p>
+
+<p class="Indent1">The hostname <span class="Monospace">localhost</span> or the IP address <span class="Monospace">127.0.0.1</span> did not work properly with remote NI-VISA. Only the DHCP name or network IP address would work. This has been fixed.</p>
+
+<p class="Indent1">The remote NI-VISA server did not properly validate a hostname with an underscore. This has been fixed.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viGetAttribute</span> on <span class="Monospace">VI_ATTR_INTF_INST_NAME</span> on TCPIP resources with Internet Explorer 2 would crash. This has been fixed.</p>
+
+<p class="Indent1">If you enabled a LabVIEW RT system that was using DHCP as a VISA remote system to search when finding resources, NI-VISA would use the IP address rather than the DNS name. Starting with LabVIEW RT 7.1, remote systems are correctly assigned DNS names, and NI-VISA can use the DNS name when finding remote resources. Any existing remote VISA system that was enabled for finding will remain listed using its IP address unless you disable and re-enable the system for finding. Enabling a remote system with LabVIEW RT 7.1 already installed will result in NI-VISA using the DNS name if it is the same as the name of the remote controller. Otherwise, if the remote system is not using DHCP, or if the DNS name does not match the controller name, NI-VISA will still use the IP address of the remote system.</p>
+
+<p class="Indent1">In MAX, if you changed the VISA Options and browsed to another item, your changes would sometimes be lost. This has been fixed.</p>
+
+<p class="Indent1">The manufacturer and model name for PXI/PCI resources were incorrectly reported as unknown. This has been fixed.</p>
+
+<p class="Indent1">The global attributes on a GPIB INTFC resource were not properly shared across sessions. This has been fixed.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viOpen</span> on a remote NI-VISA resource did not honor the <span class="Monospace">openTimeout</span> parameter. This has been fixed.</p>
+
+<h3><a name="NI-VISA_3.0.1_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.0.1_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.0.1</a></h3>
+
+<p class="Indent1">For a PXI INSTR resource, calling <span class="Monospace">viEnableEvent</span> and <span class="Monospace">viDisableEvent</span> in a loop would leak memory. On LabVIEW RT, this would eventually cause a reboot.</p>
+
+<p class="Indent1">For a GPIB INTFC resource, performing any asynchronous I/O would
+occasionally cause a crash when you later close the VISA session.</p>
+
+<p class="Indent1">Installing NI-VISA 3.0 on a system with LabVIEW 6.1 would cause user VIs that use <strong>VISA Configure Serial Port</strong> to have a broken wire.</p>
+
+<h3><a name="NI-VISA_3.0_IMPROVEMENTS_AND_BUG_FIXES" id="NI-VISA_3.0_IMPROVEMENTS_AND_BUG_FIXES">NI-VISA 3.0</a></h3>
+
+<p class="Indent1">The driver now works properly with Fast User Switching on Windows XP/2000.</p>
+
+<p class="Indent1">For a PXI INSTR resource, we now support PXI/PCI devices that rely on the subvendor ID and/or the subvendor model code. To use this functionality, you must create a new <span class="Monospace">.inf</span> file with the VISA Driver Development Wizard. The attributes <span class="Monospace">VI_ATTR_PXI_SUB_MANF_ID</span> and <span class="Monospace">VI_ATTR_PXI_SUB_MODEL_CODE</span> are no longer supported by the VISA driver. The correct attributes to query are now <span class="Monospace">VI_ATTR_MANF_ID</span> and <span class="Monospace">VI_ATTR_MODEL_CODE</span>. These will return the primary vendor information if no subvendor information is present, and they will return the subvendor information if it is present.</p>
+
+<p class="Indent1">For a PXI MEMACC resource, <span class="Monospace">viMemFree</span> now frees all memory correctly.</p>
+
+<p class="Indent1">For a Serial INSTR resource, <span class="Monospace">viOpen</span> on both Windows and LabVIEW RT will now accept <span class="Monospace">COMx</span> as a valid resource name even if MAX has not yet been run.</p>
+
+<p class="Indent1">For a Serial INSTR resource, <span class="Monospace">viOpen</span> will now open a port if the process that had been using that port exited ungracefully (such as with &lt;Ctrl-C&gt;). The previous behavior had been that <span class="Monospace">viOpen</span> would return <span class="Monospace">VI_ERROR_RSRC_BUSY</span>.</p>
+
+<p class="Indent1">For a Serial INSTR resource, <span class="Monospace">viWriteAsync</span> was not implemented. Now it is.</p>
+
+<p class="Indent1">For a Serial INSTR resource, multiple sessions to the same port caused weird behavior if you tried to both write and read data simultaneously. This has been fixed.</p>
+
+<p class="Indent1">For a Serial INSTR resource, if you enabled RTS/CTS flow control and then manually tried to set the state of the RTS line, some operating systems would generate <span class="Monospace">VI_ERROR_NSUP_ATTR</span> while others would return <span class="Monospace">VI_SUCCESS</span> but not actually modify the state of the line. Neither of these behaviors was correct. Now NI-VISA will return <span class="Monospace">VI_ERROR_INV_SETUP</span> in this case on all operating systems.</p>
+
+<p class="Indent1">For a Serial INSTR resource, the RS-485 wire mode attribute now works properly on Windows XP/2000.</p>
+
+<p class="Indent1">In GPIB, the attribute <span class="Monospace">VI_ATTR_INTF_INST_NAME</span> would report an unknown
+board type for some GPIB-USB and GPIB-ENET controllers. The symptom was also visible in the VISA Interactive Control utility. This attribute now reports the correct information.</p>
+
+<p class="Indent1">In GPIB, the implementation of <span class="Monospace">viFindRsrc</span> could take up to 10 s if you had NI-488.2 version 2.0 installed. The symptom was also visible in LabVIEW when you dropped the first VISA resource control on the front panel. This now takes less than 1 s on most machines.</p>
+
+<p class="Indent1">NI Spy occasionally would incorrectly report an output jobID of 0 for <span class="Monospace">viReadAsync</span> or <span class="Monospace">viWriteAsync</span>, even though the operation completed successfully with a valid nonzero jobID.</p>
+
+<p class="Indent1">NI Spy would not restore the window location on a monitor other than the primary monitor. This now works as expected.</p>
+
+<p class="Indent1">If you ran MAX as a guest user and edited the Passport settings, the new settings could not be saved to the registry, but MAX did not generate a warning. This has been fixed, and you will now get a warning.</p>
+
+<p class="Indent1">For a TCPIP SOCKET resource, <span class="Monospace">viReadAsync</span> was not implemented. Now it is.</p>
+
+<p class="Indent1">The remote NI-VISA server could not be started on the same machine as the remote DAQ server because they both used the same port. Now the remote NI-VISA server uses port 3537 by default.</p>
+
+<p class="Indent1"><span class="Monospace">viFindRsrc</span> would crash on a complex expression with multiple <span class="Monospace">|</span> symbols. This has been fixed.</p>
+
+<p class="Indent1">If you had a GPIB device at primary address 1 that generated a response to <span class="Monospace">*IDN?</span> that was longer than 100 characters, <span class="Monospace">viFindRsrc</span> would occasionally crash. This has been fixed.</p>
+
+<p class="Indent1">Some VISA COM components were not being correctly registered.</p>
+
+<p class="Indent1">The VISA COM API would return an incorrect string from <span class="Monospace">ReadString</span> if the number of bytes read was exactly what was requested.</p>
+
+<p class="Indent1">The VISA COM API would not return output string parameters correctly if the variable passed into the function was uninitialized or had a garbage value. This problem was normally only seen from C++ when using a raw <span class="Monospace">BSTR</span> instead of <span class="Monospace">CComBSTR</span>. This has been fixed.</p>
+
+<p class="Indent1">In GPIB, the implementation of <span class="Monospace">viFindRsrc</span> on LabVIEW RT would find GPIB
+resources only on <span class="Monospace">GPIB0</span>. It now finds GPIB resources on any configured GPIB interface number.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viUnmapAddress</span> when using an Agilent HP-E1406A GPIB-VXI controller would cause the application to crash. This has been fixed.</p>
+
+<p class="Indent1">The attributes <span class="Monospace">VI_ATTR_MANF_NAME</span> and <span class="Monospace">VI_ATTR_MODEL_NAME</span> are now correctly implemented for GPIB-VXI regardless of whether NI-VXI is installed.</p>
+
+<p class="Indent1">The maximum simultaneous number of GPIB-VXI controllers supported by NI-VISA has changed from 10 to 32.</p>
+
+<p class="Indent1">The VISA Driver Development Wizard (formerly known as the PXI Driver Development Wizard) now allows multiple logical-OR PXI interrupt conditions.</p>
+
+<p class="Indent1">You can now edit the binding properties of a VISA TCPIP resource in MAX. For example, you can change the hostname or IP address.</p>
+
+<p class="Indent1">MAX can now auto-detect VXI-11 TCPIP resources on your subnet. When you right-click on <strong>Devices and Interfaces</strong> and choose <strong>Create New...</strong>, you then need to specify a VXI-11 instrument and click the option to have MAX browse your local subnet.</p>
+
+<p class="Indent1">If you enabled the VISA COM API for <span class="Monospace">VI_EVENT_SERVICE_REQ</span> for a callback, it would crash when the event was being raised. This has been fixed.</p>
+
+<p class="Indent1">If you tried to exit the VISA Interactive Control utility by right-clicking on the taskbar icon and choosing <strong>Close</strong>, the utility would hang. This has been fixed.</p>
+
+<p class="Indent1">Using remote NI-VISA with asynchronous I/O did not properly transmit data asynchronously. This has been fixed.</p>
+
+<p class="Indent1">In Serial on LabVIEW RT, you can now configure advanced settings (such as FIFO triggers and the default RS-485 wire mode) in MAX.</p>
+
+<p class="Indent1">In Serial, if the Windows configuration settings for a given port were different from the NI-VISA settings, MAX would overwrite the Windows settings when you clicked <strong>Refresh</strong>. Now, MAX points out the different settings and lets you choose.</p>
+
+<p class="Indent1">In MAX, selecting <strong>Rename</strong> on an alias and changing merely the case of the alias would cause an error. This has been fixed.</p>
+
+<p class="Indent1">When calling <span class="Monospace">viWaitOnEvent</span> repeatedly with a timeout of 0 (immediate), some interfaces and event types would still consume excessive CPU time. Now doing this will yield the CPU regardless of the interface or event type.</p>
+
+<p class="Indent1">For a Serial INSTR resource, if a parity or framing error occurred, NI-VISA would not return the correct error condition. This has been fixed.</p>
+
+<p class="Indent1"><span class="Monospace">viFindRsrc</span> would return <span class="Monospace">VI_ERROR_INV_EXPR</span> if the expression exceeded 255 characters. Now it will accept resource expressions of any length.</p>
+
+<p class="Indent1">If a PXI multifunction device did not have function 0 registered as an NI-VISA resource, <span class="Monospace">viFindRsrc</span> would not return any of the other functions of that device either, even if they were registered with NI-VISA. This now works properly.</p>
+
+<p class="Indent1">Calling <span class="Monospace">viFindRsrc</span> would always assert REN on each GPIB board after finding devices. Now <span class="Monospace">viFindRsrc</span> will reassert REN on each board only if there is at least one open VISA INSTR session on that board.</p>
+
+<p class="Indent1">For a TCPIP SOCKET resource, using <span class="Monospace">viRead</span> with <span class="Monospace">termchar</span> enabled was much slower than reading the exact number of bytes. The performance of using <span class="Monospace">termchar</span> with <span class="Monospace">viRead</span> is now much better than it was.</p>
+
+<hr>
+
+<h2><a name="CREDITS" id="CREDITS">Credits</a></h2>
+
+<p class="Body">A. This product includes components that use the socket++ library. In regards to the socket++ library, the following notice applies: </p> 
+
+<p class="Body">Copyright &#0169; 1992, 1993, 1994 Gnanasekaran Swaminathan (University of Virginia). Certain modifications have been made by Gregory Lavender (University of Texas) and National Instruments Corporation to the version of the socket++ library used in this product.</p>
+<br>
+
+<p class="Body">B. This product includes components that were created using DriverWorks; such components are Copyright &#0169; 2004 Compuware Corporation.</p>
+<br>
+
+<p class="Body">C. This product includes components that use Xerces. In regards to the Xerces library, the following notice applies:</p>
+
+<p class="Body">This product includes software developed by the Apache Software Foundation (<a href="http://www.apache.org/">http://www.apache.org/</a>) that is subject to the Apache License, Version 2.0 (the "Xerces License"), a copy of which may be found at: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>. Copyright &#0169; 1999&#8211;2005 The Apache Software Foundation. All rights reserved. Certain modifications have been made by National Instruments Corporation to the version of the Xerces library used in this product; such modifications are Copyright &#0169; 2008 National Instruments Corporation. The content of this notice is for informational purposes only and does not modify the Xerces License. See the Xerces License for the specific language governing permissions and limitations relating to the Xerces library.</p>
+<br>
+
+<p class="Body">D. This product includes components that use mDNSResponder. In regards to the mDNSResponder library, the following notice applies: </p>
+
+<p class="Body">This product includes software developed by the Apple Computer, Inc. that is subject to the Apache License, Version 2.0 (the "mDNSResponder License"), a copy of which may be found at: <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>. Copyright &#0169; 2002&#8211;2003 Apple Computer, Inc. All rights reserved. Certain modifications have been made by National Instruments Corporation to the version of mDNSResponder library used in this product; such modifications are Copyright &#0169; 2008 National Instruments Corporation. The content of this notice is for informational purposes only and does not modify the mDNSResponder License. See the mDNSResponder License for the specific language governing permissions and limitations relating to the mDNSResponder library.</p>
+
+<hr>
+
+<h2><a name="NOTICES" id="NOTICES">Notices</a></h2>
+<p class="Body"><a href=".\license\NI-VISA 5.0 FOSS notices.pdf">NI-VISA 5.0 FOSS notices.pdf</a></p>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+The Vxipnp folder has been created for VXIplug&play Systems
+Alliance instrument drivers. As you install new instrument drivers,
+icons representing these instrument drivers will be added to this
+folder.
+
+Programs and help for the Agilent VISA IO Software are
+located in the Agilent IO Libraries folder.

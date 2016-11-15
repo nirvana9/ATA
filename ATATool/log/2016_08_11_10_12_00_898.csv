@@ -1,0 +1,3 @@
+ItemName, TestTimes, TestResult, ErrorCode
+Charger,1,Fail,E_ATADLL_RESULT_NULL
+G-Sensor,1,Fail,E_ATADLL_RESULT_NULL

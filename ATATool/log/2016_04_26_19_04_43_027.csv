@@ -1,0 +1,5 @@
+ItemName, TestTimes, TestResult, ErrorCode
+SW Version,1,Fail,E_ATADLL_RESULT_NULL
+LCM,1,Fail,E_ATADLL_RESULT_NULL
+Charger,1,Fail,E_ATADLL_RESULT_NULL
+Barcode,1,Fail,E_ATADLL_RESULT_NULL

@@ -1,0 +1,11 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/07/05/19/01/54/932 Get PM CommModule failed.
+2016/07/05/19/01/54/932 Test Error:E_ATADLL_CONNECT_PM_FAIL,Error code is 16
+2016/07/05/19/01/54/935 LED,1,Fail,E_ATADLL_RESULT_NULL
+2016/07/05/19/01/54/935 DeInit test item object.
+2016/07/05/19/01/54/939 Total time cost: 0.00 second. 
+
+2016/07/05/19/01/54/939 Stopped by user.
+2016/07/05/19/01/54/939 Rename log file (temp1.txt) by date info.

@@ -1,0 +1,2 @@
+ItemName, TestTimes, TestResult, ErrorCode
+GPS_CALI,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT

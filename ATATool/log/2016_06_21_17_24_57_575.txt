@@ -1,0 +1,47 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/06/21/17/24/36/583 Init state index = 1, wait for preloader com port 6.
+2016/06/21/17/24/45/423 Find preloader com port OK, start booting target into factory mode.
+2016/06/21/17/24/45/815 Enter factory mode ok, set state index = 2
+2016/06/21/17/24/45/815 Searching kernel com port 4.
+2016/06/21/17/24/53/208 Find kernel com port ok, set state index = 3
+2016/06/21/17/24/53/208 GetCommModule ok.
+2016/06/21/17/24/53/208 Send Start Command (AT+START) start.
+2016/06/21/17/24/53/208 Send start command 1.
+2016/06/21/17/24/53/228 Get response pass, OK!
+2016/06/21/17/24/53/228 Send Start Command (AT+START) ok.
+2016/06/21/17/24/53/228 Send request flag command.
+2016/06/21/17/24/53/550 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/06/21/17/24/53/597 Sleep 0 second before test.
+2016/06/21/17/24/53/597 Init test item object.
+2016/06/21/17/24/53/597 Start Testing items:
+
+2016/06/21/17/24/53/659 Start test items.
+2016/06/21 17:24:53.659 ====== [LED] Start111111111111111111111111 Test ======
+2016/06/21 17:24:53.893 Open LED.
+2016/06/21 17:24:56.140 [LED ERROR] LED not support in target.
+2016/06/21 17:24:56.140 Test Error:E_ATADLL_RESULT_NOT_SUPPORT,Error code is 13
+
+2016/06/21 17:24:56.140 Time cost: 2.480 second
+2016/06/21 17:24:56.140 ====== [LED] End Test ======
+
+2016/06/21 17:24:56.452 GetATAData data size: 1500.
+2016/06/21 17:24:56.452 GetATAData sp_ata_data size: 1684.
+2016/06/21 17:24:56.452 GetATAData sp_ata_data_old size: 1192.
+2016/06/21 17:24:56.452 GetATAData sp_ata_data_old_ex size: 1248.
+2016/06/21/17/24/56/452 [OK] Request data successfully.
+2016/06/21/17/24/56/467 LED,1,Fail,E_ATADLL_RESULT_NOT_SUPPORT
+2016/06/21/17/24/56/467 Start to request test result data.
+2016/06/21 17:24:56.826 GetATAData data size: 1500.
+2016/06/21 17:24:56.826 GetATAData sp_ata_data size: 1684.
+2016/06/21 17:24:56.826 GetATAData sp_ata_data_old size: 1192.
+2016/06/21 17:24:56.826 GetATAData sp_ata_data_old_ex size: 1248.
+2016/06/21/17/24/56/826 [OK] Request data successfully.
+2016/06/21/17/24/56/826 
+2016/06/21/17/24/57/138 DeInit test item object.
+2016/06/21/17/24/57/138 Total time cost: 2.48 second. 
+
+2016/06/21/17/24/57/138 Send stop command(AT+STOP) to target.
+2016/06/21/17/24/57/481 Release target comm handle.
+2016/06/21/17/24/57/575 Rename log file (temp1.txt) by date info.

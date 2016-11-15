@@ -1,0 +1,3 @@
+ItemName, TestTimes, TestResult, ErrorCode
+SW Version,1,OK,E_ATADLL_RESULT_SUCCESS
+LCM,1,Fail,E_ATADLL_RESULT_FAILED

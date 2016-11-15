@@ -1,0 +1,43 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/08/11/10/33/04/443 Init state index = 1, wait for preloader com port 6.
+2016/08/11/10/33/13/990 Find preloader com port OK, start booting target into factory mode.
+2016/08/11/10/33/14/352 Enter factory mode ok, set state index = 2
+2016/08/11/10/33/14/352 Searching kernel com port 191.
+2016/08/11/10/33/30/491 Find kernel com port ok, set state index = 3
+2016/08/11/10/33/30/491 GetCommModule ok.
+2016/08/11/10/33/30/491 Send Start Command (AT+START) start.
+2016/08/11/10/33/30/491 Send start command 1.
+2016/08/11/10/33/30/595 Send start command 2.
+2016/08/11/10/33/31/196 Send start command 3.
+2016/08/11/10/33/31/389 Get response pass, OK!
+2016/08/11/10/33/31/389 Send Start Command (AT+START) ok.
+2016/08/11/10/33/31/390 Send request flag command.
+2016/08/11/10/33/31/735 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/08/11/10/33/31/793 Sleep 0 second before test.
+2016/08/11/10/33/31/793 Init test item object.
+2016/08/11/10/33/31/793 Start Testing items:
+
+2016/08/11/10/33/31/793 Start test items.
+2016/08/11 10:33:31.844 ====== [Charger] Start111111111111111111111111 Test ======
+2016/08/11 10:34:33.555 [Charger ERROR] AT+CHARGER=1,1 response timeout.
+2016/08/11 10:34:33.555 Test Error:E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT,Error code is 8
+
+2016/08/11 10:34:33.555 Time cost: 61.711 second
+2016/08/11 10:34:33.555 ====== [Charger] End Test ======
+
+2016/08/11 10:35:35.260 [Requestdata ERROR] Request result data timeout.
+2016/08/11/10/35/35/260 [Error] Request data fail!!
+2016/08/11/10/35/35/279 Charger,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11/10/35/35/280 Start to request test result data.
+2016/08/11 10:35:48.895 [Requestdata ERROR] Request result data timeout.
+2016/08/11/10/35/48/897 [Error] Request data fail!!
+2016/08/11/10/35/49/203 Charger,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11/10/35/49/204 DeInit test item object.
+2016/08/11/10/35/49/227 Total time cost: 61.71 second. 
+
+2016/08/11/10/35/49/227 Send stop command(AT+STOP) to target.
+2016/08/11/10/35/50/331 Release target comm handle.
+2016/08/11/10/35/50/392 Stopped by user.
+2016/08/11/10/35/50/393 Rename log file (temp1.txt) by date info.

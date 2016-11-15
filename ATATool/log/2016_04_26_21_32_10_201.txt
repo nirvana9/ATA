@@ -1,0 +1,60 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/04/26/21/31/38/101 Init state index = 1, wait for preloader com port 6.
+2016/04/26/21/31/47/359 Find preloader com port OK, start booting target into factory mode.
+2016/04/26/21/31/47/734 Enter factory mode ok, set state index = 2
+2016/04/26/21/31/47/734 Searching kernel com port 86.
+2016/04/26/21/32/02/255 Find kernel com port ok, set state index = 3
+2016/04/26/21/32/02/265 GetCommModule ok.
+2016/04/26/21/32/02/265 Send Start Command (AT+START) start.
+2016/04/26/21/32/02/265 Send start command 1.
+2016/04/26/21/32/02/325 Get response pass, OK!
+2016/04/26/21/32/02/325 Send Start Command (AT+START) ok.
+2016/04/26/21/32/02/325 Send request flag command.
+2016/04/26/21/32/02/838 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/04/26/21/32/02/931 Sleep 0 second before test.
+2016/04/26/21/32/02/931 Init test item object.
+2016/04/26/21/32/02/931 Start Testing items:
+
+2016/04/26/21/32/02/931 Start test items.
+2016/04/26 21:32:02.994 ====== [SWVersion] Start111111111111111111111111 Test ======
+2016/04/26 21:32:05.509 [OK] Version test ok.
+2016/04/26 21:32:05.509 Time cost: 2.515 second
+2016/04/26 21:32:05.509 ====== [SWVersion] End Test ======
+
+2016/04/26 21:32:05.855 GetATAData data size: 1500.
+2016/04/26 21:32:05.855 GetATAData sp_ata_data size: 1684.
+2016/04/26 21:32:05.855 GetATAData sp_ata_data_old size: 1192.
+2016/04/26 21:32:05.855 GetATAData sp_ata_data_old_ex size: 1248.
+2016/04/26/21/32/05/855 [OK] Request data successfully.
+2016/04/26/21/32/05/870 SW Version,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/04/26 21:32:05.933 ====== [LCD] Start111111111111111111111111 Test ======
+2016/04/26 21:32:08.684 [LCM fail] LCM test fail.
+2016/04/26 21:32:08.700 Test Error:E_ATADLL_RESULT_FAILED,Error code is 1
+
+2016/04/26 21:32:08.700 Time cost: 2.768 second
+2016/04/26 21:32:08.700 ====== [LCD] End Test ======
+
+2016/04/26 21:32:09.076 GetATAData data size: 1500.
+2016/04/26 21:32:09.076 GetATAData sp_ata_data size: 1684.
+2016/04/26 21:32:09.076 GetATAData sp_ata_data_old size: 1192.
+2016/04/26 21:32:09.076 GetATAData sp_ata_data_old_ex size: 1248.
+2016/04/26/21/32/09/076 [OK] Request data successfully.
+2016/04/26/21/32/09/092 LCM,1,Fail,E_ATADLL_RESULT_FAILED
+2016/04/26/21/32/09/092 Start to request test result data.
+2016/04/26 21:32:09.513 GetATAData data size: 1500.
+2016/04/26 21:32:09.513 GetATAData sp_ata_data size: 1684.
+2016/04/26 21:32:09.513 GetATAData sp_ata_data_old size: 1192.
+2016/04/26 21:32:09.513 GetATAData sp_ata_data_old_ex size: 1248.
+2016/04/26/21/32/09/513 [OK] Request data successfully.
+2016/04/26/21/32/09/513 [Modem SW Version] X5623_LWG_M0_V0.0.4_S160326, 2016/03/26 15:57
+2016/04/26/21/32/09/513 [AP SW Version] X5623_CQ_6011H_PUBLIC_V1.1.1_S0413
+2016/04/26/21/32/09/513 
+2016/04/26/21/32/09/513 
+2016/04/26/21/32/09/827 DeInit test item object.
+2016/04/26/21/32/09/827 Total time cost: 5.28 second. 
+
+2016/04/26/21/32/09/827 Send stop command(AT+STOP) to target.
+2016/04/26/21/32/10/123 Release target comm handle.
+2016/04/26/21/32/10/201 Rename log file (temp1.txt) by date info.

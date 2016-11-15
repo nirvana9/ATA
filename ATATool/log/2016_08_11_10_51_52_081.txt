@@ -1,0 +1,13 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/08/11/10/51/49/810 Init state index = 1, wait for preloader com port 6.
+2016/08/11/10/51/52/053 Stopped by user!
+2016/08/11/10/51/52/053 GetCommModule failed.
+2016/08/11/10/51/52/053 Test Error:E_ATADLL_CONNECT_PHONE_FAIL,Error code is 17
+2016/08/11/10/51/52/071 Charger,1,Fail,E_ATADLL_RESULT_NULL
+2016/08/11/10/51/52/071 DeInit test item object.
+2016/08/11/10/51/52/081 Total time cost: 0.00 second. 
+
+2016/08/11/10/51/52/081 Stopped by user.
+2016/08/11/10/51/52/081 Rename log file (temp1.txt) by date info.

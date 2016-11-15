@@ -1,0 +1,1158 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ATATool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ATATool.ico"
+IDI_ICON_LISTCTRL       ICON    DISCARDABLE     "res\\icon_lis.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_CONFIG DIALOG DISCARDABLE  0, 0, 557, 312
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuration"
+FONT 11, "Calibri"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDSAVE,397,287,57,18
+    PUSHBUTTON      "Cancel",IDCANCEL,491,287,59,18
+    GROUPBOX        " Test Item ",IDC_STATIC,7,3,238,122
+    CONTROL         "SW Version",IDC_CHECK_SW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,22,49,9
+    CONTROL         "Barcode",IDC_CHECK_BARCODE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,31,50,9
+    CONTROL         "T Card",IDC_CHECK_TCARD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,73,46,9
+    CONTROL         "SIM",IDC_CHECK_SIM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,81,25,9
+    CONTROL         "GPS",IDC_CHECK_GPS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,65,47,9
+    CONTROL         "Vibrator",IDC_CHECK_VIBRATOR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,56,44,9
+    CONTROL         "Charger",IDC_CHECK_CHARGER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,64,43,9
+    CONTROL         "WIFI",IDC_CHECK_WIFI,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,40,32,9
+    CONTROL         "BT",IDC_CHECK_BT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    15,48,21,9
+    CONTROL         "FM",IDC_CHECK_FM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    15,56,38,9
+    CONTROL         "mATV",IDC_CHECK_MATV,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_DISABLED | WS_TABSTOP,69,125,49,9
+    CONTROL         "Speaker",IDC_CHECK_SPEAKER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,30,47,9
+    CONTROL         "Receiver",IDC_CHECK_RECEIVER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,22,48,9
+    CONTROL         "Headset",IDC_CHECK_EARTHPHONE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,39,51,9
+    GROUPBOX        " Spec ",IDC_STATIC_SPEC,7,126,338,179
+    GROUPBOX        " DUT Num And Com Port ",IDC_STATIC,251,3,296,115
+    GROUPBOX        " DUT1 ",IDC_STATIC,257,13,65,66
+    LTEXT           "Comport",IDC_STATIC,262,23,29,10
+    LTEXT           "Flowctrl",IDC_STATIC,262,39,29,10
+    LTEXT           "Baudrate",IDC_STATIC,262,54,29,10
+    CONTROL         "Active",IDC_CHECK_ACT1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,274,65,43,12
+    GROUPBOX        " DUT2 ",IDC_STATIC,330,13,67,66
+    LTEXT           "Comport",IDC_STATIC,334,23,29,10
+    LTEXT           "Flowctrl",IDC_STATIC,335,39,29,10
+    LTEXT           "Baudrate",IDC_STATIC,335,54,29,10
+    CONTROL         "Active",IDC_CHECK_ACT2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,348,65,43,12
+    GROUPBOX        " DUT3 ",IDC_STATIC,404,13,67,66
+    LTEXT           "Comport",IDC_STATIC,409,23,29,10
+    LTEXT           "Flowctrl",IDC_STATIC,409,39,29,10
+    LTEXT           "Baudrate",IDC_STATIC,409,54,29,10
+    CONTROL         "Active",IDC_CHECK_ACT3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,423,65,43,12
+    GROUPBOX        " DUT4 ",IDC_STATIC,476,13,65,66
+    LTEXT           "Comport",IDC_STATIC,481,23,29,10
+    LTEXT           "Flowctrl",IDC_STATIC,482,39,29,10
+    LTEXT           "Baudrate",IDC_STATIC,482,54,29,10
+    CONTROL         "Active",IDC_CHECK_ACT4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,495,64,43,12
+    COMBOBOX        IDC_COMBO_COM1,292,22,25,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FC1,292,37,25,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_BAUD1,292,52,25,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_COM2,365,22,26,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FC2,365,37,26,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_BAUD2,365,53,26,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_COM3,440,22,25,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FC3,440,38,25,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_BAUD3,440,53,25,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_COM4,511,22,24,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FC4,511,37,24,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_BAUD4,511,52,24,66,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "LCM",IDC_CHECK_LCM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,23,28,8
+    COMBOBOX        IDC_COMBO_SIM_NUM,18,152,32,45,CBS_DROPDOWN | CBS_SORT | 
+                    NOT WS_VISIBLE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Touch Panel",IDC_CHECK_TP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,31,50,9
+    CONTROL         "MainCamera",IDC_CHECK_CAMERA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,39,52,9
+    GROUPBOX        "",IDC_STATIC,366,125,179,103
+    LTEXT           "Wait time between power on and start test:",IDC_STATIC,
+                    371,133,136,8
+    EDITTEXT        IDC_EDIT_WAIT_SEC,509,132,30,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "second",IDC_STATIC,468,145,25,9
+    CONTROL         "HW Version",IDC_CHECK_HW,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,19,140,50,9
+    CONTROL         "RTC",IDC_CHECK_RTC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,96,28,10
+    CONTROL         "Earphone State",IDC_CHECK_ER_STATE,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | 
+                    WS_TABSTOP,149,125,60,9
+    CONTROL         "Key Pad",IDC_CHECK_KPAD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,89,41,9
+    CONTROL         "ADC",IDC_CHECK_ADC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,73,27,9
+    CONTROL         "Idle Current",IDC_CHECK_SLPMODE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,125,90,51,9
+    LTEXT           "Retry Times If failed:",IDC_STATIC,379,165,69,8
+    EDITTEXT        IDC_EDIT_RETRY_TIMES,450,163,25,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_LOOP_TIMES,504,163,26,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE
+    CONTROL         "Signal RSSI",IDC_CHECK_RSS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,74,55,8
+    CONTROL         "LED",IDC_CHECK_LED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,82,27,8
+    GROUPBOX        " Preloader And Kernel Port Number",IDC_STATIC,256,81,
+                    285,33
+    EDITTEXT        IDC_EDIT_KERNEL_PORT1,295,95,23,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_KERNEL_PORT2,366,95,22,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_KERNEL_PORT3,442,95,21,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_KERNEL_PORT4,513,95,20,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        " Test Flow ",IDC_STATIC,371,180,166,43
+    CONTROL         "Auto Polling",IDC_CHECK_AUTO_POLL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,381,189,54,9
+    CONTROL         "EMMC",IDC_CHECK_EMMC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,65,41,9
+    EDITTEXT        IDC_EDIT_PRELOADER_PORT1,262,95,23,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_PRELOADER_PORT2,335,95,23,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_PRELOADER_PORT3,409,95,21,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_PRELOADER_PORT4,484,95,20,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Enable Composite Kernel USB Port For Debug",
+                    IDC_CHECK_COMPOSITE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,381,208,151,13
+    CONTROL         "CMMB",IDC_CHECK_CMMB,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_DISABLED | WS_TABSTOP,114,125,47,9
+    GROUPBOX        " Current Measure Chip Port Number",IDC_STATIC,367,231,
+                    183,32
+    GROUPBOX        "",IDC_STATIC,373,155,164,25
+    LTEXT           "1",IDC_STATIC,378,247,8,8
+    EDITTEXT        IDC_EDIT_PM_COM1,386,245,23,12,ES_AUTOHSCROLL
+    LTEXT           "2",IDC_STATIC,420,247,8,8
+    EDITTEXT        IDC_EDIT_PM_COM2,428,245,23,12,ES_AUTOHSCROLL
+    LTEXT           "3",IDC_STATIC,464,247,8,8
+    EDITTEXT        IDC_EDIT_PM_COM3,472,245,23,12,ES_AUTOHSCROLL
+    LTEXT           "4",IDC_STATIC,506,247,8,8
+    EDITTEXT        IDC_EDIT_PM_COM4,514,245,23,12,ES_AUTOHSCROLL
+    CONTROL         "G-Sensor",IDC_CHECK_GSENSOR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,84,55,8
+    CONTROL         "M-Sensor",IDC_CHECK_MSENSOR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,93,55,8
+    CONTROL         "ALS/PS",IDC_CHECK_ALSPS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,102,55,8
+    CONTROL         "GYROSCOPE",IDC_CHECK_GYROSCOPE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,112,55,8
+    CONTROL         "SubCamera",IDC_CHECK_CAMERA_SUB,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,70,47,52,9
+    CONTROL         "Set Flag To Barcode",IDC_CHECK_BARCODE_FLAG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,444,189,83,9
+    PUSHBUTTON      "Change Password",IDCHANGEPWD,490,266,60,17
+    CONTROL         "Stop if failed",IDC_CHECK_STOP_IF_FAIL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,381,197,131,13
+    CONTROL         "Micbias",IDC_CHECK_MICBIAS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,49,55,8
+    CONTROL         "Off Current",IDC_CHECK_OFFMODE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,100,51,9
+    CONTROL         "",IDC_CHECK_SELECT_ALL1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,12,41,8
+    CONTROL         "",IDC_CHECK_SELECT_ALL2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,13,41,8
+    CONTROL         "",IDC_CHECK_SELECT_ALL3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,13,41,8
+    CONTROL         "OTG",IDC_CHECK_OTG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,107,51,9
+    CONTROL         "HDMI",IDC_CHECK_HDMI,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,114,51,9
+    LTEXT           "Test Item Timeout",IDC_STATIC,372,145,61,8
+    EDITTEXT        IDC_EDIT_TEST_ITEM_TIMEOUT,434,143,30,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "MHL",IDC_CHECK_MHL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,105,51,10
+    CONTROL         "USB Type-C",IDC_CHECK_USBTYPEC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,125,116,47,9
+    CONTROL         "Main2Camera",IDC_CHECK_CAMERA2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,55,52,9
+    CONTROL         "EXT_BUCK",IDC_CHECK_EXT_BUCK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,188,46,42,9
+    CONTROL         "Barometer",IDC_CHECK_BAROMETER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,188,29,47,9
+    CONTROL         "Humidity",IDC_CHECK_HUMIDITY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,188,21,48,9
+    CONTROL         "BTS",IDC_CHECK_BTS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,188,38,51,9
+    CONTROL         "Fingerprint",IDC_CHECK_FINGERPRINT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,188,55,55,8
+    CONTROL         "",IDC_CHECK_SELECT_ALL4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,188,12,41,8
+    CONTROL         "GPS_CALI",IDC_GPS_Cali,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,188,64,51,9
+END
+
+IDD_DIALOG_INPUT_PASSWD DIALOG DISCARDABLE  0, 0, 187, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Input Password"
+FONT 11, "Calibri"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,65,50,50,14
+    PUSHBUTTON      "取消",IDCANCEL,130,50,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,173,40
+    LTEXT           "Input Password",IDC_STATIC,14,16,53,9
+    EDITTEXT        IDC_EDIT_PASSWD_INPUT,75,14,95,13,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Initial password is 123456",IDC_STATIC,75,30,96,9
+END
+
+IDD_DIALOG_CHANGE_PWD DIALOG DISCARDABLE  0, 0, 166, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change Password"
+FONT 11, "Calibri"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,53,61,50,14
+    PUSHBUTTON      "取消",IDCANCEL,109,61,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,152,55
+    LTEXT           "Old",IDC_STATIC,15,14,14,9
+    EDITTEXT        IDC_EDIT_OLD_PWD,36,12,115,12,ES_AUTOHSCROLL
+    LTEXT           "New",IDC_STATIC,15,28,14,9
+    EDITTEXT        IDC_EDIT_NEW_PWD1,36,26,115,12,ES_AUTOHSCROLL
+    LTEXT           "New",IDC_STATIC,15,42,14,9
+    EDITTEXT        IDC_EDIT_NEW_PWD2,36,40,115,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 550
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 305
+        HORZGUIDE, 125
+    END
+
+    IDD_DIALOG_INPUT_PASSWD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG_CHANGE_PWD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_CONFIG DLGINIT
+BEGIN
+    IDC_COMBO_SIM_NUM, 0x403, 6, 0
+0x2031, 0x4953, 0x004d, 
+    IDC_COMBO_SIM_NUM, 0x403, 6, 0
+0x2032, 0x4953, 0x004d, 
+    IDC_COMBO_SIM_NUM, 0x403, 6, 0
+0x2033, 0x4953, 0x004d, 
+    IDC_COMBO_SIM_NUM, 0x403, 6, 0
+0x2034, 0x4953, 0x004d, 
+    0
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ATATool"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ATATool Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_ATATOOL_DIALOG DIALOGEX 0, 0, 508, 258
+STYLE DS_3DLOOK | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SP_ATA_Tool_v20160329.00"
+FONT 12, "Calibri"
+BEGIN
+    GROUPBOX        "",IDC_STATIC_MAIN_RECT,7,6,494,199
+    PUSHBUTTON      "Start All",IDC_BUTTON_START_ALL,296,233,80,18
+    PUSHBUTTON      "Stop All",IDC_BUTTON_STOP_ALL,399,233,74,18,WS_DISABLED
+    CONTROL         "List1",IDC_LIST_DUT1,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,12,13,119,186
+    CONTROL         "",IDC_STATIC_LINE,"Static",SS_ETCHEDHORZ,7,207,494,1
+    CONTROL         "List1",IDC_LIST_DUT2,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,134,13,119,186
+    CONTROL         "List1",IDC_LIST_DUT3,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,255,13,119,186
+    CONTROL         "List1",IDC_LIST_DUT4,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,377,13,119,186
+    PUSHBUTTON      "Config",IDC_BUTTON_CONFIG,28,233,74,18
+    PUSHBUTTON      "Start",IDC_BUTTON_1,28,211,74,16
+    PUSHBUTTON      "Start",IDC_BUTTON_3,277,211,74,16
+    PUSHBUTTON      "Start",IDC_BUTTON_4,399,211,74,16
+    PUSHBUTTON      "Start",IDC_BUTTON_2,150,211,74,16
+    CONTROL         "",IDC_STATIC_LINE2,"Static",SS_ETCHEDHORZ,7,229,494,1
+END
+
+IDD_PROPPAGE_MEDIUM_WIFI DIALOG DISCARDABLE  0, 0, 394, 193
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "WIFI"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_WIFI_MAC,124,16,110,16,ES_AUTOHSCROLL
+    LTEXT           "RSSI Value > ",IDC_STATIC,66,41,51,12
+    EDITTEXT        IDC_EDIT_WIFI_RSSI,124,38,55,16,ES_AUTOHSCROLL
+    CONTROL         " MAC Address Template :",IDC_CHECK_WIFI_MAC,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,18,96,11
+    GROUPBOX        "",IDC_STATIC,7,3,251,60
+END
+
+IDD_PROPPAGE_MEDIUM_GPS DIALOG DISCARDABLE  0, 0, 425, 193
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "GPS"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Phase Ratio :",IDC_STATIC,30,62,50,12
+    LTEXT           "TCXO Offset :",IDC_STATIC,29,86,59,12
+    LTEXT           "CNR Mean :",IDC_STATIC,34,130,44,12
+    LTEXT           "TCXO Drift :",IDC_STATIC,35,109,48,12
+    LTEXT           "CNR Sigma :",IDC_STATIC,204,129,45,12
+    EDITTEXT        IDC_EDIT_GPS_PHASE_RATIO,89,60,59,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_GPS_TXCO_OFFSET,90,83,59,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_GPS_TXCO_DRIFT,90,105,59,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_GPS_CNR_MEAN,90,126,59,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_GPS_CNR_SIGMA,264,126,59,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Update HZ :",IDC_STATIC,204,62,55,12
+    LTEXT           "Bit Sync :",IDC_STATIC,213,86,42,12
+    LTEXT           "SVID :",IDC_STATIC,51,21,30,12
+    LTEXT           "Acquision :",IDC_STATIC,209,108,41,12
+    EDITTEXT        IDC_EDIT_GPS_UPDATE_HZ,264,60,59,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_GPS_BIT_SYNC,264,83,59,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_GPS_ACQUISION,264,105,59,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_GPS_SVID,89,19,59,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_PROPPAGE_MEDIUM_FM DIALOG DISCARDABLE  0, 0, 411, 193
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "FM + Signal Strength"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Frequency:",IDC_STATIC,63,28,45,12
+    EDITTEXT        IDC_EDIT_FM_FREQ,165,26,85,15,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "100 Hz",IDC_STATIC,255,29,36,11
+    LTEXT           "Chip String Contain:",IDC_STATIC,38,47,99,11
+    EDITTEXT        IDC_EDIT_FM_CHIP,165,45,85,15,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "RSSI Value >",IDC_STATIC,62,67,69,11
+    EDITTEXT        IDC_EDIT_FM_CQI,165,66,85,15,ES_AUTOHSCROLL
+    GROUPBOX        " FM ",IDC_STATIC,21,14,348,79
+    GROUPBOX        " RF Signal Strength",IDC_STATIC,21,96,348,67
+    LTEXT           "2G RSSI Min Value:",IDC_STATIC,53,114,78,12
+    EDITTEXT        IDC_EDIT_RSSI,166,109,86,16,ES_AUTOHSCROLL
+    LTEXT           "dBm",IDC_STATIC,261,112,39,11
+    LTEXT           "LTE RSSI Min Value:",IDC_STATIC,54,133,78,12
+    EDITTEXT        IDC_EDIT_RSSI_LTE,166,129,86,16,ES_AUTOHSCROLL
+    LTEXT           "dBm",IDC_STATIC,262,132,39,11
+END
+
+IDD_PROPPAGE_MEDIUM_AUDIO DIALOG DISCARDABLE  0, 0, 426, 211
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Audio"
+FONT 9, "Calibri"
+BEGIN
+    LTEXT           "Min Freq",IDC_STATIC,27,30,32,11
+    EDITTEXT        IDC_EDIT_SPEAKER_MIN_FREQ_L,61,28,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "Speaker",IDC_STATIC,7,7,412,65
+    GROUPBOX        "Left",IDC_STATIC,16,17,189,49
+    LTEXT           "Max Freq",IDC_STATIC,117,30,32,11
+    EDITTEXT        IDC_EDIT_SPEAKER_MAX_FREQ_L,153,28,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Amp",IDC_STATIC,27,48,32,11
+    EDITTEXT        IDC_EDIT_SPEAKER_MIN_AMP_L,61,46,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Max Amp",IDC_STATIC,117,48,32,11
+    EDITTEXT        IDC_EDIT_SPEAKER_MAX_AMP_L,153,46,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Freq",IDC_STATIC,234,30,32,11
+    EDITTEXT        IDC_EDIT_SPEAKER_MIN_FREQ_R,268,28,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "Right",IDC_STATIC,222,17,189,49
+    LTEXT           "Max Freq",IDC_STATIC,324,30,32,11
+    EDITTEXT        IDC_EDIT_SPEAKER_MAX_FREQ_R,360,28,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Amp",IDC_STATIC,234,47,32,11
+    EDITTEXT        IDC_EDIT_SPEAKER_MIN_AMP_R,268,46,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Max Amp",IDC_STATIC,324,47,32,11
+    EDITTEXT        IDC_EDIT_SPEAKER_MAX_AMP_R,360,46,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Freq",IDC_STATIC,27,98,32,11
+    EDITTEXT        IDC_EDIT_RECEIVER_MIN_FREQ_L,61,96,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "Receiver",IDC_STATIC,7,74,412,65
+    GROUPBOX        "Left",IDC_STATIC,16,85,189,49
+    LTEXT           "Max Freq",IDC_STATIC,117,98,32,11
+    EDITTEXT        IDC_EDIT_RECEIVER_MAX_FREQ_L,153,96,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Amp",IDC_STATIC,27,116,32,11
+    EDITTEXT        IDC_EDIT_RECEIVER_MIN_AMP_L,61,114,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Max Amp",IDC_STATIC,117,116,32,11
+    EDITTEXT        IDC_EDIT_RECEIVER_MAX_AMP_L,153,114,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Freq",IDC_STATIC,234,98,32,11
+    EDITTEXT        IDC_EDIT_RECEIVER_MIN_FREQ_R,268,96,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "Right",IDC_STATIC,222,85,189,49
+    LTEXT           "Max Freq",IDC_STATIC,324,98,32,11
+    EDITTEXT        IDC_EDIT_RECEIVER_MAX_FREQ_R,360,96,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Amp",IDC_STATIC,234,114,32,11
+    EDITTEXT        IDC_EDIT_RECEIVER_MIN_AMP_R,268,114,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Max Amp",IDC_STATIC,324,114,32,11
+    EDITTEXT        IDC_EDIT_RECEIVER_MAX_AMP_R,360,114,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Freq",IDC_STATIC,28,163,32,11
+    EDITTEXT        IDC_EDIT_HEADSET_MIN_FREQ_L,62,161,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "Headset",IDC_STATIC,8,140,412,65
+    GROUPBOX        "Left",IDC_STATIC,17,150,189,49
+    LTEXT           "Max Freq",IDC_STATIC,118,163,32,11
+    EDITTEXT        IDC_EDIT_HEADSET_MAX_FREQ_L,154,161,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Amp",IDC_STATIC,28,181,32,11
+    EDITTEXT        IDC_EDIT_HEADSET_MIN_AMP_L,62,179,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Max Amp",IDC_STATIC,118,181,32,11
+    EDITTEXT        IDC_EDIT_HEADSET_MAX_AMP_L,154,179,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Freq",IDC_STATIC,235,163,32,11
+    EDITTEXT        IDC_EDIT_HEADSET_MIN_FREQ_R,269,161,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "Right",IDC_STATIC,223,150,189,49
+    LTEXT           "Max Freq",IDC_STATIC,325,163,32,11
+    EDITTEXT        IDC_EDIT_HEADSET_MAX_FREQ_R,361,161,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Min Amp",IDC_STATIC,235,180,32,11
+    EDITTEXT        IDC_EDIT_HEADSET_MIN_AMP_R,269,179,46,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Max Amp",IDC_STATIC,325,180,32,11
+    EDITTEXT        IDC_EDIT_HEADSET_MAX_AMP_R,361,179,44,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+END
+
+IDD_PROPPAGE_MEDIUM_MATV DIALOG DISCARDABLE  0, 0, 425, 193
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "mATV"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Frequency :",IDC_STATIC,54,30,45,11
+    EDITTEXT        IDC_EDIT_MATV_FREQ,138,28,122,15,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Country :",IDC_STATIC_COUNTRY,54,51,45,11
+    LTEXT           "KHz",IDC_STATIC,262,31,45,11
+    LTEXT           "Chip Contain :",IDC_STATIC,54,93,68,11
+    EDITTEXT        IDC_EDIT_MATV_CHIP,138,89,122,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_MATV_COUNTRY,137,49,123,117,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PROPPAGE_MEDIUM_VIBRATOR DIALOG DISCARDABLE  0, 0, 394, 201
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Vibrator + ADC + Current"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Current Min Value:",IDC_STATIC,21,38,98,12
+    EDITTEXT        IDC_EDIT_VIBRATOR_CURR_MIN,127,35,63,14,ES_AUTOHSCROLL
+    LTEXT           "A",IDC_STATIC,198,36,13,12
+    LTEXT           "Current Max Value:",IDC_STATIC,21,54,97,12
+    EDITTEXT        IDC_EDIT_VIBRATOR_CURR_MAX,127,51,63,15,ES_AUTOHSCROLL
+    LTEXT           "A",IDC_STATIC,198,53,10,12
+    LTEXT           "Current Diff Min Value:",IDC_STATIC,21,69,101,12
+    EDITTEXT        IDC_EDIT_VIBRATOR_CURRENT_DIFF_MIN,127,67,64,14,
+                    ES_AUTOHSCROLL
+    LTEXT           "A",IDC_STATIC,198,69,12,12
+    LTEXT           "PSU1 GPIB Addr:",IDC_STATIC,190,102,64,12
+    EDITTEXT        IDC_EDIT_PSU_GPIB_ADDR,254,98,121,17,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    GROUPBOX        "Vibrator",IDC_STATIC,7,6,226,81
+    GROUPBOX        "ADC",IDC_STATIC,7,91,166,103
+    LTEXT           "Battery Vol_1",IDC_STATIC,16,104,58,10
+    EDITTEXT        IDC_EDIT_ADC_V1,99,101,61,15,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Battery Vol_2",IDC_STATIC,15,121,67,10
+    EDITTEXT        IDC_EDIT_ADC_V2,99,118,61,15,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Battery_Vol_Max Diff",IDC_STATIC,14,138,81,10
+    EDITTEXT        IDC_EDIT_ADC_MAX_DIFF,99,136,61,15,ES_AUTOHSCROLL
+    GROUPBOX        "PSU",IDC_STATIC,179,91,208,103
+    GROUPBOX        " Current",IDC_STATIC,237,6,150,75
+    LTEXT           "Sleep Max Current",IDC_STATIC,245,21,71,10
+    EDITTEXT        IDC_EDIT_SLPMOD_CURRENT,318,18,43,14,ES_AUTOHSCROLL
+    LTEXT           "mA",IDC_STATIC,369,20,12,13
+    LTEXT           "PSU2 GPIB Addr:",IDC_STATIC,190,124,63,12
+    LTEXT           "PSU3 GPIB Addr:",IDC_STATIC,189,145,61,12
+    LTEXT           "PSU4 GPIB Addr:",IDC_STATIC,190,165,64,12
+    EDITTEXT        IDC_EDIT_PSU_GPIB_ADDR2,254,119,121,17,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_PSU_GPIB_ADDR3,254,140,121,17,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_PSU_GPIB_ADDR4,254,162,121,17,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Charger Current Max",IDC_STATIC,14,158,80,10
+    LTEXT           "Charger Current Min",IDC_STATIC,14,176,79,10
+    EDITTEXT        IDC_EDIT1_CHRGR_MAX,96,156,54,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CHRGR_MIN,96,174,54,15,ES_AUTOHSCROLL
+    LTEXT           "mA",IDC_STATIC,155,158,11,10
+    LTEXT           "mA",IDC_STATIC,156,174,11,10
+    LTEXT           "Off Max Current",IDC_STATIC,247,40,64,10
+    EDITTEXT        IDC_EDIT_OFFMOD_CURRENT,318,37,43,14,ES_AUTOHSCROLL
+    LTEXT           "uA",IDC_STATIC,369,40,18,13
+    CONTROL         " Vibrator On Board",IDC_CHECK_VIBRATOR_ON_BOARD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,19,118,13
+END
+
+IDD_PROPPAGE_MEDIUM_BT DIALOG DISCARDABLE  0, 0, 415, 193
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "BT"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "BT Addr Contain:",IDC_STATIC,31,141,76,11,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_BT_ADDR,114,138,143,15,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           " ( 0000,00,000000 )",IDC_STATIC,263,141,96,11,NOT 
+                    WS_VISIBLE
+    LTEXT           "Spec type",IDC_STATIC,50,108,40,8,NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO_SPEC_TYPE,113,107,115,60,CBS_DROPDOWN | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BT_HOSTADDR,124,33,110,16,ES_AUTOHSCROLL
+    CONTROL         "BT Address Template :",IDC_CHECK_BT_ADDR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,35,96,11
+END
+
+IDD_PROPPAGE_MEDIUM_HWVER DIALOG DISCARDABLE  0, 0, 394, 198
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "SW + HW + Barcode"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Voltage min value",IDC_STATIC,42,76,70,12
+    EDITTEXT        IDC_EDIT_VOL_MIN,114,73,63,16,ES_AUTOHSCROLL
+    LTEXT           "v",IDC_STATIC,186,76,19,12
+    LTEXT           "Voltage Max Value",IDC_STATIC,211,77,73,12
+    EDITTEXT        IDC_EDIT_VOL_MAX,285,73,63,16,ES_AUTOHSCROLL
+    LTEXT           "v",IDC_STATIC,355,75,19,12
+    LTEXT           "GPIO Value",IDC_STATIC,43,97,62,12
+    EDITTEXT        IDC_EDIT_GPIO,114,94,64,16,ES_AUTOHSCROLL
+    GROUPBOX        "HW",IDC_STATIC,24,64,363,52
+    GROUPBOX        "SW",IDC_STATIC,23,3,364,57
+    LTEXT           "Modem Version",IDC_STATIC,37,20,52,12
+    EDITTEXT        IDC_EDIT_SW_SUBSTR,102,17,277,14,ES_AUTOHSCROLL
+    GROUPBOX        "Barcode",IDC_STATIC,24,118,363,73
+    LTEXT           "Template",IDC_STATIC,44,132,45,12
+    EDITTEXT        IDC_EDIT_BARCODE,93,129,278,15,ES_AUTOHSCROLL
+    LTEXT           "AP Version",IDC_STATIC,38,38,52,12
+    EDITTEXT        IDC_EDIT_AP_SW,101,36,277,14,ES_AUTOHSCROLL
+    LTEXT           "Index",IDC_STATIC,46,165,22,12
+    GROUPBOX        "Write Flag To Barcode",IDC_STATIC,37,150,336,35
+    EDITTEXT        IDC_EDIT_BARCODE_FLAG_INDEX,76,164,36,13,ES_AUTOHSCROLL
+    LTEXT           "Pass Flag:",IDC_STATIC,156,165,45,12
+    LTEXT           "Fail Flag:",IDC_STATIC,263,165,46,12
+    EDITTEXT        IDC_EDIT_PASS_FLAG,203,163,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FAIL_FLAG,310,163,32,14,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE_MEDIUM_BTS DIALOG DISCARDABLE  0, 0, 392, 190
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "BTS"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Temperature Min:",IDC_STATIC,21,27,75,12
+    EDITTEXT        IDC_EDIT_SOC_TEMP_MIN,101,24,63,14,ES_AUTOHSCROLL
+    LTEXT           "Temperature Max:",IDC_STATIC,21,43,79,12
+    EDITTEXT        IDC_EDIT_SOC_TEMP_MAX,101,40,63,15,ES_AUTOHSCROLL
+    GROUPBOX        "SOC BTS",IDC_STATIC,15,9,177,56
+    LTEXT           "Temperature Min:",IDC_STATIC,207,27,77,12
+    EDITTEXT        IDC_EDIT_MDPA_TEMP_MIN,289,24,63,14,ES_AUTOHSCROLL
+    LTEXT           "Temperature Max :",IDC_STATIC,207,43,79,12
+    EDITTEXT        IDC_EDIT_MDPA_TEMP_MAX,289,40,63,15,ES_AUTOHSCROLL
+    GROUPBOX        "MD PA BTS",IDC_STATIC,201,9,177,56
+END
+
+IDD_PROPPAGE_MEDIUM_CAMERA DIALOG DISCARDABLE  0, 0, 418, 204
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Camera"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,25,234,91
+    CONTROL         " Check sum auto check by ATA Tool",IDC_CHECK_CHECK_SUM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,14,145,10
+    LTEXT           "Main Camera",IDC_STATIC,19,39,46,10
+    LTEXT           "Sub Camera",IDC_STATIC,19,87,46,10
+    EDITTEXT        IDC_EDIT_CHECKSUM_MAIN_CAMERA,67,37,111,15,
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CHECKSUM_SUBCAMERA,67,85,111,15,ES_AUTOHSCROLL
+    LTEXT           "Main2 Camera",IDC_STATIC,19,62,46,10
+    EDITTEXT        IDC_EDIT_CHECKSUM_MAIN_CAMERA2,67,60,111,15,
+                    ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE_MEDIUM_KPAD DIALOG DISCARDABLE  0, 0, 394, 193
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Key Pad"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Key pin is connected by test box ( Key Pin is pulled to test box)",
+                    IDC_CHECK_KEY_EXTER_CONN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,32,22,306,13
+    CONTROL         "Key is pressed by electronic magic switch which is controlled by test box",
+                    IDC_CHECK_ELEC_MAG_SWITCH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,32,38,306,13
+END
+
+IDD_PROPPAGE_PM_CAL DIALOG DISCARDABLE  0, 0, 394, 191
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "PM Cal"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "PM1",IDC_STATIC,7,7,186,55
+    LTEXT           "VOL",IDC_STATIC,33,14,14,10
+    LTEXT           "ADC",IDC_STATIC,74,14,14,10
+    LTEXT           "1",IDC_STATIC,16,30,8,8
+    LTEXT           "2",IDC_STATIC,16,46,8,8
+    EDITTEXT        IDC_EDIT_VOL_11,28,27,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADC_11,67,27,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VOL_12,28,43,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADC_12,67,43,33,13,ES_AUTOHSCROLL
+    LTEXT           "Slope/Offset",IDC_STATIC,137,15,46,11
+    PUSHBUTTON      "==>",IDC_BUTTON_CONVERT_1,106,34,32,14
+    EDITTEXT        IDC_EDIT_SLOPE_1,144,28,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OFFSET_1,144,44,41,13,ES_AUTOHSCROLL
+    GROUPBOX        "PM2",IDC_STATIC,201,7,186,54
+    LTEXT           "VOL",IDC_STATIC,227,14,14,10
+    LTEXT           "ADC",IDC_STATIC,267,14,14,10
+    LTEXT           "1",IDC_STATIC,209,30,8,8
+    LTEXT           "2",IDC_STATIC,209,46,8,8
+    EDITTEXT        IDC_EDIT_VOL_21,221,27,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADC_21,261,27,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VOL_22,221,43,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADC_22,261,43,33,13,ES_AUTOHSCROLL
+    LTEXT           "Slope/Offset",IDC_STATIC,331,14,46,11
+    PUSHBUTTON      "==>",IDC_BUTTON_CONVERT_2,299,34,32,14
+    EDITTEXT        IDC_EDIT_SLOPE_2,337,27,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OFFSET_2,337,43,41,13,ES_AUTOHSCROLL
+    GROUPBOX        "PM3",IDC_STATIC,7,63,186,55
+    LTEXT           "VOL",IDC_STATIC,33,71,14,10
+    LTEXT           "ADC",IDC_STATIC,74,71,14,10
+    LTEXT           "1",IDC_STATIC,16,87,8,8
+    LTEXT           "2",IDC_STATIC,16,103,8,8
+    EDITTEXT        IDC_EDIT_VOL_31,28,84,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADC_31,67,84,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VOL_32,28,100,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADC_32,67,100,33,13,ES_AUTOHSCROLL
+    LTEXT           "Slope/Offset",IDC_STATIC,137,71,46,11
+    PUSHBUTTON      "==>",IDC_BUTTON_CONVERT_3,106,90,32,14
+    EDITTEXT        IDC_EDIT_SLOPE_3,144,85,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OFFSET_3,144,101,41,13,ES_AUTOHSCROLL
+    GROUPBOX        "PM4",IDC_STATIC,201,63,186,54
+    LTEXT           "VOL",IDC_STATIC,227,71,14,10
+    LTEXT           "ADC",IDC_STATIC,267,71,14,10
+    LTEXT           "1",IDC_STATIC,209,87,8,8
+    LTEXT           "2",IDC_STATIC,209,103,8,8
+    EDITTEXT        IDC_EDIT_VOL_41,221,84,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADC_41,261,84,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VOL_42,221,100,33,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADC_42,261,100,33,13,ES_AUTOHSCROLL
+    LTEXT           "Slope/Offset",IDC_STATIC,331,71,46,11
+    PUSHBUTTON      "==>",IDC_BUTTON_CONVERT_4,299,90,32,14
+    EDITTEXT        IDC_EDIT_SLOPE_4,337,84,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OFFSET_4,337,100,41,13,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE_MEDIUM_LED DIALOG DISCARDABLE  0, 0, 317, 161
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "LED"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "LED State",IDC_STATIC,41,25,34,9
+    EDITTEXT        IDC_EDIT_LED_STATE,80,22,121,16,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE_MEDIUM_SENSOR DIALOG DISCARDABLE  0, 0, 388, 207
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Sensor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        " G-Sensor ",IDC_STATIC,7,7,154,80
+    LTEXT           "Max",IDC_STATIC,55,19,17,9
+    LTEXT           "Min",IDC_STATIC,115,18,17,9
+    EDITTEXT        IDC_EDIT_GSENSOR_X_MAX,35,31,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GSENSOR_X_MIN,95,31,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GSENSOR_Y_MAX,35,48,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GSENSOR_Y_MIN,95,48,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GSENSOR_Z_MAX,35,65,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GSENSOR_Z_MIN,95,65,52,14,ES_AUTOHSCROLL
+    GROUPBOX        "M-Sensor ",IDC_STATIC,168,7,154,80
+    LTEXT           "X",IDC_STATIC,182,34,8,9
+    LTEXT           "Max",IDC_STATIC,216,18,17,9
+    LTEXT           "Min",IDC_STATIC,276,18,17,9
+    EDITTEXT        IDC_EDIT_MSENSOR_X_MAX,196,31,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MSENSOR_X_MIN,256,31,52,14,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,182,51,8,9
+    EDITTEXT        IDC_EDIT_MSENSOR_Y_MAX,196,48,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MSENSOR_Y_MIN,256,48,52,14,ES_AUTOHSCROLL
+    LTEXT           "Z",IDC_STATIC,182,68,8,9
+    EDITTEXT        IDC_EDIT_MSENSOR_Z_MAX,196,65,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MSENSOR_Z_MIN,256,65,52,14,ES_AUTOHSCROLL
+    GROUPBOX        " ALS-PS",IDC_STATIC,7,90,154,80
+    LTEXT           "ALS",IDC_STATIC,19,116,16,9
+    LTEXT           "Max",IDC_STATIC,55,102,17,9
+    LTEXT           "Min",IDC_STATIC,115,101,17,9
+    EDITTEXT        IDC_EDIT_ALS_MAX,35,114,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ALS_MIN,95,114,52,14,ES_AUTOHSCROLL
+    LTEXT           "PS",IDC_STATIC,21,134,10,9
+    EDITTEXT        IDC_EDIT_PS_MAX,35,131,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PS_MIN,95,131,52,14,ES_AUTOHSCROLL
+    GROUPBOX        " GYROSCOPE",IDC_STATIC,168,90,154,80
+    LTEXT           "X",IDC_STATIC,182,116,8,9
+    LTEXT           "Max",IDC_STATIC,216,102,17,9
+    LTEXT           "Min",IDC_STATIC,276,101,17,9
+    EDITTEXT        IDC_EDIT_GYROSCOPE_X_MAX,196,114,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GYROSCOPE_X_MIN,256,114,52,14,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,182,134,8,9
+    EDITTEXT        IDC_EDIT_GYROSCOPE_Y_MAX,196,131,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GYROSCOPE_Y_MIN,256,131,52,14,ES_AUTOHSCROLL
+    LTEXT           "Z",IDC_STATIC,182,150,8,9
+    EDITTEXT        IDC_EDIT_GYROSCOPE_Z_MAX,196,148,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GYROSCOPE_Z_MIN,256,148,52,14,ES_AUTOHSCROLL
+    CONTROL         "X",IDC_CHECK_GS_X,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    11,32,22,13
+    CONTROL         "Y",IDC_CHECK_GS_Y,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    11,50,22,13
+    CONTROL         "Z",IDC_CHECK_GS_Z,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    11,66,22,13
+    GROUPBOX        "",IDC_STATIC,7,171,315,29
+    CONTROL         " G-Sensor value differ among 3 consecutive test",
+                    IDC_CHECK_GSENSOR_DIFF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,182,226,10
+    CONTROL         "",IDC_CHECK_ALS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,
+                    116,9,10
+    CONTROL         "",IDC_CHECK_PS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,
+                    133,9,10
+END
+
+IDD_PROPPAGE_MEDIUM_MICBIAS DIALOG DISCARDABLE  0, 0, 370, 190
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Mic Bias + OTG"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Main Micbias",IDC_STATIC,18,15,156,60
+    LTEXT           "Min Value :",IDC_STATIC,36,32,42,11
+    EDITTEXT        IDC_EDIT_BIAS0_MIN,82,29,76,16,ES_AUTOHSCROLL
+    LTEXT           "Max Value :",IDC_STATIC,36,53,42,11
+    EDITTEXT        IDC_EDIT_BIAS0_MAX,82,50,76,16,ES_AUTOHSCROLL
+    GROUPBOX        "Headset Micbias",IDC_STATIC,190,15,157,60
+    LTEXT           "Min Value :",IDC_STATIC,208,32,42,11
+    EDITTEXT        IDC_EDIT_BIAS1_MIN,254,29,76,16,ES_AUTOHSCROLL
+    LTEXT           "Max Value :",IDC_STATIC,208,53,42,11
+    EDITTEXT        IDC_EDIT_BIAS1_MAX,254,50,76,16,ES_AUTOHSCROLL
+    GROUPBOX        "Mic Bias",IDC_STATIC,7,3,356,81
+    GROUPBOX        "OTG",IDC_STATIC,7,90,356,56
+    LTEXT           "Min Value :",IDC_STATIC,36,105,42,11
+    EDITTEXT        IDC_EDIT_OTG_MIN,82,102,76,16,ES_AUTOHSCROLL
+    LTEXT           "Max Value :",IDC_STATIC,36,126,42,11
+    EDITTEXT        IDC_EDIT_OTG_MAX,82,123,76,16,ES_AUTOHSCROLL
+    LTEXT           "V",IDC_STATIC,167,106,12,11
+    LTEXT           "V",IDC_STATIC,168,126,12,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ATATOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 501
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_PROPPAGE_MEDIUM_WIFI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_PROPPAGE_MEDIUM_GPS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 418
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_PROPPAGE_MEDIUM_FM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 404
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_PROPPAGE_MEDIUM_AUDIO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 419
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+
+    IDD_PROPPAGE_MEDIUM_MATV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 418
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_PROPPAGE_MEDIUM_VIBRATOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_PROPPAGE_MEDIUM_BT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 185
+    END
+
+    IDD_PROPPAGE_MEDIUM_HWVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_PROPPAGE_MEDIUM_BTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 385
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_PROPPAGE_MEDIUM_CAMERA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 411
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_PROPPAGE_MEDIUM_KPAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_PROPPAGE_PM_CAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_PROPPAGE_MEDIUM_LED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        VERTGUIDE, 255
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_PROPPAGE_MEDIUM_SENSOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 381
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_PROPPAGE_MEDIUM_MICBIAS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROPPAGE_MEDIUM_BT DLGINIT
+BEGIN
+    IDC_COMBO_SPEC_TYPE, 0x403, 16, 0
+0x694c, 0x696d, 0x6574, 0x2064, 0x6441, 0x7264, 0x7365, 0x0073, 
+    IDC_COMBO_SPEC_TYPE, 0x403, 12, 0
+0x6e41, 0x2079, 0x6441, 0x7264, 0x7365, 0x0073, 
+    0
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ATATool MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ATATool\0"
+            VALUE "LegalCopyright", "Copyright (C) 2012\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ATATool.EXE\0"
+            VALUE "ProductName", "ATATool Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About ATATool..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ATATool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

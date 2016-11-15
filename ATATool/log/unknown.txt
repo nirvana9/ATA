@@ -1,0 +1,60 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/07/05/19/11/24/544 Init state index = 1, wait for preloader com port 6.
+2016/07/05/19/11/35/680 Find preloader com port OK, start booting target into factory mode.
+2016/07/05/19/11/36/042 Enter factory mode ok, set state index = 2
+2016/07/05/19/11/36/042 Searching kernel com port 167.
+2016/07/05/19/11/42/314 Find kernel com port ok, set state index = 3
+2016/07/05/19/11/42/314 GetCommModule ok.
+2016/07/05/19/11/42/314 Send Start Command (AT+START) start.
+2016/07/05/19/11/42/314 Send start command 1.
+2016/07/05/19/11/42/319 Get response pass, OK!
+2016/07/05/19/11/42/319 Send Start Command (AT+START) ok.
+2016/07/05/19/11/42/320 Send request flag command.
+2016/07/05/19/11/42/624 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/07/05/19/11/42/718 Sleep 0 second before test.
+2016/07/05/19/11/42/718 Init test item object.
+2016/07/05/19/11/42/718 Start Testing items:
+
+2016/07/05/19/11/42/768 Start test items.
+2016/07/05 19:11:42.768 ====== [SWVersion] Start111111111111111111111111 Test ======
+2016/07/05 19:11:50.114 [OK] Version test ok.
+2016/07/05 19:11:50.114 Time cost: 7.346 second
+2016/07/05 19:11:50.114 ====== [SWVersion] End Test ======
+
+2016/07/05 19:11:50.410 GetATAData data size: 1500.
+2016/07/05 19:11:50.410 GetATAData sp_ata_data size: 1684.
+2016/07/05 19:11:50.410 GetATAData sp_ata_data_old size: 1192.
+2016/07/05 19:11:50.410 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/05/19/11/50/411 [OK] Request data successfully.
+2016/07/05/19/11/50/466 SW Version,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/07/05 19:11:50.520 ====== [Barcode] Start111111111111111111111111 Test ======
+2016/07/05 19:11:51.927 Barcode: unknown
+2016/07/05 19:11:51.932 Test Error:E_ATADLL_RESULT_FAILED,Error code is 1
+
+2016/07/05 19:11:51.932 Time cost: 1.413 second
+2016/07/05 19:11:51.932 ====== [Barcode] End Test ======
+
+2016/07/05 19:11:52.228 GetATAData data size: 1500.
+2016/07/05 19:11:52.228 GetATAData sp_ata_data size: 1684.
+2016/07/05 19:11:52.228 GetATAData sp_ata_data_old size: 1192.
+2016/07/05 19:11:52.228 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/05/19/11/52/228 [OK] Request data successfully.
+2016/07/05/19/11/52/243 Barcode,1,Fail,E_ATADLL_RESULT_FAILED
+2016/07/05/19/11/52/244 Start to request test result data.
+2016/07/05 19:11:52.584 GetATAData data size: 1500.
+2016/07/05 19:11:52.584 GetATAData sp_ata_data size: 1684.
+2016/07/05 19:11:52.584 GetATAData sp_ata_data_old size: 1192.
+2016/07/05 19:11:52.584 GetATAData sp_ata_data_old_ex size: 1248.
+2016/07/05/19/11/52/584 [OK] Request data successfully.
+2016/07/05/19/11/52/584 [Modem SW Version] S2603_G4_W1258_MP_V0.5.4_S150924, 2015/09/24 17:10
+2016/07/05/19/11/52/584 [AP SW Version] S2603_DG_A42_PUBLIC_V0.4.6_S1127
+2016/07/05/19/11/52/584 
+2016/07/05/19/11/52/584 
+2016/07/05/19/11/52/884 DeInit test item object.
+2016/07/05/19/11/52/894 Total time cost: 8.76 second. 
+
+2016/07/05/19/11/52/894 Send stop command(AT+STOP) to target.
+2016/07/05/19/11/53/204 Release target comm handle.
+2016/07/05/19/11/53/265 Rename log file (temp1.txt) by barcode: unknown

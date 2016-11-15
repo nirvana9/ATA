@@ -1,0 +1,4 @@
+ItemName, TestTimes, TestResult, ErrorCode
+SW Version,1,Fail,E_ATADLL_RESULT_NULL
+Barcode,1,Fail,E_ATADLL_RESULT_NULL
+GPS_CALI,1,Fail,E_ATADLL_RESULT_NULL

@@ -1,0 +1,68 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160304.00
+//*************************************************************//
+2016/03/15/20/24/44/324 Init state index = 1, wait for preloader com port 6.
+2016/03/15/20/24/44/614 Find preloader com port OK, start booting target into factory mode.
+2016/03/15/20/24/44/961 Enter factory mode ok, set state index = 2
+2016/03/15/20/24/44/961 Searching kernel com port 4.
+2016/03/15/20/24/54/338 Find kernel com port ok, set state index = 3
+2016/03/15/20/24/54/338 GetCommModule ok.
+2016/03/15/20/24/54/338 Send Start Command (AT+START) start.
+2016/03/15/20/24/54/338 Send start command 1.
+2016/03/15/20/24/54/972 Send start command 2.
+2016/03/15/20/24/55/611 Send start command 3.
+2016/03/15/20/24/57/737 Send start command 4.
+2016/03/15/20/24/59/863 Send start command 5.
+2016/03/15/20/25/02/003 Send start command 6.
+2016/03/15/20/25/04/129 Send start command 7.
+2016/03/15/20/25/06/266 Send start command 8.
+2016/03/15/20/25/08/394 Send start command 9.
+2016/03/15/20/25/10/520 Send start command 10.
+2016/03/15/20/25/12/649 Send start command 11.
+2016/03/15/20/25/14/790 Send start command 12.
+2016/03/15/20/25/16/977 Send start command 13.
+2016/03/15/20/25/19/116 Send start command 14.
+2016/03/15/20/25/21/254 Send start command 15.
+2016/03/15/20/25/23/395 Send start command 16.
+2016/03/15/20/25/25/520 Send start command 17.
+2016/03/15/20/25/27/659 Send start command 18.
+2016/03/15/20/25/29/799 Send start command 19.
+2016/03/15/20/25/31/924 Send start command 20.
+2016/03/15/20/25/34/063 Send start command 21.
+2016/03/15/20/25/36/191 Send start command 22.
+2016/03/15/20/25/38/317 Send start command 23.
+2016/03/15/20/25/40/442 Send start command 24.
+2016/03/15/20/25/42/581 Send start command 25.
+2016/03/15/20/25/44/713 Send start command 26.
+2016/03/15/20/25/46/852 Send start command 27.
+2016/03/15/20/25/48/978 Send start command 28.
+2016/03/15/20/25/49/446 Send start command 29.
+2016/03/15/20/25/49/571 Send start command 30.
+2016/03/15/20/25/49/681 Send start command 31.
+2016/03/15/20/25/49/800 Send start command 32.
+2016/03/15/20/25/49/910 Send start command 33.
+2016/03/15/20/25/50/020 Send start command 34.
+2016/03/15/20/25/50/130 Send start command 35.
+2016/03/15/20/25/50/240 Send start command 36.
+2016/03/15/20/25/50/375 Send start command 37.
+2016/03/15/20/25/50/500 Send start command 38.
+2016/03/15/20/25/50/609 Send start command 39.
+2016/03/15/20/25/50/738 Send start command 40.
+2016/03/15/20/25/50/862 Send start command 41.
+2016/03/15/20/25/50/987 Send start command 42.
+2016/03/15/20/25/51/112 Send start command 43.
+2016/03/15/20/25/51/237 Send start command 44.
+2016/03/15/20/25/51/362 Send start command 45.
+2016/03/15/20/25/51/486 Send start command 46.
+2016/03/15/20/25/51/611 Send start command 47.
+2016/03/15/20/25/51/738 Send start command 48.
+2016/03/15/20/25/51/863 Send start command 49.
+2016/03/15/20/25/51/988 Send start command 50.
+2016/03/15/20/25/52/112 Send start command fail after 51 times
+2016/03/15/20/25/52/112 Send Start Command (AT+START) fail.
+2016/03/15/20/25/52/112 DeInit test item object.
+2016/03/15/20/25/52/175 Total time cost: 0.00 second. 
+
+2016/03/15/20/25/52/175 Send stop command(AT+STOP) to target.
+2016/03/15/20/25/52/300 Release target comm handle.
+2016/03/15/20/25/52/378 Rename log file (temp1.txt) by date info.

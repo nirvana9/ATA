@@ -1,0 +1,121 @@
+; $Header: /VXIPnP/Eagle/hp663x2/hp663x2.def 2     5/22/00 10:19a Rickc $
+DESCRIPTION	'PLUG AND PLAY DRIVER FOR HP 663X2 Instrument Description'
+EXPORTS
+
+; Required plug and play functions from VPP-3.1
+
+	hp663x2_init
+	hp663x2_close
+	hp663x2_reset
+	hp663x2_self_test
+	hp663x2_error_query
+	hp663x2_error_message
+	hp663x2_revision_query
+
+; HP standard utility functions
+
+	hp663x2_timeOut
+	hp663x2_timeOut_Q
+	hp663x2_errorQueryDetect
+	hp663x2_errorQueryDetect_Q
+	hp663x2_dcl
+	hp663x2_opc_Q
+
+; HP standard status functions
+
+	hp663x2_readStatusByte_Q
+	hp663x2_operEvent_Q
+	hp663x2_operCond_Q
+	hp663x2_quesEvent_Q
+	hp663x2_quesCond_Q
+
+; HP standard command passthrough functions
+
+	hp663x2_cmd
+	hp663x2_cmdString_Q
+	hp663x2_cmdInt
+	hp663x2_cmdInt16_Q
+
+; Instrument specific functions
+
+	hp663x2_readOutputStatus
+	hp663x2_rippleRiDfi
+	hp663x2_outputVoltCurr
+	hp663x2_setMeasure
+	hp663x2_setDisplay
+	hp663x2_getDisplay
+	hp663x2_measureVolt
+	hp663x2_measureCurr
+	hp663x2_fetchVolt
+	hp663x2_fetchCurr
+	hp663x2_measureVoltArray
+	hp663x2_measureCurrArray
+	hp663x2_fetchVoltArray
+	hp663x2_fetchCurrArray
+	hp663x2_setVoltAcqTrig
+	hp663x2_getVoltAcqTrig
+	hp663x2_setCurrAcqTrig
+	hp663x2_getCurrAcqTrig
+	hp663x2_setSweepParams
+	hp663x2_getSweepParams
+	hp663x2_setMeasTimeout
+	hp663x2_getMeasTimeout
+	hp663x2_clearOutpProt
+	hp663x2_setOutpRelayPolarity
+	hp663x2_getOutpRelayPolarity
+	hp663x2_setOutpState
+	hp663x2_getOutpState
+	hp663x2_setPonState
+	hp663x2_getPonState
+	hp663x2_setOutpRelay
+	hp663x2_getOutpRelay
+	hp663x2_setRiDfi
+	hp663x2_getRiDfi
+	hp663x2_setOutpTrigSource
+	hp663x2_getOutpTrigSource
+	hp663x2_getAcqSenseFunc
+	hp663x2_setCurrSenseParams
+	hp663x2_getCurrSenseParams
+	hp663x2_setWindowType
+	hp663x2_getWindowType
+	hp663x2_setCurr
+	hp663x2_getCurr
+	hp663x2_setVolt
+	hp663x2_getVolt
+	hp663x2_setOcpParams
+	hp663x2_getOcpParams
+	hp663x2_setDigio
+	hp663x2_getDigio
+	hp663x2_getVoltAlcBandwidth
+	hp663x2_abort
+	hp663x2_arm
+	hp663x2_trigger
+	hp663x2_trg
+	hp663x2_stdEvent_Q
+	hp663x2_setEnableReg
+	hp663x2_getEnableReg
+	hp663x2_doDelay
+
+; HP 66309 specific functions
+
+	hp663x2_measureCurr2
+	hp663x2_measureVolt2
+	hp663x2_measureDvm
+	hp663x2_fetchDvm
+	hp663x2_setDisplayChannel
+	hp663x2_getDisplayChannel
+	hp663x2_setSenseProt
+	hp663x2_getSenseProt
+	hp663x2_setCurr2
+	hp663x2_getCurr2
+	hp663x2_setVolt2
+	hp663x2_getVolt2
+	hp663x2_setDvmAcqTrig
+	hp663x2_getDvmAcqTrig
+	hp663x2_setMeasure2
+	hp663x2_outputVoltCurr2
+	hp663x2_readOutputStatus2
+
+; AGILENT 66319, 321 specific Functions
+	hp663x2_setRes
+	hp663x2_getRes

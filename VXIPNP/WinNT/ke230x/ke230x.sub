@@ -1,0 +1,861 @@
+FPAttributeValueFile
+
+n  SubType="IVI" 
+
+n  SubVersion="1" 
+
+v attrCurrentLimitBehaviorRangeTable DataType="i" 
+ KE230X_VAL_CURRENT_REGULATE (0)
+  "When the output current reaches the value of the "
+  "KE230X_ATTR_CURRENT_LIMIT attribute, the power supply restricts the "
+  "output voltage such that the output current is not greater than the value "
+  "of the KE230X_ATTR_CURRENT_LIMIT attribute."
+
+ KE230X_VAL_CURRENT_TRIP (1)
+  "When the output current reaches or exceeds the value of the "
+  "KE230X_ATTR_CURRENT_LIMIT attribute, the power supply disables the output."
+
+
+v attrMeasCurrentRangeRangeTable DataType="d" 
+ 0.005 (5.00000000000000E-3)
+  ""
+
+ 5.0 (5.00000000000000E+0)
+  ""
+
+
+v attrMeasLintTriggerEdgeRangeTable DataType="i" 
+ KE230X_VAL_FALLING (0)
+  ""
+
+ KE230X_VAL_RISING (1)
+  ""
+
+ KE230X_VAL_NEITHER (2)
+  ""
+
+
+v attrMeasPcurrTriggerPolarityRangeTable DataType="i" 
+ KE230X_VAL_HIGH (1)
+  ""
+
+ KE230X_VAL_LOW (0)
+  ""
+
+ KE230X_VAL_AVERAGE (2)
+  ""
+
+
+v attrMeasTlevRange2RangeTable DataType="d" 
+ 5.0 (5.00000000000000E+0)
+  ""
+
+
+v attrMeasTlevRangeRangeTable DataType="d" 
+ 0.1 (1.00000000000000E-1)
+  ""
+
+ 1.0 (1.00000000000000E+0)
+  ""
+
+ 5.0 (5.00000000000000E+0)
+  ""
+
+
+v attrOutputBandwidthRangeTable DataType="i" 
+ KE230X_VAL_LOW (0)
+  ""
+
+ KE230X_VAL_HIGH (1)
+  ""
+
+
+v functionTypeRangeTable DataType="i" 
+ KE230X_VAL_MEASURE_CURRENT (0)
+  ""
+
+ KE230X_VAL_MEASURE_VOLTAGE (0)
+  ""
+
+ KE230X_VAL_MEASURE_DVM (0)
+  ""
+
+ KE230X_VAL_MEASURE_PCURR (0)
+  ""
+
+ KE230X_VAL_MEASURE_LINT (0)
+  ""
+
+
+v measurementTypeRangeTable DataType="i" 
+ KE230X_VAL_MEASURE_CURRENT (0)
+  ""
+
+ KE230X_VAL_MEASURE_VOLTAGE (0)
+  ""
+
+ KE230X_VAL_MEASURE_DVM (0)
+  ""
+
+ KE230X_VAL_MEASURE_PCURR (0)
+  ""
+
+ KE230X_VAL_MEASURE_LINT (0)
+  ""
+
+
+v outputStateRangeTable DataType="i" 
+ KE230X_VAL_OUTPUT_CONSTANT_CURRENT (0)
+  ""
+
+ KE230X_VAL_OUTPUT_OVER_VOLTAGE (0)
+  ""
+
+ KE230X_VAL_OUTPUT_OVER_CURRENT (0)
+  ""
+
+
+v Boolean_values DataType="i" 
+ VI_TRUE (1)
+  "True"
+
+ VI_FALSE (0)
+  "False"
+
+
+v attrInstrModelRangeTable DataType="i" 
+ KE230X_VAL_KE2302 (0)
+  ""
+
+ KE230X_VAL_KE2306 (5)
+  ""
+
+
+v rangeTypeRangeTable DataType="i" 
+ KE230X_VAL_RANGE_CURRENT (0)
+  ""
+
+ KE230X_VAL_RANGE_VOLTAGE (0)
+  ""
+
+
+v attrMeasFunctionRangeTable DataType="i" 
+ KE230X_VAL_MEASURE_CURRENT (0)
+  ""
+
+ KE230X_VAL_MEASURE_VOLTAGE (0)
+  ""
+
+ KE230X_VAL_MEASURE_DVM (0)
+  ""
+
+ KE230X_VAL_MEASURE_PCURR (0)
+  ""
+
+ KE230X_VAL_MEASURE_LINT (0)
+  ""
+
+
+v attrMeasLintTlevRange2RangeTable DataType="d" 
+ 5.0 (5.00000000000000E+0)
+  ""
+
+
+v attrMeasPcurrTlevRange2RangeTable DataType="d" 
+ 5.0 (5.00000000000000E+0)
+  ""
+
+
+v attrResponseModeRangeTable DataType="i" 
+ KE230X_VAL_NORMAL_RESPONSE (0)
+  ""
+
+ KE230X_VAL_ENHANCED_RESPONSE (1)
+  ""
+
+
+v attrTriggerSourceRangeTable DataType="i" 
+ KE230X_VAL_TRIG_IMMEDIATE (0)
+  "The power supply does not wait for a trigger before changing the output "
+  "signa."
+
+ KE230X_VAL_TRIG_EXTERNAL (1)
+  "The power supply waits for a trigger on the external trigger input."
+
+ KE230X_VAL_SOFTWARE_TRIG (2)
+  "The power supply waits for you to call the ke230x_SendSoftwareTrigger "
+  "function."
+
+ KE230X_VAL_TRIG_TTL0 (3)
+  "The power supply waits for a trigger on the PXI TRIG0 line (for PXI "
+  "instruments) or the VXI TTL0 line (for VXI instruments)."
+
+ KE230X_VAL_TRIG_TTL1 (4)
+  "The power supply waits for a trigger on the PXI TRIG1 line (for PXI "
+  "instruments) or the VXI TTL1 line (for VXI instruments)."
+
+ KE230X_VAL_TRIG_TTL2 (5)
+  "The power supply waits for a trigger on the PXI TRIG2 line (for PXI "
+  "instruments) or the VXI TTL2 line (for VXI instruments)."
+
+ KE230X_VAL_TRIG_TTL3 (6)
+  "The power supply waits for a trigger on the PXI TRIG3 line (for PXI "
+  "instruments) or the VXI TTL3 line (for VXI instruments)."
+
+ KE230X_VAL_TRIG_TTL4 (7)
+  "The power supply waits for a trigger on the PXI TRIG4 line (for PXI "
+  "instruments) or the VXI TTL4 line (for VXI instruments)."
+
+ KE230X_VAL_TRIG_TTL5 (8)
+  "The power supply waits for a trigger on the PXI TRIG5 line (for PXI "
+  "instruments) or the VXI TTL5 line (for VXI instruments)."
+
+ KE230X_VAL_TRIG_TTL6 (9)
+  "The power supply waits for a trigger on the PXI TRIG6 line (for PXI "
+  "instruments) or the VXI TTL6 line (for VXI instruments)."
+
+ KE230X_VAL_TRIG_TTL7 (10)
+  "The power supply waits for a trigger on the PXI TRIG7 line (for PXI "
+  "instruments) or the VXI TTL7 line (for VXI instruments)."
+
+ KE230X_VAL_TRIG_ECL0 (11)
+  "The power supply waits for a trigger on the VXI ECL0 line."
+
+ KE230X_VAL_TRIG_ECL1 (12)
+  "The power supply waits for a trigger on the VXI ECL1 line."
+
+ KE230X_VAL_TRIG_PXI_STAR (13)
+  "The power supply waits for a trigger on the PXI STAR trigger bus."
+
+ KE230X_VAL_TRIG_RTSI_0 (14)
+  "The power supply waits for a trigger on RTSI line 0 ."
+
+ KE230X_VAL_TRIG_RTSI_1 (15)
+  "The power supply waits for a trigger on RTSI line 1."
+
+ KE230X_VAL_TRIG_RTSI_2 (16)
+  "The power supply waits for a trigger on RTSI line 2."
+
+ KE230X_VAL_TRIG_RTSI_3 (17)
+  "The power supply waits for a trigger on RTSI line 3."
+
+ KE230X_VAL_TRIG_RTSI_4 (18)
+  "The power supply waits for a trigger on RTSI line 4."
+
+ KE230X_VAL_TRIG_RTSI_5 (19)
+  "The power supply waits for a trigger on RTSI line 5."
+
+ KE230X_VAL_TRIG_RTSI_6 (20)
+  "The power supply waits for a trigger on RTSI line 6."
+
+
+0 ke230x_SetAttributeViInt32 3 4 false s DataType="ViInt32" 
+0 ke230x_GetAttributeViInt32 3 4 false g DataType="ViInt32" 
+0 ke230x_CheckAttributeViInt32 3 4 false s DataType="ViInt32" 
+0 ke230x_SetAttributeViReal64 3 4 false s DataType="ViReal64" 
+0 ke230x_GetAttributeViReal64 3 4 false g DataType="ViReal64" 
+0 ke230x_CheckAttributeViReal64 3 4 false s DataType="ViReal64" 
+0 ke230x_SetAttributeViSession 3 4 false s DataType="ViSession" 
+0 ke230x_GetAttributeViSession 3 4 false g DataType="ViSession" 
+0 ke230x_CheckAttributeViSession 3 4 false s DataType="ViSession" 
+0 ke230x_SetAttributeViBoolean 3 4 false s DataType="ViBoolean" 
+0 ke230x_GetAttributeViBoolean 3 4 false g DataType="ViBoolean" 
+0 ke230x_CheckAttributeViBoolean 3 4 false s DataType="ViBoolean" 
+0 ke230x_SetAttributeViString 3 4 false s DataType="ViString" 
+0 ke230x_GetAttributeViString 3 5 false g DataType="ViString" 
+0 ke230x_CheckAttributeViString 3 4 false s DataType="ViString" 
+
+1 all "Inherent IVI Attributes" 
+ "Attributes common to all IVI instrument drivers."
+
+2 all "User Options" 
+ "Attributes you can set to affect the operation of this instrument driver.\n"
+ "    "
+
+3 all "Range Check" KE230X_ATTR_RANGE_CHECK ViBoolean gs Boolean_values 
+ "Specifies whether to validate attribute values and function parameters.  "
+ "If enabled, the instrument driver validates the parameter values that you "
+ "pass to driver functions.  Range checking parameters is very useful for "
+ "debugging.  After you validate your program, you can set this attribute to "
+ "VI_FALSE to disable range checking and maximize performance.\n"
+ "    The default value is VI_TRUE.   Use the ke230x_InitWithOptions "
+ "function to override this value.\n"
+ "    "
+
+3 all "Query Instrument Status" KE230X_ATTR_QUERY_INSTR_STATUS ViBoolean gs Boolean_values 
+ "Specifies whether the instrument driver queries the instrument status "
+ "after each operation.  Querying the instrument status is very useful for "
+ "debugging.  After you validate your program, you can set this attribute to "
+ "VI_FALSE to disable status checking and maximize performance\n"
+ "    The instrument driver can choose to ignore status checking for "
+ "particular attributes regardless of the setting of this attribute.\n"
+ "    The default value is VI_TRUE.   Use the ke230x_InitWithOptions "
+ "function to override this value.\n"
+ "    "
+
+3 all "Cache" KE230X_ATTR_CACHE ViBoolean gs Boolean_values 
+ "Specifies whether to cache the value of attributes.  When caching is "
+ "enabled, the instrument driver keeps track of the current instrument "
+ "settings and avoids sending redundant commands to the instrument.  Thus, "
+ "you can significantly increase execution speed.\n"
+ "    The instrument driver can choose always to cache or never to cache "
+ "particular attributes regardless of the setting of this attribute.\n"
+ "    The default value is VI_TRUE.   Use the ke230x_InitWithOptions "
+ "function to override this value.\n"
+ "    "
+
+3 all "Simulate" KE230X_ATTR_SIMULATE ViBoolean gs Boolean_values 
+ "Specifies whether or not to simulate instrument driver I/O operations.  If "
+ "simulation is enabled, instrument driver functions perform range checking "
+ "and call Ivi_GetAttribute and Ivi_SetAttribute functions, but they do not "
+ "perform instrument I/O.  For output parameters that represent instrument "
+ "data, the instrument driver functions return calculated values.\n"
+ "    The default value is VI_FALSE.   Use the ke230x_InitWithOptions "
+ "function to override this value.\n"
+ "    "
+
+3 all "Record Value Coercions" KE230X_ATTR_RECORD_COERCIONS ViBoolean gs Boolean_values 
+ "Specifies whether the IVI engine keeps a list of the value coercions it "
+ "makes for ViInt32 and ViReal64 attributes.  You call "
+ "ke230x_GetNextCoercionRecord to extract and delete the oldest coercion "
+ "record from the list.\n"
+ "    The default value is VI_FALSE.   Use the ke230x_InitWithOptions "
+ "function to override this value.\n"
+ "    "
+
+2 all "Driver Identification" 
+ "Attributes that provide identity and version information about this "
+ "instrument driver.\n"
+ "    "
+
+3 all "Description" KE230X_ATTR_SPECIFIC_DRIVER_DESCRIPTION ViString g 
+ "A string that contains a brief description of the specific driver\n"
+ "    "
+
+3 all "Driver Prefix" KE230X_ATTR_SPECIFIC_DRIVER_PREFIX ViString g 
+ "A string that contains the prefix for the instrument driver.  The name of "
+ "each user-callable function in this driver starts with this prefix.\n"
+ "    "
+
+3 all "Driver Vendor" KE230X_ATTR_SPECIFIC_DRIVER_VENDOR ViString g 
+ "A string that contains the name of the vendor that supplies this driver.\n"
+ "    "
+
+3 all "Major Version" KE230X_ATTR_SPECIFIC_DRIVER_MAJOR_VERSION ViInt32 g 
+ "The major version number of this instrument driver.\n"
+ "    "
+
+3 all "Minor Version" KE230X_ATTR_SPECIFIC_DRIVER_MINOR_VERSION ViInt32 g 
+ "The minor version number of this instrument driver.\n"
+ "    "
+
+3 all "Revision" KE230X_ATTR_SPECIFIC_DRIVER_REVISION ViString g 
+ "A string that contains additional version information about this "
+ "instrument driver.\n"
+ "    "
+
+3 all "Class Specification Major Version" KE230X_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MAJOR_VERSION ViInt32 g 
+ "The major version number of the class specification with which this driver "
+ "is compliant.\n"
+ "    "
+
+3 all "Class Specification Minor Version" KE230X_ATTR_SPECIFIC_DRIVER_CLASS_SPEC_MINOR_VERSION ViInt32 g 
+ "The minor version number of the class specification with which this driver "
+ "is compliant.\n"
+ "    "
+
+2 all "Driver Capabilities" 
+ "Attributes that provide information about the capabilities of this "
+ "instrument driver.\n"
+ "    "
+
+3 all "Supported Instrument Models" KE230X_ATTR_SUPPORTED_INSTRUMENT_MODELS ViString g 
+ "Contains a model code of the instrument. For drivers that support more "
+ "than one device, this attribute contains a comma-separated list of "
+ "supported instrument models.\n"
+ "    "
+
+3 all "Class Group Capabilities" KE230X_ATTR_GROUP_CAPABILITIES ViString g 
+ "A string that contains a comma-separated list of class-extention groups "
+ "that this driver implements.\n"
+ "    "
+
+3 all "Number of Channels" KE230X_ATTR_NUM_CHANNELS ViInt32 g 
+ "Indicates the number of channels that the specific instrument driver "
+ "supports.  \n"
+ "    For each attribute for which the IVI_VAL_MULTI_CHANNEL flag attribute "
+ "is set, the IVI engine maintains a separate cache value for each channel.\n"
+ "    "
+
+2 all "Instrument Identification" 
+ "Attributes that provide identity information about the instrument that you "
+ "are using.    "
+
+3 all "Manufacturer" KE230X_ATTR_INSTRUMENT_MANUFACTURER ViString g 
+ "A string that contains the name of the instrument manufacturer you are "
+ "currently using.\n"
+ "    "
+
+3 all "Model" KE230X_ATTR_INSTRUMENT_MODEL ViString g 
+ "A string that contains the model number or name of the instrument that you "
+ "are currently using.\n"
+ "    "
+
+3 all "Firmware Revision" KE230X_ATTR_INSTRUMENT_FIRMWARE_REVISION ViString g 
+ "A string that contains the firmware revision information for the "
+ "instrument you are currently using.\n"
+ "    "
+
+2 all "Error Info" 
+ "Attributes for error information.\n"
+ "    "
+
+3 all "Primary Error" KE230X_ATTR_PRIMARY_ERROR ViInt32 gs 
+ "A code that describes the first error that occurred since the last call to "
+ "ke230x_GetErrorInfo on the session.  The value follows the VXIplug&play "
+ "completion code conventions.  A negative value describes an error "
+ "condition.  A positive value describes a warning condition and indicates "
+ "that no error occurred.  A zero indicates that no error or warning "
+ "occurred. The error and warning values can be status codes defined by IVI, "
+ "VISA, class drivers, or specific drivers.\n"
+ "    "
+
+3 all "Secondary Error" KE230X_ATTR_SECONDARY_ERROR ViInt32 gs 
+ "An optional code that provides additional information concerning the "
+ "primary error condition.  The error and warning values can be status codes "
+ "defined by IVI, VISA, class drivers, or specific drivers.  Zero indicates "
+ "no additional information.\n"
+ "    "
+
+3 all "Error Elaboration" KE230X_ATTR_ERROR_ELABORATION ViString gs 
+ "An optional string that contains additional information concerning the "
+ "primary error condition.\n"
+ "    "
+
+2 all "Advanced Session Information" 
+ "Attributes that contain additional information concerning the instrument "
+ "driver session.      "
+
+3 all "Logical Name" KE230X_ATTR_LOGICAL_NAME ViString g 
+ "A string containing the logical name you specified when opening the "
+ "current IVI session.\n"
+ "     You may pass a logical name to the ke230x_init or "
+ "ke230x_InitWithOptions functions.  The IVI Configuration utility must "
+ "contain an entry for the logical name.  The logical name entry refers to a "
+ "virtual instrument section in the IVI Configuration file.  The virtual "
+ "instrument section specifies a physical device and initial user options.\n"
+ "    "
+
+3 all "Resource Descriptor" KE230X_ATTR_RESOURCE_DESCRIPTOR ViString g 
+ "Indicates the resource descriptor the driver uses to identify the physical "
+ "device.\n"
+ "    If you initialize the driver with a logical name, this attribute "
+ "contains the resource descriptor that corresponds to the entry in the IVI "
+ "Configuration utility.  \n"
+ "    If you initialize the instrument driver with the resource descriptor, "
+ "this attribute contains that value.\n"
+ "    "
+
+3 all "I/O Session Type" KE230X_ATTR_IO_SESSION_TYPE ViString g 
+ "Contains the type of the I/O session that this driver uses to communicate "
+ "with the instrument.     "
+
+3 all "Instrument I/O Session" KE230X_ATTR_IO_SESSION ViSession g 
+ "Specifies the I/O session that the specific driver uses to communicate "
+ "with the instrument.\n"
+ "    "
+
+1 all "Basic Operation" 
+ "Attributes for controlling the basic features of the DC power supply."
+
+2 all "Output Enabled" KE230X_ATTR_OUTPUT_ENABLED ViBoolean gs Boolean_values 
+ "This channel-based attribute specifies whether the signal the power supply "
+ "produces appears at the output connector. \n"
+ "    "
+
+2 all "OVP Enabled" KE230X_ATTR_OVP_ENABLED ViBoolean gs Boolean_values 
+ "This channel-based attribute specifies whether the power supply provides "
+ "over-voltage protection.  The OVP is permanently off on this instrument."
+
+2 all "OVP Limit" KE230X_ATTR_OVP_LIMIT ViReal64 gs 
+ "This channel-based attribute specifies the voltage the power supply "
+ "allows. The units are Volts.\n"
+ "\n"
+ "This attribute is NOT SUPPORTED on this instrument.\n"
+ "    "
+
+2 all "Current Limit Behavior" KE230X_ATTR_CURRENT_LIMIT_BEHAVIOR ViInt32 gs attrCurrentLimitBehaviorRangeTable 
+ "This channel-based attribute specifies the behavior of the power supply "
+ "when the output current is equal to or greater than the value of the "
+ "KE230X_ATTR_CURRENT_LIMIT attribute.\n"
+ "    "
+
+2 all "Current Limit" KE230X_ATTR_CURRENT_LIMIT ViReal64 gs 
+ "This channel-based attribute specifies the output current limit. The units "
+ "are Amps.\n"
+ "\n"
+ "The value of the KE230X_ATTR_CURRENT_LIMIT_BEHAVIOR attribute determines "
+ "the behavior of the power supply when the output current is equal to or "
+ "greater than the value of this attribute.\n"
+ "\n"
+ "    Valid Range:  \n"
+ "\n"
+ "Current Range        Min         Max\n"
+ "=======================================\n"
+ "0.006 A              0.0 A       1.0 A\n"
+ "5.0 A                0.006 A     5.0 A\n"
+ "    "
+
+2 all "Voltage Level" KE230X_ATTR_VOLTAGE_LEVEL ViReal64 gs 
+ "This channel-based attribute specifies the voltage level the DC power "
+ "supply attempts to generate.  The units are Volts.\n"
+ "\n"
+ "Valid Range:  0.0 to 15.0 V\n"
+ "\n"
+ "Default Value: 0.0\n"
+ "    "
+
+1 all "Additional Output Settings" 
+ ""
+
+2 all "Output Impedance" KE230X_ATTR_OUTPUT_IMPEDANCE ViReal64 gs 
+ "Specifies the output impedance for the 2302 and 2306 channel 1 (battery "
+ "simulator).\n"
+ "\n"
+ "Valid Range: 0 to 1 Ohm\n"
+ "\n"
+ "Default Value: 0 Ohms\n"
+
+2 all "Output Bandwidth" KE230X_ATTR_OUTPUT_BANDWIDTH ViInt32 gs attrOutputBandwidthRangeTable 
+ "Specifies the output bandwidth. When the output is connected, high or low "
+ "bandwidth is possible. If the output is disconnected, the only valid "
+ "bandwidth is low.\n"
+ "\n"
+ "Valid Range: \n"
+ "KE230X_VAL_LOW\n"
+ "KE230X_VAL_HIGH\n"
+ "\n"
+ "Default Value:\n"
+ "KE230X_VAL_LOW\n"
+
+2 all "Voltage Protection Clamp Enabled" KE230X_ATTR_VPT_CLAMP_ENABLED ViBoolean gs Boolean_values 
+ "Selects the voltage protection clamp mode.\n"
+ "If the mode is VI_TRUE, the output will disconnect if the voltage sensed "
+ "on the output is higher than the overvoltage protection value or lower "
+ "than -0.6 V (diode drop).\n"
+ "If the mode is VI_FALSE, the output will disconnect if the voltage sensed "
+ "on the output is higher than the overvoltage protection value or lower "
+ "than this value.\n"
+
+2 all "Enable/disable auto range of current measurement" KE230X_ATTR_CURRENT_AUTO_RANGE ViBoolean gs Boolean_values 
+ ""
+
+2 all "Retrieves max voltage level" KE230X_ATTR_MAX_VOLTAGE_LEVEL ViReal64 gs 
+ ""
+
+2 all "Votage Protection Offset" KE230X_ATTR_VPT_OFFSET ViReal64 gs 
+ "Sets the voltage protection offset.\n"
+ "\n"
+ "Valid Range: 0 to 8 Volts\n"
+ "\n"
+ "Default Value: 0 V"
+
+1 all "Relay Output" 
+ "This group controls relay outputs."
+
+2 all "Relay 1 Connected" KE230X_ATTR_RELAY_1_CONNECTED ViBoolean gs Boolean_values 
+ "Controls the state of the relay 1.\n"
+ "\n"
+ "Valid Range:\n"
+ "VI_FALSE - Disconnected\n"
+ "VI_TRUE - Connected\n"
+ "\n"
+ "Default Value: \n"
+ "VI_FALSE - Disconnected"
+
+2 all "Relay 2 Connected" KE230X_ATTR_RELAY_2_CONNECTED ViBoolean gs Boolean_values 
+ "Controls the state of the relay 2.\n"
+ "\n"
+ "Valid Range:\n"
+ "VI_FALSE - Disconnected\n"
+ "VI_TRUE - Connected\n"
+ "\n"
+ "Default Value: \n"
+ "VI_FALSE - Disconnected"
+
+2 all "Relay 3 Connected" KE230X_ATTR_RELAY_3_CONNECTED ViBoolean gs Boolean_values 
+ "Controls the state of the relay 3.\n"
+ "\n"
+ "Valid Range:\n"
+ "VI_FALSE - Disconnected\n"
+ "VI_TRUE - Connected\n"
+ "\n"
+ "Default Value: \n"
+ "VI_FALSE - Disconnected"
+
+2 all "Relay 4 Connected" KE230X_ATTR_RELAY_4_CONNECTED ViBoolean gs Boolean_values 
+ "Controls the state of the relay 4.\n"
+ "\n"
+ "Valid Range:\n"
+ "VI_FALSE - Disconnected\n"
+ "VI_TRUE - Connected\n"
+ "\n"
+ "Default Value: \n"
+ "VI_FALSE - Disconnected"
+
+1 all "Measure" 
+ "Attributes related to measurement functions.\n"
+
+2 all "Measurement Function" KE230X_ATTR_MEAS_FUNCTION ViInt32 gs measurementTypeRangeTable 
+ "Specifies the measurement function."
+
+2 all "Integration Rate" KE230X_ATTR_MEAS_INTEGRATION_RATE ViReal64 gs 
+ "Specifies the integration rate in line cycles for the voltage, current and "
+ "digital voltmeter measurement functions of the instrument."
+
+2 all "Measurement Average Count" KE230X_ATTR_MEAS_AVERAGE_COUNT ViInt32 gs 
+ "Specifies the measurement average count for the voltage, current and "
+ "digital voltmeter measurement functions."
+
+2 all "Pulse Current" 
+ ""
+
+3 all "Pulse Current Average" KE230X_ATTR_MEAS_PCURR_AVERAGE ViInt32 gs 
+ "Specifies the averaging for the pulse current measurements.\n"
+ "\n"
+ "Valid Range:\n"
+ "1 to 100       if SYNC_STATE is set to VI_TRUE\n"
+ "1 to 5000     if SYNC_STATE is set to VI_FALSE\n"
+ "\n"
+ "Single point measurement will return one value which is an average of "
+ "given number of integrations.\n"
+ "\n"
+ "Multiple point measurement will return this number of measurements."
+
+3 all "Pulse Current Mode" KE230X_ATTR_MEAS_PCURR_TRIGGER_POLARITY ViInt32 gs attrMeasPcurrTriggerPolarityRangeTable 
+ "Specifies the pulse current measurement mode.\n"
+ "\n"
+ "Valid Range:\n"
+ "KE230X_VAL_HIGH\n"
+ "KE230X_VAL_LOW\n"
+ "KE230X_VAL_AVERAGE"
+
+3 all "Pulse Current Integration Time High" KE230X_ATTR_MEAS_PCURR_INT_TIME_HIGH ViReal64 gs 
+ "Specifies the pulse current integration time for high pulse measurements.\n"
+ "\n"
+ "Valid Range: 33.33E-6 to 0.8333\n"
+ "\n"
+ "Default Value: 3.333E-5"
+
+3 all "Pulse Current Integration Time Low" KE230X_ATTR_MEAS_PCURR_INT_TIME_LOW ViReal64 gs 
+ "Specifies the pulse current integration time for low pulse measurements.\n"
+ "\n"
+ "Valid Range: 33.33E-6 to 0.8333\n"
+ "\n"
+ "Default Value: 3.333E-5"
+
+3 all "Pulse Current Integration Time Average" KE230X_ATTR_MEAS_PCURR_INT_TIME_AVERAGE ViReal64 gs 
+ "Specifies the pulse current integration time for pulse average time "
+ "measurement.\n"
+ "\n"
+ "Valid Range: 33.33E-6 to 0.8333\n"
+ "\n"
+ "Default Value: 3.333E-5"
+
+3 all "Pulse Current Step Enabled" KE230X_ATTR_MEAS_PCURR_STEP_ENABLED ViBoolean gs Boolean_values 
+ "Enables/disables step measurements.\n"
+
+3 all "KE230X_ATTR_MEAS_PCURR_STEP_DOWN" KE230X_ATTR_MEAS_PCURR_STEP_DOWN ViInt32 gs 
+ ""
+
+3 all "Pulse Current Step Up" KE230X_ATTR_MEAS_PCURR_STEP_UP ViInt32 gs 
+ "Specifies the number of up steps for the step measurement.\n"
+ "\n"
+ "Valid Range: 0 to number of steps"
+
+3 all "Pulse Current Step Time" KE230X_ATTR_MEAS_PCURR_STEP_TIME ViReal64 gs 
+ "Specifies the step integration time for up plus down steps.\n"
+ "\n"
+ "Valid Range: 33.330E-6 to 0.1 s"
+
+3 all "Pulse Current Step Timeout" KE230X_ATTR_MEAS_PCURR_STEP_TIMEOUT ViReal64 gs 
+ "Specifies the step timeout for all but the first step.\n"
+ "\n"
+ "Valid Range: 2 ms to 200 ms"
+
+3 all "Pulse Current Step First Timeout" KE230X_ATTR_MEAS_PCURR_STEP1_TIMEOUT ViReal64 gs 
+ "Specifies the timeout for the first step.\n"
+ "\n"
+ "Valid Range: 10.0 ms to 60.0 s"
+
+3 all "Pulse Current Step Delay" KE230X_ATTR_MEAS_PCURR_STEP_DELAY ViReal64 gs 
+ "Specifies the step delay time for step pulse current measurement.\n"
+ "\n"
+ "Valid Range: 0 to 100 ms"
+
+3 all "Pulse Current Step Trigger Level Range" KE230X_ATTR_MEAS_PCURR_STEP_TLEV_RANGE ViReal64 gs attrMeasTlevRangeRangeTable 
+ "Specifies the trigger level range for step pulse current measurement.\n"
+ "\n"
+ "Valid Ranges: 100 mA, 1 A and 5 A"
+
+3 all "Pulse current sync trigger Level for channel 2 only" KE230X_ATTR_MEAS_PCURR_SYNC_TRIGGER_LEVEL ViReal64 gs 
+ ""
+
+3 all "Pulse Detection Enabled" KE230X_ATTR_MEAS_PCURR_SYNC_ENABLED ViBoolean gs Boolean_values 
+ "Enables/disables the pulse detection triggering.\n"
+ "\n"
+ "If set to VI_TRUE the instrument performs the pulse curent measurement.\n"
+ "If set to VI_FALSE the instrument performs the pulse current digitization."
+
+3 all "Pulse Detection Trigger Level for 100 mAmp Range" KE230X_ATTR_MEAS_PCURR_SYNC_TRIGGER_LEVEL_MILL ViReal64 gs 
+ "Specifies the pulse detection triggering level.\n"
+ "\n"
+ "Valid Range:\n"
+ "0.0 to 5.0 A        in 5 A range\n"
+ "0.0 to 1.0 A        in 1 A range\n"
+ "0.0 to 0.1 A        in 100 mA range"
+
+3 all "Pulse Detection Trigger Level for 5 Amp Range" KE230X_ATTR_MEAS_PCURR_SYNC_TRIGGER_LEVEL_AMP ViReal64 gs 
+ "Specifies the pulse detection triggering level for the 5 Amp Range.\n"
+ "\n"
+ "Valid Range:\n"
+ "0.0 to 5.0 A        in 5 A range"
+
+3 all "Pulse Detection Trigger Level for 1 Amp Range" KE230X_ATTR_MEAS_PCURR_SYNC_TRIGGER_LEVEL_ONE ViReal64 gs 
+ "Specifies the pulse detection triggering level.\n"
+ "\n"
+ "Valid Range:\n"
+ "0.0 to 1.0 A        in 1 A range"
+
+3 all "Pulse Detection Trigger Level Range" KE230X_ATTR_MEAS_PCURR_SYNC_TLEV_RANGE ViReal64 gs attrMeasTlevRangeRangeTable 
+ "Specifies the pulse detection triggering level.\n"
+ "\n"
+ "Valid Range: 100 mA, 1 A and 5 A"
+
+3 all "Timeout value for pulse detection" KE230X_ATTR_MEAS_PCURR_TIMEOUT ViReal64 gs 
+ ""
+
+3 all "Enable/Disable PCUR Pulse search mode" KE230X_ATTR_MEAS_PCURR_PULSE_SEARCH ViBoolean gs Boolean_values 
+ "Enables/disables PCur pulse search. Pulse search controls how the "
+ "background readings are taken.\n"
+
+3 all "Enable/Disable PCUR detect pulse only mode" KE230X_ATTR_MEAS_PCURR_DETECT_PULSE_ONLY ViBoolean gs Boolean_values 
+ "Enables/disables Pcur pulse detect only feature. This feature controls how "
+ "the background readings are taken."
+
+3 all "Enable/Disable PCUR fast readings mode" KE230X_ATTR_MEAS_PCURR_FAST_MODE ViBoolean gs Boolean_values 
+ "Enables/disables PCUR fast reading mode. This mode controls how the "
+ "background readings are taken.\n"
+
+3 all "Pulse Detection Trigger Delay" KE230X_ATTR_MEAS_PCURR_SYNC_TRIGGER_DELAY ViReal64 gs 
+ "Specifies the pulse detection trigger delay.\n"
+ "\n"
+ "Valid Range:\n"
+ "0.0 to 0.1       in pulse current measurement mode\n"
+ "0.0 to 5.0       in pulse current digitization mode"
+
+2 all "Long Integration" 
+ ""
+
+3 all "Long Integration Trigger Edge" KE230X_ATTR_MEAS_LINT_TRIGGER_EDGE ViInt32 gs attrMeasLintTriggerEdgeRangeTable 
+ "Specifies the pulse detection trigger delay.\n"
+ "\n"
+ "Valid Range:\n"
+ "KE230X_VAL_FALLING\n"
+ "KE230X_VAL_RISING\n"
+ "KE230X_VAL_NEITHER"
+
+3 all "Long Integration Measurement Time" KE230X_ATTR_MEAS_LINT_TIME ViReal64 gs 
+ "Specifies the integration time in seconds.\n"
+ "\n"
+ "Valid Range:\n"
+ "0.850 to 60     on 60 Hz power line\n"
+ "0.840 to 50     on 50 Hz power line"
+
+3 all "Long integration trigger level for channel 2 only" KE230X_ATTR_MEAS_LINT_TRIGGER_LEVEL ViReal64 gs 
+ ""
+
+3 all "Long Integration Measurement Time Autoset" KE230X_ATTR_MEAS_LINT_TIME_AUTO ViBoolean gs Boolean_values 
+ "Autosets the long integration measurement time."
+
+3 all "Long Integration Trigger Level for 5 Amp Range" KE230X_ATTR_MEAS_LINT_TRIGGER_LEVEL_AMP ViReal64 gs 
+ "Specifies the long integration measurement trigger level for 5 Amp range.\n"
+ "\n"
+ "Valid Range:\n"
+ "0.0 to 5.0 A        in 5 A range"
+
+3 all "Long Integration Trigger Level for  1 Amp Range" KE230X_ATTR_MEAS_LINT_TRIGGER_LEVEL_ONE ViReal64 gs 
+ "Specifies the long integration measurement trigger level for one Amp "
+ "Range.\n"
+ "\n"
+ "Valid Range:\n"
+ "0.0 to 1.0 A        in 1 A range"
+
+3 all "Long Integration Trigger Level for 100 mA Range" KE230X_ATTR_MEAS_LINT_TRIGGER_LEVEL_MILL ViReal64 gs 
+ "Specifies the long integration measurement trigger level for 100 mA range.\n"
+ "\n"
+ "Valid Range:\n"
+ "0.0 to 0.1 A        in 100 mA range"
+
+3 all "Long Integration Trigger Level Range" KE230X_ATTR_MEAS_LINT_TLEV_RANGE ViReal64 gs attrMeasTlevRangeRangeTable 
+ "Specifies the long integration measurement triggering level range. On "
+ "channel 2 the only valid range is 5 A.\n"
+ "\n"
+ "Valid Range: 100 mA, 1 A and 5 A"
+
+3 all "Long Integration Timeout" KE230X_ATTR_MEAS_LINT_TIMEOUT ViReal64 gs 
+ "Specifies the long integration measurement timeout in seconds.\n"
+ "\n"
+ "Valid Range: 1 to 63 s"
+
+3 all "Long Integration Pulse Search" KE230X_ATTR_MEAS_LINT_PULSE_SEARCH ViBoolean gs Boolean_values 
+ "Enables/disables pulse search. Pulse search controls how the background "
+ "readings are taken.\n"
+ "\n"
+
+3 all "Long Integration Fast Reading Mode" KE230X_ATTR_MEAS_LINT_FAST_MODE ViBoolean gs Boolean_values 
+ "Enables/disables fast reading mode. This mode controls how the background "
+ "readings are taken.\n"
+
+3 all "Long Integration Detect Pulse Only" KE230X_ATTR_MEAS_LINT_DETECT_PULSE_ONLY ViBoolean gs Boolean_values 
+ "Enables/disables pulse detect only feature. This feature controls how the "
+ "background readings are taken.\n"
+
+1 all "Miscellaneous Attributes" 
+ "Additional Attributes."
+
+2 all "VISA Timeout in mSecs" KE230X_ATTR_IO_TIMEOUT ViInt32 gs 
+ "Sets/Gets the VISA timeout attribute VI_ATTR_TMO_VALUE"
+
+2 all "ID Query Response" KE230X_ATTR_ID_QUERY_RESPONSE ViString g 
+ "Returns the ID Query response string.  The instrument driver gets the "
+ "value of this attribute when you pass VI_TRUE for the ID Query parameter "
+ "to the ke230x_init or ke230x_InitWithOptions function.\n"
+ "    "
+
+2 all "Hidden Attributes (not user-viewable)" 
+ "    "
+
+3 all "Pulse Current Integration Time Autoset" KE230X_ATTR_MEAS_PCURR_INT_TIME_AUTO ViBoolean hidden Boolean_values 
+ "Specifies that the pulse current integration time be selected by the "
+ "instrument."
+
+3 all "KE230X_ATTR_SOUR_MAX_CURRENT_RANGE" KE230X_ATTR_SOUR_MAX_CURRENT_RANGE ViReal64 g 
+ ""
+
+3 all "Measurement Current Range" KE230X_ATTR_MEAS_CURRENT_RANGE ViReal64 hidden attrMeasCurrentRangeRangeTable 
+ "Selects the current measurement range.\n"
+ "\n"
+ "Valid Range:\n"
+ "\n"
+ "Current Range        Min         Max\n"
+ "=======================================\n"
+ "0.005 A              0.0 A       1.0 A\n"
+ "5.0 A                0.006 A     5.0 A"
+
+3 all "Trigger Measurement" KE230X_ATTR_TRIGGER_MEASUREMENT ViBoolean hidden Boolean_values 
+ "Sends the trigger on the selected channel."
+
+3 all "Measurement Complete" KE230X_ATTR_MEASUREMENT_COMPLETE ViBoolean hidden Boolean_values 
+ "Indicates whether the measurement operation is complete or not."
+

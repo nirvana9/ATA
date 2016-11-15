@@ -1,0 +1,39 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/08/11/09/50/46/828 Init state index = 1, wait for preloader com port 6.
+2016/08/11/09/50/54/004 Find preloader com port OK, start booting target into factory mode.
+2016/08/11/09/50/54/366 Enter factory mode ok, set state index = 2
+2016/08/11/09/50/54/366 Searching kernel com port 192.
+2016/08/11/09/51/10/367 Find kernel com port ok, set state index = 3
+2016/08/11/09/51/10/367 GetCommModule ok.
+2016/08/11/09/51/10/367 Send Start Command (AT+START) start.
+2016/08/11/09/51/10/367 Send start command 1.
+2016/08/11/09/51/10/557 Send start command 2.
+2016/08/11/09/51/10/903 Get response pass, OK!
+2016/08/11/09/51/10/904 Send Start Command (AT+START) ok.
+2016/08/11/09/51/10/905 Send request flag command.
+2016/08/11/09/51/11/238 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/08/11/09/51/11/297 Sleep 0 second before test.
+2016/08/11/09/51/11/297 Init test item object.
+2016/08/11/09/51/11/297 Start Testing items:
+
+2016/08/11/09/51/11/347 Start test items.
+2016/08/11 09:51:11.347 ====== [ADC] Start111111111111111111111111 Test ======
+2016/08/11 09:52:13.056 [ADC ERROR] AT+CHARGER=1,1 response timeout.
+2016/08/11 09:52:13.056 Test Error:E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT,Error code is 8
+
+2016/08/11 09:52:13.056 Time cost: 61.709 second
+2016/08/11 09:52:13.056 ====== [ADC] End Test ======
+
+2016/08/11 09:52:14.760 [Requestdata ERROR] Request result data timeout.
+2016/08/11/09/52/14/761 [Error] Request data fail!!
+2016/08/11/09/52/14/775 ADC,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11/09/52/15/088 ADC,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11/09/52/15/089 DeInit test item object.
+2016/08/11/09/52/15/111 Total time cost: 61.71 second. 
+
+2016/08/11/09/52/15/111 Send stop command(AT+STOP) to target.
+2016/08/11/09/52/16/229 Release target comm handle.
+2016/08/11/09/52/16/341 Stopped by user.
+2016/08/11/09/52/16/341 Rename log file (temp1.txt) by date info.

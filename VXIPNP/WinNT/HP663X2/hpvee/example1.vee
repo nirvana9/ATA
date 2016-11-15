@@ -1,0 +1,253 @@
+(saveFormat "2.3")
+(date "Thu 23/Oct/1997 22:19:09 EDT")
+(veerev "4.0")
+(platform "PC")
+(execMode compatible)
+(filterNAN 0)
+(workspaceStackingOrder M)
+(SaveCF no)
+(device 0 ROOTCONTEXT
+(properties
+(trigMode deg)
+(nextID 106)
+(popupTitleText "Eagle Measurement Panel  Rev_1  1/16/97")
+(popupMoveable 1)
+(popupTitleTextColor "Black")
+(popupTitleBackgroundColor "Gray"))
+(deviceList
+(device 77 START25)
+(device 90 NOTE
+(properties
+(text2 3 "HP663X2 P&P Driver" "VEE Example Program" "")))
+(device 96 PNPTRANS
+(properties
+(name "Reset pnp_ps")
+(transactions 1 "hp663x2_reset(instrHandle)")
+(parmInfo 2 "1" "F"))
+(implementation
+(prefix "HP663X2")
+(ioDev "pnp_ps")))
+(device 97 PNPTRANS
+(properties
+(name "Initialize to 0V, 0A")
+(transactions 1 "hp663x2_outputVoltCurr(instrHandle, Volt_Lev, Curr_Lev)")
+(parmInfo 4 "3" "F" "T 0" "T 0"))
+(interface
+(input 1
+(name "Volt_Lev")
+(requires
+(datatype Real))
+(lock name constraints)
+(optional yes))
+(input 2
+(name "Curr_Lev")
+(requires
+(datatype Real))
+(lock name constraints)
+(optional yes)))
+(implementation
+(prefix "HP663X2")
+(ioDev "pnp_ps")))
+(device 100 CONSTANT
+(properties
+(name "Voltage"))
+(interface
+(output 1
+(name "Real")
+(lock name constraints)))
+(implementation
+(value Real
+(data  5))
+(initValue Real
+(data  0))))
+(device 101 CONSTANT
+(properties
+(name "Current"))
+(interface
+(output 1
+(name "Real")
+(lock name constraints)))
+(implementation
+(value Real
+(data  0.5))
+(initValue Real
+(data  0))))
+(device 102 PNPTRANS
+(properties
+(name "Measure V, A")
+(transactions 2 "hp663x2_measureVolt(instrHandle, HP663X2_MEAS_DC, Volt_Result)"
+"hp663x2_measureCurr(instrHandle, HP663X2_MEAS_DC, Curr_Result)")
+(parmInfo 8 "3" "T 19464817" "F" "T 0" "3" "T 1245258" "F" "T 0"))
+(interface
+(output 1
+(name "Volt_Result")
+(optional yes))
+(output 2
+(name "Curr_Result")
+(optional yes)))
+(implementation
+(prefix "HP663X2")
+(ioDev "pnp_ps")))
+(device 103 EXITPROCESS
+(properties
+(code 0)))
+(device 104 TEXTDISPLAY
+(properties
+(name "Output VOltage"))
+(interface
+(input 1
+(name "Data"))))
+(device 105 TEXTDISPLAY
+(properties
+(name "Output Current"))
+(interface
+(input 1
+(name "Data"))))
+(configuration
+(connect D0:0 D2:0)
+(connect D2:0 D3:0)
+(connect D4:1 D3:1)
+(connect D5:1 D3:2)
+(connect D3:0 D6:0)
+(connect D6:0 D7:0)
+(connect D6:1 D8:1)
+(connect D6:2 D9:1))
+(ShowOnExecPanel))
+(contextCarrier
+(wndOrigin -1 4)
+(wndState res)
+(active panel)
+(panel
+(extent 403 172)
+(widget 4 detail
+(relativeOrigin 20 90)
+(title on)
+(borderStyle flat)
+(extent 88 30)
+(showFormat real))
+(widget 0 detail
+(relativeOrigin 230 90)
+(fg "Blue")
+(font "Arial" 14 bold)
+(title off)
+(borderStyle none)
+(extent 140 50))
+(widget 5 detail
+(relativeOrigin 120 90)
+(title on)
+(borderStyle flat)
+(extent 88 30)
+(showFormat real))
+(widget 8 detail
+(relativeOrigin 20 20)
+(title on)
+(borderStyle flat)
+(extent 186 28))
+(widget 9 detail
+(relativeOrigin 210 20)
+(title on)
+(borderStyle flat)
+(extent 176 28)))
+(detail
+(extent 804 537)
+(anchorPt 282 340)
+(configuration
+(devCarrierFor 77
+(active open)
+(icon)
+(open
+(extent 47 22))
+(title off)
+(pinCenter 10 -220))
+(devCarrierFor 90
+(active open)
+(icon
+(iconImage "notepad.icn"))
+(open
+(extent 250 79)
+(editing enabled))
+(pinCenter 260 -190))
+(devCarrierFor 96
+(active icon)
+(icon
+(extent 96 16))
+(open
+(extent 254 78))
+(terminals on)
+(pinCenter 10 -170))
+(devCarrierFor 97
+(active icon)
+(icon
+(extent 122 25))
+(open
+(extent 254 78))
+(terminals on)
+(pinCenter 10 -120))
+(devCarrierFor 100
+(active open)
+(icon
+(extent 52 0))
+(open
+(extent 88 30)
+(showFormat real))
+(pinCenter -140 -120))
+(devCarrierFor 101
+(active open)
+(icon
+(extent 52 0))
+(open
+(extent 88 30)
+(showFormat real))
+(pinCenter -140 -40))
+(devCarrierFor 102
+(active icon)
+(icon
+(extent 93 25))
+(open
+(extent 228 92))
+(terminals on)
+(pinCenter 10 -50))
+(devCarrierFor 103
+(active icon)
+(icon
+(extent 68 52)
+(iconImage "stop.icn"))
+(open
+(extent 69 32))
+(pinCenter 10 50))
+(devCarrierFor 104
+(active open)
+(icon
+(extent 107 0))
+(open
+(extent 143 28))
+(pinCenter 210 -70))
+(devCarrierFor 105
+(active open)
+(icon
+(extent 104 0))
+(open
+(extent 140 28))
+(pinCenter 210 20))
+(connect D0:0 D2:0
+(points 2 10 -207 10 -181))
+(connect D2:0 D3:0
+(points 2 10 -160 10 -135))
+(connect D4:1 D3:1
+(points 4 -94 -120 -70 -120 -70 -130 -54 -130))
+(connect D5:1 D3:2
+(points 4 -94 -40 -70 -40 -70 -110 -54 -110))
+(connect D3:0 D6:0
+(points 2 10 -105 10 -65))
+(connect D6:0 D7:0
+(points 2 10 -35 10 21))
+(connect D6:1 D8:1
+(points 4 59 -60 80 -60 80 -70 136 -70))
+(connect D6:2 D9:1
+(points 4 59 -40 80 -40 80 20 137 20)))
+(stackingOrder 2 0 3 5 6 7 8 9 4 1))
+(numberFormats
+(realFormat standard)
+(realSigDigits 4)
+(realRadixSpec 4)
+(integerBase decimal))))

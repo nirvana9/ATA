@@ -1,0 +1,74 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160329.00
+//*************************************************************//
+2016/08/11/10/08/25/997 Init state index = 1, wait for preloader com port 6.
+2016/08/11/10/08/33/538 Find preloader com port OK, start booting target into factory mode.
+2016/08/11/10/08/33/899 Enter factory mode ok, set state index = 2
+2016/08/11/10/08/33/899 Searching kernel com port 192.
+2016/08/11/10/08/49/839 Find kernel com port ok, set state index = 3
+2016/08/11/10/08/49/839 GetCommModule ok.
+2016/08/11/10/08/49/839 Send Start Command (AT+START) start.
+2016/08/11/10/08/49/839 Send start command 1.
+2016/08/11/10/08/49/943 Send start command 2.
+2016/08/11/10/08/50/544 Send start command 3.
+2016/08/11/10/08/50/670 Get response pass, OK!
+2016/08/11/10/08/50/670 Send Start Command (AT+START) ok.
+2016/08/11/10/08/50/670 Send request flag command.
+2016/08/11/10/08/50/878 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/08/11/10/08/50/977 Sleep 0 second before test.
+2016/08/11/10/08/50/977 Init test item object.
+2016/08/11/10/08/50/977 Start Testing items:
+
+2016/08/11/10/08/50/977 Start test items.
+2016/08/11 10:08:51.027 ====== [SWVersion] Start111111111111111111111111 Test ======
+2016/08/11 10:08:51.213 Time cost: 0.186 second
+2016/08/11 10:08:51.213 ====== [SWVersion] End Test ======
+
+2016/08/11 10:08:53.643 GetATAData data size: 4.
+2016/08/11 10:08:53.643 GetATAData sp_ata_data size: 1684.
+2016/08/11 10:08:53.644 GetATAData sp_ata_data_old size: 1192.
+2016/08/11 10:08:53.644 GetATAData sp_ata_data_old_ex size: 1248.
+2016/08/11/10/08/53/644 [OK] Request data successfully.
+2016/08/11/10/08/53/656 SW Version,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/08/11 10:08:53.707 ====== [LCD] Start111111111111111111111111 Test ======
+2016/08/11 10:08:56.409 [OK] LCM test ok from target.
+2016/08/11 10:08:56.410 Time cost: 2.703 second
+2016/08/11 10:08:56.410 ====== [LCD] End Test ======
+
+2016/08/11 10:08:56.751 GetATAData data size: 1500.
+2016/08/11 10:08:56.751 GetATAData sp_ata_data size: 1684.
+2016/08/11 10:08:56.751 GetATAData sp_ata_data_old size: 1192.
+2016/08/11 10:08:56.751 GetATAData sp_ata_data_old_ex size: 1248.
+2016/08/11/10/08/56/751 [OK] Request data successfully.
+2016/08/11/10/08/56/769 LCM,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/08/11 10:08:56.820 ====== [Charger] Start111111111111111111111111 Test ======
+2016/08/11 10:09:58.591 [Charger ERROR] AT+CHARGER=1,1 response timeout.
+2016/08/11 10:09:58.591 Test Error:E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT,Error code is 8
+
+2016/08/11 10:09:58.591 Time cost: 61.772 second
+2016/08/11 10:09:58.591 ====== [Charger] End Test ======
+
+2016/08/11 10:11:00.297 [Requestdata ERROR] Request result data timeout.
+2016/08/11/10/11/00/297 [Error] Request data fail!!
+2016/08/11/10/11/00/308 Charger,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11 10:11:00.360 ====== [G-Sensor] Start111111111111111111111111 Test ======
+2016/08/11 10:11:49.587 [GSensor ERROR] AT+GSENSOR=STOP response timeout.
+2016/08/11 10:11:49.589 Test Error:E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT,Error code is 8
+
+2016/08/11 10:11:49.592 Time cost: 49.229 second
+2016/08/11 10:11:49.593 ====== [G-Sensor] End Test ======
+
+2016/08/11 10:11:51.346 [Requestdata ERROR] Request result data timeout.
+2016/08/11/10/11/51/346 [Error] Request data fail!!
+2016/08/11/10/11/51/359 G-Sensor,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11/10/11/51/684 SW Version,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/08/11/10/11/51/717 LCM,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/08/11/10/11/51/745 Charger,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11/10/11/51/764 G-Sensor,1,Fail,E_ATADLL_RESULT_AT_RESPONSE_TIMEOUT
+2016/08/11/10/11/51/765 DeInit test item object.
+2016/08/11/10/11/51/774 Total time cost: 113.89 second. 
+
+2016/08/11/10/11/51/774 Send stop command(AT+STOP) to target.
+2016/08/11/10/11/52/876 Release target comm handle.
+2016/08/11/10/11/52/938 Stopped by user.
+2016/08/11/10/11/52/938 Rename log file (temp1.txt) by date info.

@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PowerDLL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mtk71420\LOCALS~1\Temp\RSP6FD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "VXIPNP\winNT\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "POWERDLL_EXPORTS" /Fp"Release/PowerDLL.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SP tools\ATA\Souce code\¸´¼þ Src_Code\PowerDLL\PowerFunc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mtk71420\LOCALS~1\Temp\RSP6FD.tmp" 
+Creating temporary file "C:\DOCUME~1\mtk71420\LOCALS~1\Temp\RSP6FE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ..\VXIPNP\winNT\lib\msc\hp663x2_32.lib /nologo /dll /incremental:no /pdb:"Release/PowerDLL.pdb" /machine:I386 /out:"../ATATool/Release/PowerDLL.dll" /implib:"Release/PowerDLL.lib" 
+".\Release\PowerFunc.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mtk71420\LOCALS~1\Temp\RSP6FE.tmp"
+<h3>Output Window</h3>
+Compiling...
+PowerFunc.cpp
+Linking...
+   Creating library Release/PowerDLL.lib and object Release/PowerDLL.exp
+
+
+
+<h3>Results</h3>
+PowerDLL.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

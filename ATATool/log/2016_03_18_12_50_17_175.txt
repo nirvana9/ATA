@@ -1,0 +1,16 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160317.00
+//*************************************************************//
+2016/03/18/12/48/32/371 Init state index = 1, wait for preloader com port 6.
+2016/03/18/12/49/29/863 Find preloader com port OK, start booting target into factory mode.
+2016/03/18/12/49/30/215 Enter factory mode ok, set state index = 2
+2016/03/18/12/49/30/215 Searching kernel com port 4.
+2016/03/18/12/50/17/128 Stopped by user!
+2016/03/18/12/50/17/128 GetCommModule failed.
+2016/03/18/12/50/17/128 Test Error:E_ATADLL_CONNECT_PHONE_FAIL,Error code is 17
+2016/03/18/12/50/17/144 LED,1,Fail,E_ATADLL_RESULT_NULL
+2016/03/18/12/50/17/144 DeInit test item object.
+2016/03/18/12/50/17/175 Total time cost: 0.00 second. 
+
+2016/03/18/12/50/17/175 Stopped by user.
+2016/03/18/12/50/17/175 Rename log file (temp1.txt) by date info.

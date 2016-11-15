@@ -1,0 +1,65 @@
+Copyright 2002 Keithley Instruments.  All Rights Reserved. 
+
+
+Instrument Information:
+----------------------
+Vendor:                              	Keithley
+Description:                         	Power Supply Sources
+Model(s) Supported by Driver:        	
+     2302, 2306
+	
+
+Instrument Driver information:
+-----------------------------
+Prefix:                              	ke230x 
+Driver Revision:                	1.2.1.1
+Original Release Date:               	06/18/1999
+Update Release Date:                 	07/01/2002
+
+
+IVI Class Compliance:
+--------------------
+IviClass Specification:              	IviDCPwr 
+Revision:                             	2.00
+Class Compliance:                	Yes
+Extensions Supported:                	
+    Base, Measurement
+
+
+Interfaces Supported:
+----------------------
+    GPIB
+
+
+IVI Features Supported:
+----------------------
+    Multi-thread Safety, Range Checking, Simulation, State Caching, Status Query
+
+
+Test Conditions:
+---------------
+Software Environments Tested:        	LabVIEW 5.1, LabVIEW 6.0, LabWindows/CVI 5.5,
+                                        Microsoft Visual C++ 6.0, Visual Basic 6.0
+Model(s) Tested:                     	2306
+
+
+Min. ADE Versions Required
+--------------------------
+    LabVIEW 5.1, LabWindows/CVI 5.5, Microsoft Visual C++ 6.0 SP3, Visual Basic 6.0 SP3
+
+
+Support Software Required
+-------------------------	
+    IVI Engine 1.6, NI-VISA 2.5.0 or Agilent VISA J.01.01
+
+
+Note:  VISA has additional software requirements.  
+For example, unless using a serial interface, VISA 
+requires that a compatible GPIB card is installed on 
+your system.  Check with VISA help for additional support 
+software and hardware requirements.
+
+Note: For getting started writing an application that uses 
+the driver, refer to the Help System in the Keithley folder 
+or from the "Start->Programs->Keithley Instruments" menu.  
+Also refer to the example programs.

@@ -1,0 +1,76 @@
+//*************************************************************//
+//           ATA Tool Version: SP_ATA_Tool_v20160304.00
+//*************************************************************//
+2016/03/17/13/09/38/267 Init state index = 1, wait for preloader com port 6.
+2016/03/17/13/09/51/451 Find preloader com port OK, start booting target into factory mode.
+2016/03/17/13/09/51/771 Enter factory mode ok, set state index = 2
+2016/03/17/13/09/51/771 Searching kernel com port 62.
+2016/03/17/13/10/12/881 Find kernel com port ok, set state index = 3
+2016/03/17/13/10/12/881 GetCommModule ok.
+2016/03/17/13/10/12/881 Send Start Command (AT+START) start.
+2016/03/17/13/10/12/881 Send start command 1.
+2016/03/17/13/10/12/901 Get response pass, OK!
+2016/03/17/13/10/12/901 Send Start Command (AT+START) ok.
+2016/03/17/13/10/12/901 Send request flag command.
+2016/03/17/13/10/13/253 Request flag from targt fail.Maybe not support in this sw.Using default one...
+2016/03/17/13/10/13/347 Sleep 0 second before test.
+2016/03/17/13/10/13/347 Init test item object.
+2016/03/17/13/10/13/347 Start Testing items:
+
+2016/03/17/13/10/13/347 Start test items.
+2016/03/17 13:10:13.347 ====== [SWVersion] Start Test ======
+2016/03/17 13:10:16.108 [ERROR] Version test fail.
+2016/03/17 13:10:16.108 Time cost: 2.761 second
+2016/03/17 13:10:16.108 ====== [SWVersion] End Test ======
+
+2016/03/17 13:10:16.453 GetATAData data size: 1500.
+2016/03/17 13:10:16.453 GetATAData sp_ata_data size: 1684.
+2016/03/17 13:10:16.453 GetATAData sp_ata_data_old size: 1192.
+2016/03/17 13:10:16.453 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/17/13/10/16/453 [OK] Request data successfully.
+2016/03/17/13/10/16/453 SW Version,1,OK,E_ATADLL_RESULT_SUCCESS
+2016/03/17 13:10:16.453 ====== [Barcode] Start Test ======
+2016/03/17 13:10:18.013 Barcode: 1234567890000359                                            
+2016/03/17 13:10:18.013 Test Error:E_ATADLL_RESULT_FAILED,Error code is 1
+
+2016/03/17 13:10:18.013 Time cost: 1.560 second
+2016/03/17 13:10:18.013 ====== [Barcode] End Test ======
+
+2016/03/17 13:10:18.387 GetATAData data size: 1500.
+2016/03/17 13:10:18.387 GetATAData sp_ata_data size: 1684.
+2016/03/17 13:10:18.387 GetATAData sp_ata_data_old size: 1192.
+2016/03/17 13:10:18.387 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/17/13/10/18/387 [OK] Request data successfully.
+2016/03/17/13/10/18/403 Barcode,1,Fail,E_ATADLL_RESULT_FAILED
+2016/03/17 13:10:18.419 ====== [GPSCali] Start Test ======
+2016/03/17 13:10:18.746 [GPSCali ERROR] sss==== not support
+
+2016/03/17 13:10:18.746 [ERROR] GPSCali not support.
+2016/03/17 13:10:18.746 Test Error:E_ATADLL_RESULT_NOT_SUPPORT,Error code is 13
+
+2016/03/17 13:10:18.746 Time cost: 0.328 second
+2016/03/17 13:10:18.746 ====== [GPSCali] End Test ======
+
+2016/03/17 13:10:19.136 GetATAData data size: 1500.
+2016/03/17 13:10:19.136 GetATAData sp_ata_data size: 1684.
+2016/03/17 13:10:19.136 GetATAData sp_ata_data_old size: 1192.
+2016/03/17 13:10:19.136 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/17/13/10/19/136 [OK] Request data successfully.
+2016/03/17/13/10/19/152 GPS_CALI,1,Fail,E_ATADLL_RESULT_NOT_SUPPORT
+2016/03/17/13/10/19/152 Start to request test result data.
+2016/03/17 13:10:19.514 GetATAData data size: 1500.
+2016/03/17 13:10:19.514 GetATAData sp_ata_data size: 1684.
+2016/03/17 13:10:19.514 GetATAData sp_ata_data_old size: 1192.
+2016/03/17 13:10:19.514 GetATAData sp_ata_data_old_ex size: 1248.
+2016/03/17/13/10/19/514 [OK] Request data successfully.
+2016/03/17/13/10/19/514 [Modem SW Version] X2605_LWG_M0_V0.0.4_S160304, 2016/03/04 17:59
+2016/03/17/13/10/19/514 [AP SW Version] X2605_PUBLIC_M_V0.8.1_S160314
+2016/03/17/13/10/19/514 
+2016/03/17/13/10/19/514 
+2016/03/17/13/10/19/514 
+2016/03/17/13/10/19/826 DeInit test item object.
+2016/03/17/13/10/19/826 Total time cost: 4.65 second. 
+
+2016/03/17/13/10/19/826 Send stop command(AT+STOP) to target.
+2016/03/17/13/10/20/044 Release target comm handle.
+2016/03/17/13/10/20/044 Rename log file (temp1.txt) by barcode: 1234567890000359                                            

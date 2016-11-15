@@ -1,0 +1,93 @@
+:Base va.hlp
+1 Getting Started
+2 Introdution=HID_GS_INTRODUCTION
+3 Requirements=HID_GS_REQUIREMENTS
+3 Installing VISA Assistant=HID_GS_INSTALL
+2 Navigation
+3 Navigation Overview=HID_GS_NAVIGATION
+3 Menu Commands=command_menu
+3 System View=HID_GS_SYSTEM_VIEW
+3 Instrument View=HID_GS_INSTRUMENT_VIEW
+1 Menu Commands
+2 File menu=menu_file
+2 Edit menu=menu_edit
+2 View menu=menu_view
+2 Configure menu=HID_MENU_CONFIGURE
+2 Help menu=menu_help
+1 System View
+2 Using the System View=HID_GS_SYSTEM_VIEW
+2 Selecting an Instrument=HID_GS_SELECT_INSTRUMENT
+1 Instrument View
+2 Using the Instrument View=HID_GS_INSTRUMENT_VIEW
+2 Instrument Drivers
+3 Using
+4 Using Instrument Drivers=HID_DRVR_USING
+4 Instrument Description Fields=HID_DRVR_INSTRUMENT_DESCRIPTION
+4 Instrument Driver Fields=HID_DRVR_INSTRUMENT_DRIVER
+4 Advanced Soft Front Panel Information=HID_DRVR_ADVANCED_INFORMATION
+4 Additional Information=HID_DRVR_ADDITIONAL_INFORMATION
+3 Configuring
+4 Configuring Instrument Drivers=HID_DRVR_MANUAL_CONFIG
+4 Modifying Instrument Driver Settings
+5 Modifying the Model=HID_DRVR_MODIFY_MODEL
+5 Modifying the Manufacturer=HID_DRVR_MODIFY_MANUFACTURER
+5 Modifying the Driver Directory=HID_DRVR_MODIFY_DRIVER
+5 Modifying the Soft Front Panel Executable=HID_DRVR_MODIFY_SFP
+5 Clearing a Single Instrument's Entries=HID_DRVR_CLEAR
+5 Restoring the Default=HID_DRVR_DEFAULT
+4 Clearing all Entries=HID_DRVR_CLEAR_ALL
+2 Formatted I/O
+3 Using Formatted I/O=HID_FORMIO_USING
+3 Operations
+4 Send String=HID_FORMIO_VIPRINTF
+4 Receive String=HID_FORMIO_VISCANF
+4 Send/Receive String=HID_FORMIO_VIQUERYF
+4 Device Clear=HID_FORMIO_DEVICE_CLEAR
+4 Set Timeout=HID_FORMIO_SET_TIMEOUT
+4 Read Status Byte=HID_FORMIO_READSTB
+3 Display
+4 Clear History=HID_FORMIO_CLEAR_HISTORY
+4 Show C Code=HID_FORMIO_SHOW_C_CODE
+3 Instrument Language Options
+4 Custom Language=HID_FORMIO_INSTR_LANG_CUSTOM
+4 IEEE 488.2 Language=HID_FORMIO_INSTR_LANG_IEEE_4882
+4 SCPI Language=HID_FORMIO_INSTR_LANG_SCPI
+2 Memory I/O
+3 Using Memory I/O=HID_MEMIO_USING
+3 Operations
+4 In
+5 In=HID_MEMIO_IN
+5 Address Space=HID_MEMIO_ADDRESS_SPACE
+5 Data Size=HID_MEMIO_DATA_SIZE
+5 Address Offset=HID_MEMIO_ADDRESS_OFFSET
+5 Move Transactions
+6 Move In Mode=HID_MEMIO_MOVE_IN_MODE
+6 Move In Length=HID_MEMIO_MOVE_IN_LENGTH
+4 Out
+5 Out=HID_MEMIO_OUT
+5 Address Space=HID_MEMIO_ADDRESS_SPACE
+5 Data Size=HID_MEMIO_DATA_SIZE
+5 Address Offset=HID_MEMIO_ADDRESS_OFFSET
+5 Single Transactions
+6 Data Out=HID_MEMIO_DATA_OUT
+5 Move Transactions
+6 Move Out Move=HID_MEMIO_MOVE_OUT_MODE
+6 Move Out Data=HID_MEMIO_MOVE_OUT_DATA
+3 Display
+4 Clear History=HID_MEMIO_CLEAR_HISTORY
+4 Show C Code=HID_MEMIO_SHOW_C_CODE
+2 Attributes
+3 Using Attributes=HID_ATTR_USING
+3 Operations
+4 Selecting an Attribute=HID_ATTR_SELECT
+4 Modifying
+5 Modifying an Attribute=HID_ATTR_MODIFY
+5 Attribute Information
+6 Resource=HID_ATTR_RESOURCE
+6 Specific to Intf.=HID_ATTR_SPECIFIC_TO_INTF
+6 R/W Access=HID_ATTR_RW_ACCESS
+6 Scope=HID_ATTR_SCOPE
+6 Data Type=HID_ATTR_DATA_TYPE
+6 Range=HID_ATTR_RANGE
+6 Default Value=HID_ATTR_DEFAULT_VALUE
+6 Current Value=HID_ATTR_CURRENT_VALUE

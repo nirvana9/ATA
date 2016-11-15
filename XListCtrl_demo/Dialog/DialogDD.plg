@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DialogDD - Win32 Release Unicode--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release_Unicode/XListCtrlTest.res" /d "NDEBUG" /d "_AFXDLL" "D:\xx\SP_ATA_tool_v2.1552.0(Official)\SP_ATA_tool_src_v2.1552.00\XListCtrl_demo\Dialog\XListCtrlTest.rc"" 
+Creating temporary file "C:\Users\JIAN~1.SON\AppData\Local\Temp\RSPAE12.tmp" with contents
+[
+/nologo /MD /W4 /GX /O2 /I "..\XListCtrl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_UNICODE" /D "UNICODE" /FR"Release_Unicode/" /Fp"Release_Unicode/DialogDD.pch" /Yu"stdafx.h" /Fo"Release_Unicode/" /Fd"Release_Unicode/" /FD /c 
+"D:\xx\SP_ATA_tool_v2.1552.0(Official)\SP_ATA_tool_src_v2.1552.00\XListCtrl_demo\Dialog\About.cpp"
+"D:\xx\SP_ATA_tool_v2.1552.0(Official)\SP_ATA_tool_src_v2.1552.00\XListCtrl_demo\Dialog\InitList.cpp"
+"D:\xx\SP_ATA_tool_v2.1552.0(Official)\SP_ATA_tool_src_v2.1552.00\XListCtrl_demo\Dialog\XHyperLink.cpp"
+"D:\xx\SP_ATA_tool_v2.1552.0(Official)\SP_ATA_tool_src_v2.1552.00\XListCtrl_demo\Dialog\XListCtrlTest.cpp"
+"D:\xx\SP_ATA_tool_v2.1552.0(Official)\SP_ATA_tool_src_v2.1552.00\XListCtrl_demo\Dialog\XListCtrlTestDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\JIAN~1.SON\AppData\Local\Temp\RSPAE12.tmp" 
+Creating temporary file "C:\Users\JIAN~1.SON\AppData\Local\Temp\RSPAE13.tmp" with contents
+[
+/nologo /MD /W4 /GX /O2 /I "..\XListCtrl" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_UNICODE" /D "UNICODE" /FR"Release_Unicode/" /Fp"Release_Unicode/DialogDD.pch" /Yc"stdafx.h" /Fo"Release_Unicode/" /Fd"Release_Unicode/" /FD /c 
+"D:\xx\SP_ATA_tool_v2.1552.0(Official)\SP_ATA_tool_src_v2.1552.00\XListCtrl_demo\Dialog\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\JIAN~1.SON\AppData\Local\Temp\RSPAE13.tmp" 
+Creating temporary file "C:\Users\JIAN~1.SON\AppData\Local\Temp\RSPAE14.tmp" with contents
+[
+/nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Release_Unicode/DialogDDRU.pdb" /machine:I386 /out:"Release_Unicode\DialogDDRU.exe" /libpath:"..\bin" 
+".\Release_Unicode\About.obj"
+".\Release_Unicode\InitList.obj"
+".\Release_Unicode\StdAfx.obj"
+".\Release_Unicode\XHyperLink.obj"
+".\Release_Unicode\XListCtrlTest.obj"
+".\Release_Unicode\XListCtrlTestDlg.obj"
+".\Release_Unicode\XListCtrlTest.res"
+]
+Creating command line "link.exe @C:\Users\JIAN~1.SON\AppData\Local\Temp\RSPAE14.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+About.cpp
+InitList.cpp
+XHyperLink.cpp
+Automatically linking with XListCtrlDDRU.lib
+XListCtrlTest.cpp
+XListCtrlTestDlg.cpp
+Automatically linking with XListCtrlDDRU.lib
+Generating Code...
+Automatically linking with XListCtrlDDRU.lib
+Linking...
+Creating temporary file "C:\Users\JIAN~1.SON\AppData\Local\Temp\RSPB16F.bat" with contents
+[
+@echo off
+mkdir ..\bin 2> nul
+copy .\Release_Unicode\DialogDDRU.exe ..\bin 1> nul
+]
+Creating command line "C:\Users\JIAN~1.SON\AppData\Local\Temp\RSPB16F.bat"
+Copying file...
+
+
+
+<h3>Results</h3>
+DialogDDRU.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
